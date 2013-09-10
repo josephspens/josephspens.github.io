@@ -1,0 +1,11 @@
+/* TEAM */
+Developer/Designer: Joseph Spens
+Site: http://www.spens.us/
+Twitter: @joespens
+Location: Brooklyn, New York, USA
+
+/* SITE */
+Last update: 2013/08/09
+Standards: HTML5, CSS3
+Components: Yeoman
+Software: Sublime Text 2, Google Chrome

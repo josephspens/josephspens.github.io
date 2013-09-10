@@ -1,0 +1,47 @@
+{
+	"items": [
+		{
+			"name": "Brand Networks Website",
+			"company": "Brand Networks",
+			"date": {
+				"start": "April 2013"
+			},
+			"description": "Website and blog for Brand Networks, Inc.",
+			"image": "bn_logo_300.png",
+			"uri": "//brandnetworksinc.com"
+		},
+		{
+			"name": "Chazer Clothing Store",
+			"client": "Chazer Clothing Company",
+			"date": {
+				"start": "Feb 2013"
+			},
+			"description": "Shopify retail store for tees, hoodies, hats, and other merchandise.",
+			"image": "chazer_logo_300.jpg",
+			"uri": "//chazerclothing.com"
+		},
+		{
+			"name": "OPEN Forum Beta",
+			"client": "American Express",
+			"company": "Brand Networks",
+			"date": {
+				"start": "Sep 2012",
+				"end": "Feb 2013"
+			},
+			"description": "A social network for entrepreneurs.",
+			"image": "of_logo_300.png",
+			"uri": "//openforum.com"
+		},
+		{
+			"name": "Callaway Hit The Links",
+			"client": "Callaway Golf",
+			"company": "Brand Networks",
+			"date": {
+				"start": "Mar 2013",
+				"end": "May 2013"
+			},
+			"description": "A campaign to promote business professionals using golf outings as opportunities for networking.",
+			"image": "callaway_logo_300.png"
+		}
+	]
+}
