@@ -295,7 +295,8 @@ module.exports = function (grunt) {
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
                         'bower_components/sass-bootstrap/fonts/*.*',
-                        'portfolio.json'
+                        'portfolio.json',
+                        'CNAME'
                     ]
                 }]
             },
