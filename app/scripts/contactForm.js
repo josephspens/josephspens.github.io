@@ -49,20 +49,20 @@ define(['jquery'], function ($) {
 		this.validate({ inputs: this.validatedInputs });
 
 		if (this.isValid) {
-			var dev = 'https://script.google.com/macros/s/AKfycbwdx97EiQ3cKwT2Iz4xFYSDknheqr08mysTTavKACc/dev';
-			//var prod = 'https://script.google.com/macros/s/AKfycbye-LazoQQv8LOvFEEwZmiDQj4l5p070i4z0bUHp1AUyB_SgHg/exec';
-
 			this.sendButton.classList.add('sending');
 
 			$.ajax({
-				url: dev,
-				type: 'get',
+				url: '//spens.us/libs/services.php',
+				type: 'post',
 				dataType: 'jsonp',
 				data: {
-					name: this.name.value,
-					replyTo: this.email.value,
-					subject: this.subject.value,
-					body: this.message.value
+					method: 'sendMail',
+					data: {
+						name: this.name.value,
+						email: this.email.value,
+						subject: this.subject.value,
+						message: this.message.value
+					}
 				}
 			}).always(function (response) {
 				if (response) {
