@@ -1,19 +1,27 @@
 .portfolio-piece {
 	overflow: hidden;
-	padding: 20% 0 0;
+	padding: 20% 1% 0;
 	float: left;
 	width: 100%;
+	@include box-sizing(border-box);
 
 	.content {
 		padding: 2em 0;
-		width: 75%;
 		margin: 0 auto;
 
 		h3 {
 			margin: 0;
 		}
-		.date, .created {
+		p {
+			font-size: 1.2em;
+		}
+		.date, .created, .technologies {
 			font-size: 0.8em;
+		}
+		.technologies {
+			font-style: italic;
+			font-size: 0.8em;
+			padding: 0 20%;
 		}
 	}
 }
@@ -21,6 +29,23 @@
 @media #{$small} {
 	.portfolio-piece {
 		width: 50%;
-		padding: 5% 0 0;
+		padding-top: 5%;
+
+		&:nth-of-type(2n + 1) {
+			clear: both;
+		}
+	}
+}
+
+@media #{$medium} {
+	.portfolio-piece {
+		width: 33%;
+
+		&:nth-of-type(2n + 1) {
+			clear: none;
+		}
+		&:nth-of-type(3n + 1) {
+			clear: both;
+		}
 	}
 }

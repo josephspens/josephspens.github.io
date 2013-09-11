@@ -1,14 +1,21 @@
 {
 	"items": [
 		{
-			"name": "Brand Networks Website",
-			"company": "Brand Networks",
+			"name": "Joseph Spens",
 			"date": {
-				"start": "April 2013"
+				"start": "Sept 2013"
 			},
-			"description": "Website and blog for Brand Networks, Inc.",
-			"image": "bn_logo_300.png",
-			"uri": "//brandnetworksinc.com"
+			"description": "My own personal portfolio website.",
+			"image": "spens_logo_thumb.jpg",
+			"uri": "//spens.us",
+			"technologies": [
+				"Yeoman",
+				"Github",
+				"AJAX",
+				"Compass",
+				"Atomic CSS Design",
+				"RequireJS"
+			]
 		},
 		{
 			"name": "Chazer Clothing Store",
@@ -17,8 +24,29 @@
 				"start": "Feb 2013"
 			},
 			"description": "Shopify retail store for tees, hoodies, hats, and other merchandise.",
-			"image": "chazer_logo_300.jpg",
-			"uri": "//chazerclothing.com"
+			"image": "chazer_logo_thumb.jpg",
+			"uri": "//chazerclothing.com",
+			"technologies": [
+				"Shopify",
+				"PHP",
+				"Git",
+				"Sass"
+			]
+		},
+		{
+			"name": "Brand Networks Website",
+			"company": "Brand Networks",
+			"date": {
+				"start": "Feb 2013",
+				"end": "May 2013"
+			},
+			"description": "Website and blog for Brand Networks, Inc.",
+			"image": "bn_logo_thumb.png",
+			"uri": "//brandnetworksinc.com",
+			"technologies": [
+				"Drupal",
+				"PHP"
+			]
 		},
 		{
 			"name": "OPEN Forum Beta",
@@ -29,8 +57,15 @@
 				"end": "Feb 2013"
 			},
 			"description": "A social network for entrepreneurs.",
-			"image": "of_logo_300.png",
-			"uri": "//openforum.com"
+			"image": "of_logo_thumb.png",
+			"uri": "//openforum.com",
+			"technologies": [
+				"Wordpress",
+				"PHP",
+				"Sass",
+				"Git",
+				"jQuery"
+			]
 		},
 		{
 			"name": "Callaway Hit The Links",
@@ -41,7 +76,13 @@
 				"end": "May 2013"
 			},
 			"description": "A campaign to promote business professionals using golf outings as opportunities for networking.",
-			"image": "callaway_logo_300.png"
+			"image": "callaway_logo_thumb.png",
+			"technologies": [
+				"ASP.NET",
+				"SVN",
+				"LESS",
+				"UnderscoreJS"
+			]
 		}
 	]
 }

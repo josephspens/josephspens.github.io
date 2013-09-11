@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/59948c5d.main.css">
+        <link rel="stylesheet" href="styles/86916917.main.css">
         <script src="scripts/vendor/f7f27360.modernizr.js"></script>
     </head>
     <body>
@@ -58,6 +58,11 @@
                                         <div class="created">Created{{#if client}} for {{client}}{{/if}}{{#if company}} while at {{company}}{{/if}}</div>
                                     {{/either}}
                                     <p>{{description}}</p>
+                                    <ul class="technologies">
+                                    {{#each technologies}}
+                                        <li>{{this}}</li>
+                                    {{/each}}
+                                    </ul>
                                 </div>
                             </div>
                         {{else}}
