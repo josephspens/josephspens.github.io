@@ -4,6 +4,22 @@
         <meta charset="utf-8">
         <title>Page Not Found :(</title>
         <style>
+            @font-face {
+              font-family: "Museo";
+              src: url('/styles/fonts/museo/73c562c9.museo_slab_500-webfont.eot');
+              src: url('/styles/fonts/museo/museo_slab_500-webfont.eot?#iefix') format('eot'), url('/styles/fonts/museo/0031c1f5.museo_slab_500-webfont.ttf') format('truetype'), url('/styles/fonts/museo/f4a1b5c4.museo_slab_500-webfont.woff') format('woff'), url('/styles/fonts/museo/3d26b8d6.museo_slab_500-webfont.svg') format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }
+
+            @font-face {
+              font-family: "Raleway";
+              src: url('/styles/fonts/raleway/7ea1f7e8.raleway-regular-webfont.eot');
+              src: url('/styles/fonts/raleway/raleway-regular-webfont.eot?#iefix') format('eot'), url('/styles/fonts/raleway/873d283f.raleway-regular-webfont.ttf') format('truetype'), url('/styles/fonts/raleway/d29aff3b.raleway-regular-webfont.woff') format('woff'), url('/styles/fonts/raleway/d3476d3d.raleway-regular-webfont.svg') format('svg');
+              font-weight: normal;
+              font-style: normal;
+            }
+
             ::-moz-selection {
                 background: #b3d4fc;
                 text-shadow: none;
@@ -18,15 +34,16 @@
                 padding: 30px 10px;
                 font-size: 20px;
                 line-height: 1.4;
-                color: #737373;
-                background: #f0f0f0;
+                color: #000;
+                background: #f0f0f0 url('images/45degree_fabric.png');
+                border-top: 0.5em solid #fff;
                 -webkit-text-size-adjust: 100%;
                 -ms-text-size-adjust: 100%;
             }
 
             html,
             input {
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
 
             body {
@@ -37,17 +54,14 @@
                 border-radius: 4px;
                 margin: 0 auto;
                 box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
-                background: #fcfcfc;
+                background: #fff;
             }
 
             h1 {
                 margin: 0 10px;
                 font-size: 50px;
                 text-align: center;
-            }
-
-            h1 span {
-                color: #bbb;
+                font-family: "Museo", "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
 
             h3 {
