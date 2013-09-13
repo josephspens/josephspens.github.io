@@ -191,7 +191,7 @@
 									<time datetime="{{published}}" title="{{published}}">{{#date published}}{{/date}}</time>
 								</div>
 								<div class="title">
-									<a href="{{actor.url}}">{{actor.displayName}}</a> <span>{{#verb verb}}{{/verb}}</span> {{#if title}}<a href="{{url}}">{{title}}</a>{{else}}an image:{{/if}} {{#if object.plusoners.totalItems}}<em>+{{object.plusoners.totalItems}}</em>{{/if}}
+									<a href="{{actor.url}}">{{actor.displayName}}</a> <span>{{#verb verb}}{{/verb}}</span> {{#if title}}<a href="{{url}}">{{title}}</a>{{else}}a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>{{/if}} {{#if object.plusoners.totalItems}}<em>+{{object.plusoners.totalItems}}</em>{{/if}}
 								</div>
 								<div class="details">
 									<a href="{{actor.url}}">
@@ -214,9 +214,6 @@
 										</ul>
 									</div>
 									{{/ifReshare}}
-									{{#each object.attachments}}
-										<img src="{{fullImage.url}}" height="{{fullImage.height}}" width="{{fullImage.width}}" class="attachment" />
-									{{/each}}
 								</div>
 							</div>
 						{{/each}}
