@@ -3,8 +3,7 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 	'use strict';
 
 	var Feed = function () {
-		//this.fetchGithub('https://github.com/josephspens.atom');
-		this.fetchGithub('/josephspens.atom');
+		this.fetchGithub('https://github.com/josephspens.atom');
 		this.fetchGooglePlus('https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
 
 		return this;
