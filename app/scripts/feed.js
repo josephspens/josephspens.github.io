@@ -3,17 +3,17 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 	'use strict';
 
 	var Feed = function () {
-		this.fetchGithub('https://github.com/josephspens.atom');
-		this.fetchGooglePlus('https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
+		this.fetch('#github','https://github.com/josephspens.json');
+		this.fetch('#blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
 
 		return this;
 	};
 
-	Feed.prototype.fetchGooglePlus = function (url) {
+	Feed.prototype.fetch = function (container, url) {
 		$.getJSON(url, function(data){
 			console.log(data);
 
-			$('#blog .items').html(Handlebars.compile($('#blog-template').html())(data));
+			$(container + ' .items').html(Handlebars.compile($(container + '-template').html())(data));
 		});
 
 		Handlebars.registerHelper('date', function(context) {
@@ -29,29 +29,6 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 				return block.fn(this);
 			}
 			return block.inverse(this);
-		});
-	};
-
-	Feed.prototype.fetchGithub = function (url) {
-		var Feed = this;
-
-		$.get(url, function(data){
-			var json = {
-				entries: []
-			};
-			
-			$(data).find('entry').each(function (index) {
-				if(index === 5) {
-					return false;
-				}
-
-				json.entries.push({
-					title: $(this).children('title').text(),
-					content: Feed.unescapeHtml($(this).children('content').text())
-				});
-			});
-
-			$('#github .items').html(Handlebars.compile($('#github-template').html())(json));
 		});
 	};
 
