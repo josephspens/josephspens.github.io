@@ -14,7 +14,7 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 			// Github JSON feed is malformed
 			if(data.hasOwnProperty('length')){
 				data = {
-					items: $.map(data, function(value, key) {
+					items: $.map(data, function(value) {
 						return value;
 					})
 				};
@@ -69,12 +69,12 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 		});
 
 		Handlebars.registerHelper('trimString', function(passedString) {
-			return new Handlebars.SafeString(passedString.substring(0,7))
+			return new Handlebars.SafeString(passedString.substring(0,7));
 		});
 
-		Handlebars.registerPartial("time", $("#time-partial").html());
-		Handlebars.registerPartial("small-gravatar", $("#small-gravatar-partial").html());
-		Handlebars.registerPartial("large-gravatar", $("#large-gravatar-partial").html());
+		Handlebars.registerPartial('time', $('#time-partial').html());
+		Handlebars.registerPartial('small-gravatar', $('#small-gravatar-partial').html());
+		Handlebars.registerPartial('large-gravatar', $('#large-gravatar-partial').html());
 	};
 
 	Feed.prototype.unescapeHtml = function (unsafe) {
