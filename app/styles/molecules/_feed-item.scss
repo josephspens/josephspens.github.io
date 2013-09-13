@@ -1,0 +1,64 @@
+.github-item, .blog-item {
+	max-width: 40em;
+	text-align: left;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+
+	.time {
+		font-size: 0.8em;
+	}
+	.title {
+		padding: 0.2em 0 0.4em;
+	}
+	.details {
+		overflow: hidden;
+
+		.gravatar {
+			display: block;
+			float: left;
+		}
+		.commits {
+			margin-left: 2em;
+			padding: 0.2em 1em;
+
+			li {
+				overflow: hidden;
+			}
+			img {
+				float: left;
+			}
+			code, .original-author {
+				float: left;
+				margin: 0 0.5em;
+				font-size: 0.8em;
+			}
+			.message {
+				margin: 0;
+			}
+		}
+		.message {
+			float: left;
+			font-size: 0.8em;
+			margin: 0.5em 1em;
+
+			blockquote, .original-message {
+				margin: 0;
+			}
+		}
+	}
+	.attachment {
+		max-width: 7em;
+		height: auto;
+		display: none;
+	}
+}
+
+@media #{$small} {
+	.github-item, .blog-item {
+		.details {
+			.commits {
+				margin-left: 1.5em;
+			}
+		}
+	}
+}

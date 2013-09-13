@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/josephspens</id>
+  <link type="text/html" rel="alternate" href="https://github.com/josephspens"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/josephspens.atom"/>
+  <title>josephspens&#39;s Activity</title>
+  <updated>2013-09-12T20:32:34Z</updated>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1829192911</id>
+    <published>2013-09-12T20:32:34Z</published>
+    <updated>2013-09-12T20:32:34Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/issues/10"/>
+    <title type="html">josephspens closed issue SpaceAdvocates/SpaceAdvocatesWebsite#10</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-12T20:32:34Z&quot; title=&quot;2013-09-12 20:32:34&quot;&gt;September 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/issues/10&quot; title=&quot;There are some typos and grammatical errors&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite#10&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      There are some typos and grammatical errors
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1829192749</id>
+    <published>2013-09-12T20:32:25Z</published>
+    <updated>2013-09-12T20:32:25Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/issues/14"/>
+    <title type="html">josephspens closed issue SpaceAdvocates/SpaceAdvocatesWebsite#14</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-12T20:32:25Z&quot; title=&quot;2013-09-12 20:32:25&quot;&gt;September 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/issues/14&quot; title=&quot;Add Volunteer form&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite#14&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Add Volunteer form
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1829146338</id>
+    <published>2013-09-12T19:46:39Z</published>
+    <updated>2013-09-12T19:46:39Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/compare/a727ec8594...4e3e7130c0"/>
+    <title type="html">josephspens pushed to master at SpaceAdvocates/SpaceAdvocatesWebsite</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-12T19:46:39Z&quot; title=&quot;2013-09-12 19:46:39&quot;&gt;September 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/commit/4e3e7130c0b7ef23b2f4b7f755f21f4c8acf9185&quot;&gt;4e3e713&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added styles to volunteer form
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1828395434</id>
+    <published>2013-09-12T06:00:29Z</published>
+    <updated>2013-09-12T06:00:29Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/compare/cba5f6f2c4...a727ec8594"/>
+    <title type="html">josephspens pushed to master at SpaceAdvocates/SpaceAdvocatesWebsite</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-12T06:00:29Z&quot; title=&quot;2013-09-12 06:00:29&quot;&gt;September 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/commit/a727ec8594a24029a109ece1d31242c129585f4c&quot;&gt;a727ec8&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added volunteer form
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1828355615</id>
+    <published>2013-09-12T04:25:56Z</published>
+    <updated>2013-09-12T04:25:56Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/compare/7f56723f6e...cba5f6f2c4"/>
+    <title type="html">josephspens pushed to master at SpaceAdvocates/SpaceAdvocatesWebsite</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-12T04:25:56Z&quot; title=&quot;2013-09-12 04:25:56&quot;&gt;September 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/commit/cba5f6f2c4b2b9764b76761e2d9fb30c5a462fb2&quot;&gt;cba5f6f&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Fixed styling for orbit slider on all devices
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1828192018</id>
+    <published>2013-09-11T23:09:06Z</published>
+    <updated>2013-09-11T23:09:06Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/compare/c4bf292966...7f56723f6e"/>
+    <title type="html">josephspens pushed to master at SpaceAdvocates/SpaceAdvocatesWebsite</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T23:09:06Z&quot; title=&quot;2013-09-11 23:09:06&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/commit/7f56723f6eb3132be9ef06f9ca7ad620f77e9e43&quot;&gt;7f56723&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Small modifications for Firefox
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1828166339</id>
+    <published>2013-09-11T22:34:38Z</published>
+    <updated>2013-09-11T22:34:38Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite/compare/21e58102db...c4bf292966"/>
+    <title type="html">josephspens pushed to master at SpaceAdvocates/SpaceAdvocatesWebsite</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T22:34:38Z&quot; title=&quot;2013-09-11 22:34:38&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/SpaceAdvocates/SpaceAdvocatesWebsite&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;SpaceAdvocates/SpaceAdvocatesWebsite&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/SpaceAdvocates/SpaceAdvocatesWebsite/commit/c4bf292966134db731d1cc3ddcc14e86f1ce7d77&quot;&gt;c4bf292&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Moved email.csv into the theme
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827992905</id>
+    <published>2013-09-11T19:39:49Z</published>
+    <updated>2013-09-11T19:39:49Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/b7a1eed5df...67b0c60bd0"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:39:49Z&quot; title=&quot;2013-09-11 19:39:49&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/67b0c60bd0b4bc006cded37cf6d94c8369ee21b6&quot;&gt;67b0c60&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added styling for 404
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827992527</id>
+    <published>2013-09-11T19:39:26Z</published>
+    <updated>2013-09-11T19:39:26Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/adf83243cf...d1ffdcc30c"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:39:26Z&quot; title=&quot;2013-09-11 19:39:26&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/d1ffdcc30ce2b3983c446df3c76b86ba7e4f0ba8&quot;&gt;d1ffdcc&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added styling for 404
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827973088</id>
+    <published>2013-09-11T19:20:15Z</published>
+    <updated>2013-09-11T19:20:15Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/f4961d929e...b7a1eed5df"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:20:15Z&quot; title=&quot;2013-09-11 19:20:15&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/b7a1eed5df1a3803da80d900b4eda27ab1abad43&quot;&gt;b7a1eed&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added Google+ snippets
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827973041</id>
+    <published>2013-09-11T19:20:14Z</published>
+    <updated>2013-09-11T19:20:14Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/bd083e6d67...adf83243cf"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:20:14Z&quot; title=&quot;2013-09-11 19:20:14&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/adf83243cf9ee32ad2a8290ffbf855f3409bcaed&quot;&gt;adf8324&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added Google+ snippets
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827971863</id>
+    <published>2013-09-11T19:18:57Z</published>
+    <updated>2013-09-11T19:18:57Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/2b38baef6d...bd083e6d67"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:18:57Z&quot; title=&quot;2013-09-11 19:18:57&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/bd083e6d67292f2bb97e06c842a8c4b60377ba7f&quot;&gt;bd083e6&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added Google+ snippets
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827969591</id>
+    <published>2013-09-11T19:16:43Z</published>
+    <updated>2013-09-11T19:16:43Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/c47f9988b1...f4961d929e"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:16:43Z&quot; title=&quot;2013-09-11 19:16:43&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/f4961d929e8c80a251ae8a2e6f26e936bfbd82fd&quot;&gt;f4961d9&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added Google+ snippets
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827969061</id>
+    <published>2013-09-11T19:16:12Z</published>
+    <updated>2013-09-11T19:16:12Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/34969060a6...2b38baef6d"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:16:12Z&quot; title=&quot;2013-09-11 19:16:12&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/2b38baef6d4750d91392a0d2710506b30825f623&quot;&gt;2b38bae&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added Google+ snippets
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827954630</id>
+    <published>2013-09-11T19:02:16Z</published>
+    <updated>2013-09-11T19:02:16Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/34ad4f8347...c47f9988b1"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:02:16Z&quot; title=&quot;2013-09-11 19:02:16&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/c47f9988b1bfe311f0a303563e876a4e0216e578&quot;&gt;c47f998&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added more open graph meta
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827952407</id>
+    <published>2013-09-11T19:00:22Z</published>
+    <updated>2013-09-11T19:00:22Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/4f76bc4d73...34969060a6"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T19:00:22Z&quot; title=&quot;2013-09-11 19:00:22&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/34969060a607608e778279e4a46e9b312d3eddd4&quot;&gt;3496906&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added more open graph meta
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827951444</id>
+    <published>2013-09-11T18:59:24Z</published>
+    <updated>2013-09-11T18:59:24Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/1397ffa733...4f76bc4d73"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T18:59:24Z&quot; title=&quot;2013-09-11 18:59:24&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/4f76bc4d734f1a3b61f8575dd3e5b1039123b5bc&quot;&gt;4f76bc4&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added more open graph meta
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827891106</id>
+    <published>2013-09-11T18:02:57Z</published>
+    <updated>2013-09-11T18:02:57Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/14de5f34fc...34ad4f8347"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T18:02:57Z&quot; title=&quot;2013-09-11 18:02:57&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/34ad4f834782e507b6891687dfc85fe22c99c4bc&quot;&gt;34ad4f8&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Modified open graph meta
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827890869</id>
+    <published>2013-09-11T18:02:45Z</published>
+    <updated>2013-09-11T18:02:45Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/c1bafceab6...1397ffa733"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T18:02:45Z&quot; title=&quot;2013-09-11 18:02:45&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/1397ffa7337bd1182cc91ba35882ce644bc91f83&quot;&gt;1397ffa&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Modified open graph meta
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:CreateEvent/1827884550</id>
+    <published>2013-09-11T17:56:59Z</published>
+    <updated>2013-09-11T17:56:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/master"/>
+    <title type="html">josephspens created branch master  at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- create --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-merge&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;created&lt;/span&gt; branch &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot; class=&quot;css-truncate css-truncate-target branch-link&quot; title=&quot;master&quot;&gt;&lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;master&lt;/a&gt;  at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T17:56:59Z&quot; title=&quot;2013-09-11 17:56:59&quot;&gt;September 11, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827884345</id>
+    <published>2013-09-11T17:56:47Z</published>
+    <updated>2013-09-11T17:56:47Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/712b29bb39...c1bafceab6"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T17:56:47Z&quot; title=&quot;2013-09-11 17:56:47&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/c1bafceab6b856b655824ff88f72e33f7e2dc611&quot;&gt;c1bafce&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Built
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:DeleteEvent/1827881356</id>
+    <published>2013-09-11T17:53:55Z</published>
+    <updated>2013-09-11T17:53:55Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/"/>
+    <title type="html">josephspens deleted branch master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- delete --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-circle-slash&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;deleted&lt;/span&gt; branch master at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T17:53:55Z&quot; title=&quot;2013-09-11 17:53:55&quot;&gt;September 11, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827876963</id>
+    <published>2013-09-11T17:49:44Z</published>
+    <updated>2013-09-11T17:49:44Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/a8d3a7b8b3...712b29bb39"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T17:49:44Z&quot; title=&quot;2013-09-11 17:49:44&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/712b29bb3946fdb58a0365cde433394005285e1d&quot;&gt;712b29b&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Took out usemin for images
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/4a2138055ebc5bd0ebe7af358544f586fc33e229&quot;&gt;4a21380&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added page title
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;https://github.com/josephspens/josephspens.github.io/compare/a8d3a7b8b3...712b29bb39&quot;&gt;View comparison for these 2 commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/1827828528</id>
+    <published>2013-09-11T17:02:20Z</published>
+    <updated>2013-09-11T17:02:20Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/grunt-usemin"/>
+    <title type="html">josephspens forked yeoman/grunt-usemin to josephspens/grunt-usemin</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;forked&lt;/span&gt; &lt;a href=&quot;https://github.com/yeoman/grunt-usemin&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;yeoman/grunt-usemin&lt;/a&gt; to &lt;a href=&quot;https://github.com/josephspens/grunt-usemin&quot; class=&quot;css-truncate css-truncate-target&quot; title=&quot;josephspens/grunt-usemin&quot;&gt;josephspens/grunt-usemin&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T17:02:20Z&quot; title=&quot;2013-09-11 17:02:20&quot;&gt;September 11, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827790283</id>
+    <published>2013-09-11T16:25:28Z</published>
+    <updated>2013-09-11T16:25:28Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/ae12635a13...7c634b3208"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T16:25:28Z&quot; title=&quot;2013-09-11 16:25:28&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/7c634b3208d9f539d2b434905b3a043db783368e&quot;&gt;7c634b3&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added usemin back in for images
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1827788223</id>
+    <published>2013-09-11T16:23:37Z</published>
+    <updated>2013-09-11T16:23:37Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/yeoman/yeoman/issues/824#issuecomment-24254440"/>
+    <title type="html">josephspens commented on issue yeoman/yeoman#824</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- issue_comment --&gt;
+&lt;span class=&quot;mega-octicon octicon-comment-discussion&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T16:23:37Z&quot; title=&quot;2013-09-11 16:23:37&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;commented&lt;/span&gt; on issue &lt;a href=&quot;https://github.com/yeoman/yeoman/issues/824#issuecomment-24254440&quot; title=&quot;&amp;quot;usemin:css&amp;quot; doesn&amp;#39;t generate correct image paths for relative urls&quot;&gt;yeoman/yeoman#824&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message markdown-body&quot;&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;I attempted &lt;a href=&quot;https://github.com/olimungo&quot; class=&quot;user-mention&quot;&gt;@olimungo&lt;/a&gt;&#39;s &lt;a href=&quot;https://github.com/yeoman/yeoman/issues/824#issuecomment-17759188&quot;&gt;solution above&lt;/a&gt;: &lt;code&gt;usemin: { html: [&#39;&amp;lt;%= yeoman.dist %&amp;gt;/{,*/}*.html&#39;], css: [&#39;&amp;lt;%= yeoman.dist %&amp;gt;/styles/{,*/}*.css&#39;], options:…&lt;/code&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827716189</id>
+    <published>2013-09-11T15:22:05Z</published>
+    <updated>2013-09-11T15:22:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/da23d365d9...ae12635a13"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T15:22:05Z&quot; title=&quot;2013-09-11 15:22:05&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/ae12635a1354296c7f72e1bb610aeb42388940e8&quot;&gt;ae12635&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added page title
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827706756</id>
+    <published>2013-09-11T15:14:18Z</published>
+    <updated>2013-09-11T15:14:18Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/aac6e7684e...da23d365d9"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T15:14:18Z&quot; title=&quot;2013-09-11 15:14:18&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/da23d365d9e4d57f43922a6dffcf95cce904f36b&quot;&gt;da23d36&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added CNAME to dist
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827706468</id>
+    <published>2013-09-11T15:14:06Z</published>
+    <updated>2013-09-11T15:14:06Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/cf475f62af...a8d3a7b8b3"/>
+    <title type="html">josephspens pushed to source at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T15:14:06Z&quot; title=&quot;2013-09-11 15:14:06&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/source&quot;&gt;source&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/a8d3a7b8b31c9c806a3d4bb11ae8025463ae8c90&quot;&gt;a8d3a7b&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added CNAME to dist
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1827311310</id>
+    <published>2013-09-11T07:43:01Z</published>
+    <updated>2013-09-11T07:43:01Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/josephspens/josephspens.github.io/compare/f064785482...aac6e7684e"/>
+    <title type="html">josephspens pushed to master at josephspens/josephspens.github.io</title>
+    <author>
+      <name>josephspens</name>
+      <email>joseph@spens.us</email>
+      <uri>https://github.com/josephspens</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://2.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;s=30"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-09-11T07:43:01Z&quot; title=&quot;2013-09-11 07:43:01&quot;&gt;September 11, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;josephspens&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/josephspens/josephspens.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;https://github.com/josephspens/josephspens.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;josephspens/josephspens.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;https://github.com/josephspens&quot;&gt;&lt;img class=&quot;gravatar&quot; height=&quot;30&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;josephspens&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://1.gravatar.com/avatar/b98f325e5bc7df4c3636017121096110?d=https%3A%2F%2Fidenticons.github.com%2F398378fbb7f6ad9bc1ed838fcf375ffe.png&amp;amp;s=140&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/josephspens/josephspens.github.io/commit/aac6e7684e999b01c51700c713245cba75fdcb06&quot;&gt;aac6e76&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Removed CNAME from dist until the DNS update finishes
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>

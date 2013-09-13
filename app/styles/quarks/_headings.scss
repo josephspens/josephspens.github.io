@@ -5,7 +5,7 @@ h2 {
 	width: 6em;
 	height: 1em;
 	color: $white;
-	background-color: $dark-grey;
+	background-color: $dark-grey-on-dark;
 	font:normal 2em/1em $secondary_font;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -17,6 +17,6 @@ h2 {
 		opacity: 0;
 		width: 0;
 		height: 0;
-		color: $dark-grey;
+		color: $dark-grey-on-dark;
 	}
 }

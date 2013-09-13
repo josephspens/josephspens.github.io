@@ -3,11 +3,12 @@ require.config({
         jquery: '../bower_components/jquery/jquery',
         requirejs: '../bower_components/requirejs/require',
         'sass-bootstrap': '../bower_components/sass-bootstrap/dist/js/bootstrap',
-        handlebars: '../bower_components/handlebars.js/dist/handlebars'
+        handlebars: '../bower_components/handlebars.js/dist/handlebars',
+        momentjs: '../bower_components/momentjs/moment'
     }
 });
 
-require(['jquery', 'contactForm', 'portfolio'], function ($) {
+require(['jquery', 'contactForm', 'portfolio', 'feed'], function ($) {
     'use strict';
 
     // nav scrolling
@@ -22,12 +23,14 @@ require(['jquery', 'contactForm', 'portfolio'], function ($) {
     $('nav').on('click', '.home', { scrollTop: 'header' }, navigate)
         .on('click', '.about', { scrollTop: '#container', offset: -200 }, navigate)
         .on('click', '.work', { scrollTop: '#portfolio', offset: -100 }, navigate)
+        .on('click', '.github', { scrollTop: '#github', offset: -100 }, navigate)
+        .on('click', '.blog', { scrollTop: '#blog', offset: -100 }, navigate)
         .on('click', '.contact', { scrollTop: 'footer', offset: -100 }, navigate);
 
     // window scrolling
     $(window).on('scroll', function () {
         // section header animation
-        $('#about, #portfolio, footer').each(function (){
+        $('section, footer').each(function (){
             $(this).find('h2').toggleClass('hidden', ($(this).offset().top - window.pageYOffset) >= 700);
         });
 
@@ -40,4 +43,5 @@ require(['jquery', 'contactForm', 'portfolio'], function ($) {
             isInPortfolio = (isBelowContainer && isAboveFooter);
         $('nav').toggleClass('work_section', isInPortfolio);
     }).scroll();
+
 });

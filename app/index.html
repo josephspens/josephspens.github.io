@@ -3,141 +3,212 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" itemscope itemtype="http://schema.org/Person"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" itemscope itemtype="http://schema.org/Person"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" itemscope itemtype="http://schema.org/Person"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Joseph Spens</title>
-        <meta name="description" content="Joseph Spens' personal website and portfolio of web applications.">
-        <meta name="viewport" content="width=device-width">
-        <meta property="og:title" content="Joseph Spens" />
-        <meta property="og:image" content="http://spens.us/images/logo_90x90.png" />
-        <meta property="og:url" content="http://spens.us/" />
-        <meta property="og:description" content="Joseph Spens' personal website and portfolio of web applications.">
-        <meta itemprop="name" content="Joseph Spens">
-        <meta itemprop="description" content="Joseph Spens' personal website and portfolio of web applications.">
-        <meta itemprop="image" content="http://spens.us/images/logo_90x90.png">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Joseph Spens</title>
+		<meta name="description" content="Joseph Spens' personal website and portfolio of web applications.">
+		<meta name="viewport" content="width=device-width">
+		<meta property="og:title" content="Joseph Spens" />
+		<meta property="og:image" content="http://spens.us/images/logo_90x90.png" />
+		<meta property="og:url" content="http://spens.us/" />
+		<meta property="og:description" content="Joseph Spens' personal website and portfolio of web applications.">
+		<meta itemprop="name" content="Joseph Spens">
+		<meta itemprop="description" content="Joseph Spens' personal website and portfolio of web applications.">
+		<meta itemprop="image" content="http://spens.us/images/logo_90x90.png">
+		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<!-- build:css(.tmp) styles/main.css -->
+		<link rel="stylesheet" href="styles/main.css">
+		<!-- endbuild -->
+		<!-- build:js scripts/vendor/modernizr.js -->
+		<script src="bower_components/modernizr/modernizr.js"></script>
+		<!-- endbuild -->
+	</head>
+	<body>
+		<!--[if lt IE 10]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
 
-        <nav>
-            <ul>
-                <li class="home">Home</li>
-                <li class="about">About</li>
-                <li class="work">Work</li>
-                <li class="contact">Contact</li>
-            </ul>
-        </nav>
+		<nav>
+			<ul>
+				<li class="home">Home</li>
+				<li class="about">About</li>
+				<li class="work">Work</li>
+				<li class="github">Code</li>
+				<li class="blog">Blog</li>
+				<li class="contact">Contact</li>
+			</ul>
+		</nav>
 
-        <header>
-            <h2 class="logo"><span>JS</span></h2>
-            <h1>
-                <span>I like creating</span>
-                <span>web <strong>experiences</strong></span>
-            </h1>
-        </header>
+		<header>
+			<h2 class="logo"><span>JS</span></h2>
+			<h1>
+				<span>I like creating</span>
+				<span>web <strong>experiences</strong></span>
+			</h1>
+		</header>
 
-        <div id="container" class="sliding-content-wrapper">
-            <div id="about">
-                <h2>About</h2>
-                <p class="bio"><span>My name is Joe Spens,</span> <span>I am a Web Developer</span> <span>living in New York City.</span></p>
-                <div class="background">
-                    <p><span>I received my MS degree</span> <span>in Web Development from <a href="//rit.edu">RIT</a></span></p>
-                    <p><span>I am currently the</span> <span>Lead Web Developer at <a href="//spaceadvocates.com">Space Advocates</a></span></p>
-                    <p><span>I previously worked at <a href="//brandnetworksinc.com">Brand Networks</a>,</span> <span><a href="//leoburnett.us/chicago">Leo Burnett</a>, and <a href="//rga.com">R/GA</a></span></p>
-                </div>
-            </div>
-            <section id="portfolio">
-                <h2>Work</h2>
-                <div id="portfolio-items">
-                    <script id="portfolio-template" type="text/x-handlebars-template">
-                        {{#each items}}
-                            <div class="portfolio-piece">
-                                {{#link uri}}<img src="/images/portfolio/{{image}}" alt="{{name}}" />{{/link}}
-                                <div class="content">
-                                    <h3>{{#link uri}}{{name}}{{/link}}</h3>
-                                    {{#either client company}}
-                                        <div class="created">Created{{#if client}} for {{client}}{{/if}}{{#if company}} while at {{company}}{{/if}}</div>
-                                    {{/either}}
-                                    <p>{{description}}</p>
-                                    <ul class="technologies">
-                                    {{#each technologies}}
-                                        <li>{{this}}</li>
-                                    {{/each}}
-                                    </ul>
-                                </div>
-                            </div>
-                        {{else}}
-                            <div class="empty">
-                                <h3>Coming Soon</h3>
-                            </div>
-                        {{/each}}
-                    </script>
-                </div>
-            </section>
-        </div>
+		<div id="container">
 
-        <footer>
-            <h2>Contact</h2>
-            <ul>
-                <li><a href="https://plus.google.com/u/0/105984509136518387439/posts">Google+</a></li>
-                <li><a href="https://www.facebook.com/jspens">Facebook</a></li>
-                <li><a href="https://twitter.com/JoeSpens">Twitter</a></li>
-                <li><a href="https://github.com/josephspens">Github</a></li>
-                <li><a href="http://www.linkedin.com/in/josephspens">LinkedIn</a></li>
-            </ul>
-            <div id="mail-form">
-                <label for="name">Name</label>
-                <input id="name" type="text" />
+			<section id="about">
+				<h2>About</h2>
+				<p class="bio"><span>My name is Joe Spens,</span> <span>I am a Web Developer</span> <span>living in New York City.</span></p>
+				<div class="background">
+					<p><span>I received my MS degree</span> <span>in Web Development from <a href="//rit.edu">RIT</a></span></p>
+					<p><span>I am currently the</span> <span>Lead Web Developer at <a href="//spaceadvocates.com">Space Advocates</a></span></p>
+					<p><span>I previously worked at <a href="//brandnetworksinc.com">Brand Networks</a>,</span> <span><a href="//leoburnett.us/chicago">Leo Burnett</a>, and <a href="//rga.com">R/GA</a></span></p>
+				</div>
+			</section>
 
-                <label for="email">Email</label>
-                <input id="email" type="email" />
+			<section id="portfolio">
+				<h2>Work</h2>
+				<div class="items">
+					<script id="portfolio-template" type="text/x-handlebars-template">
+						{{#each items}}
+							<div class="portfolio-piece">
+								{{#link uri}}<img src="/images/portfolio/{{image}}" alt="{{name}}" />{{/link}}
+								<div class="content">
+									<h3>{{#link uri}}{{name}}{{/link}}</h3>
+									{{#either client company}}
+										<div class="created">Created{{#if client}} for {{client}}{{/if}}{{#if company}} while at {{company}}{{/if}}</div>
+									{{/either}}
+									<p>{{description}}</p>
+									<ul class="technologies">
+									{{#each technologies}}
+										<li>{{this}}</li>
+									{{/each}}
+									</ul>
+								</div>
+							</div>
+						{{else}}
+							<div class="empty">
+								<h3>Coming Soon</h3>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</section>
 
-                <label for="subject">Subject</label>
-                <input id="subject" type="text" />
+		</div>
 
-                <label for="message">Mesasge</label>
-                <textarea id="message"></textarea>
+		<div id="feeds">
 
-                <button id="send-mail">
-                    <div class="container">
-                        <span class="hidden">Sending</span>
-                        <span class="send-text">Send</span>
-                        <span class="sending-text">Sending</span>
-                        <span class="sent-text">Sent</span>
-                    </div>
-                </button>
-            </div>
-            <div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
-        </footer>
+			<section id="github">
+				<h2>Code</h2>
+				<div class="items">
+					<script id="github-template" type="text/x-handlebars-template">
+						{{#each entries}}
+							<div class="github-item">
+								{{{content}}}
+							</div>
+						{{/each}}
+					</script>
+					<div class="empty">
+						<h3>Oops... there's a problem<br />loading the feed from GitHub</h3>
+					</div>
+				</div>
+			</section>
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+			<section id="blog">
+				<h2>Blog</h2>
+				<div class="items">
+					<script id="blog-template" type="text/x-handlebars-template">
+						{{#each items}}
+							<div class="blog-item">
+								<div class="time">
+									<time datetime="{{published}}" title="{{published}}">{{#date published}}{{/date}}</time>
+								</div>
+								<div class="title">
+									<a href="{{actor.url}}">{{actor.displayName}}</a> <span>{{#verb verb}}{{/verb}}</span> {{#if title}}<a href="{{url}}">{{title}}</a>{{else}}an image:{{/if}} {{#if object.plusoners.totalItems}}<em>+{{object.plusoners.totalItems}}</em>{{/if}}
+								</div>
+								<div class="details">
+									<a href="{{actor.url}}">
+										<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
+									</a>
+									{{#ifReshare verb}}
+									<div class="commits">
+										<ul>
+											<li>
+											{{#with object}}
+												<span title="{{actor.displayName}}"><img src="{{actor.image.url}}" height="16" width="16" /></span>
+												<div class="original-author">
+													<a href="{{actor.url}}">{{actor.displayName}}</a>
+												</div>
+												<div class="message">
+													<div class="original-message">{{{content}}}</div>
+												</div>
+											{{/with}}
+											</li>
+										</ul>
+									</div>
+									{{/ifReshare}}
+									{{#each object.attachments}}
+										<img src="{{fullImage.url}}" height="{{fullImage.height}}" width="{{fullImage.width}}" class="attachment" />
+									{{/each}}
+								</div>
+							</div>
+						{{/each}}
+					</script>
+					<div class="empty">
+						<h3>Oops... there's a problem<br />loading the feed from Google+</h3>
+					</div>
+				<div>
+			</section>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+		</div>
 
-        <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
-        <!-- endbuild -->
+		<footer>
+			<h2>Contact</h2>
+			<ul>
+				<li><a href="https://plus.google.com/u/0/105984509136518387439/posts">Google+</a></li>
+				<li><a href="https://www.facebook.com/jspens">Facebook</a></li>
+				<li><a href="https://twitter.com/JoeSpens">Twitter</a></li>
+				<li><a href="https://github.com/josephspens">Github</a></li>
+				<li><a href="http://www.linkedin.com/in/josephspens">LinkedIn</a></li>
+			</ul>
+			<div id="mail-form">
+				<label for="name">Name</label>
+				<input id="name" type="text" />
+
+				<label for="email">Email</label>
+				<input id="email" type="email" />
+
+				<label for="subject">Subject</label>
+				<input id="subject" type="text" />
+
+				<label for="message">Mesasge</label>
+				<textarea id="message"></textarea>
+
+				<button id="send-mail">
+					<div class="container">
+						<span class="hidden">Sending</span>
+						<span class="send-text">Send</span>
+						<span class="sending-text">Sending</span>
+						<span class="sent-text">Sent</span>
+					</div>
+				</button>
+			</div>
+			<div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
+		</footer>
+
+		<!-- build:js scripts/vendor.js -->
+		<!-- bower:js -->
+		<script src="bower_components/jquery/jquery.js"></script>
+		<!-- endbower -->
+		<!-- endbuild -->
+
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+			(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			e.src='//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			ga('create','UA-XXXXX-X');ga('send','pageview');
+		</script>
+
+		<!-- build:js scripts/main.js -->
+		<script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+		<!-- endbuild -->
 </body>
 </html>

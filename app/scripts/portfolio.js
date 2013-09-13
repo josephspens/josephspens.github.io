@@ -4,7 +4,7 @@ define(['jquery', 'handlebars'], function ($) {
 
 	var Portfolio = function (Handlebars) {
 		$.getJSON('/portfolio.json', function(data){
-			$('#portfolio-items').append(Handlebars.compile($('#portfolio-template').html())(data));
+			$('#portfolio .items').append(Handlebars.compile($('#portfolio-template').html())(data));
 		});
 
 		Handlebars.registerHelper('either', function(v1, v2, options) {

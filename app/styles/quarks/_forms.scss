@@ -9,10 +9,10 @@ label {
 input, textarea {
 	width: 100%;
 	padding: 0.8em 1em;
-	background-color: $grey;
-	border: 1px solid $dark-grey;
+	background-color: $light-grey-on-dark;
+	border: 1px solid $dark-grey-on-dark;
 	color: $white;
-	outline: 2px solid $dark-grey;
+	outline: 2px solid $dark-grey-on-dark;
 	@include box-sizing(border-box);
 	@include transition(0.1s all linear);
 

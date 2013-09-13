@@ -12,6 +12,7 @@
 // Compass Libraries
 // ------------------------------------------------------------------------------
 @import "compass/css3";
+@import "compass/utilities";
 
 // Vendor Libraries
 // ------------------------------------------------------------------------------
@@ -26,8 +27,6 @@
 
 // Custom styles
 // ------------------------------------------------------------------------------
-@import "utilities/reset"; // custom CSS reset
-
 @import "quarks/*";
 @import "atoms/*";
 @import "molecules/*";
