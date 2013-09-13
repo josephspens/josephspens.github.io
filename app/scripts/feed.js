@@ -19,7 +19,8 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 					})
 				};
 			}
-			console.log(data);
+
+			data.items = data.items.slice(0,8);
 
 			$(container + ' .items').html(Handlebars.compile($(container + '-template').html())(data));
 		});
@@ -38,6 +39,42 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 			}
 			return block.inverse(this);
 		});
+
+		Handlebars.registerHelper('ifWatching', function(context, block) {
+			if(context === 'WatchEvent') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('ifPush', function(context, block) {
+			if(context === 'PushEvent') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('ifFollow', function(context, block) {
+			if(context === 'FollowEvent') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('ifIssue', function(context, block) {
+			if(context === 'IssuesEvent') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('trimString', function(passedString) {
+			return new Handlebars.SafeString(passedString.substring(0,7))
+		});
+
+		Handlebars.registerPartial("time", $("#time-partial").html());
+		Handlebars.registerPartial("small-gravatar", $("#small-gravatar-partial").html());
+		Handlebars.registerPartial("large-gravatar", $("#large-gravatar-partial").html());
 	};
 
 	Feed.prototype.unescapeHtml = function (unsafe) {

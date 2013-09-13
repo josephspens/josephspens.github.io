@@ -51,6 +51,11 @@
 		height: auto;
 		display: none;
 	}
+	.simple {
+		.title, .time {
+			display: inline-block;
+		}
+	}
 }
 
 @media #{$small} {
