@@ -121,7 +121,7 @@
 							<span class="mega-octicon octicon-git-commit"></span>
 							{{> time}}
 							<div class="title">
-								<a href="https://github.com/{{actor}}">{{actor}}</a> <span>pushed</span> to <a href="{{repository.url}}/tree/{{repository.master_branch}}">{{repository.master_branch}}</a> at <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
+								<a href="https://github.com/{{actor}}">{{actor}}</a> <span>pushed</span> to <a href="{{repository.url}}/tree/{{substr payload.ref}}">{{substr payload.ref}}</a> at <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
 							</div>
 							<div class="details">
 								{{> large-gravatar}}
@@ -271,6 +271,6 @@
 			ga('create','UA-XXXXX-X');ga('send','pageview');
 		</script>
 
-		<script data-main="scripts/0e47d126.main" src="bower_components/requirejs/require.js"></script>
+		<script data-main="scripts/8810ff7d.main" src="bower_components/requirejs/require.js"></script>
 </body>
 </html>

@@ -19,6 +19,7 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 					})
 				};
 			}
+			console.log(data);
 
 			data.items = data.items.slice(0,8);
 
@@ -70,6 +71,10 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 
 		Handlebars.registerHelper('trimString', function(passedString) {
 			return new Handlebars.SafeString(passedString.substring(0,7));
+		});
+
+		Handlebars.registerHelper('substr', function(passedString) {
+			return new Handlebars.SafeString(passedString.substr(passedString.lastIndexOf('/')+1));
 		});
 
 		Handlebars.registerPartial('time', $('#time-partial').html());
