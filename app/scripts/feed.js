@@ -34,8 +34,22 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 			return (context === 'post') ? 'posted' : 'shared';
 		});
 
-		Handlebars.registerHelper('ifReshare', function(context, block) {
-			if(context === 'share') {
+		Handlebars.registerHelper('ifPost', function(context, block) {
+			if(context === 'post') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('ifArticle', function(context, block) {
+			if(context === 'article') {
+				return block.fn(this);
+			}
+			return block.inverse(this);
+		});
+
+		Handlebars.registerHelper('ifImage', function(context, block) {
+			if(context === 'photo') {
 				return block.fn(this);
 			}
 			return block.inverse(this);
@@ -80,6 +94,7 @@ define(['jquery', 'handlebars', 'momentjs'], function ($) {
 		Handlebars.registerPartial('time', $('#time-partial').html());
 		Handlebars.registerPartial('small-gravatar', $('#small-gravatar-partial').html());
 		Handlebars.registerPartial('large-gravatar', $('#large-gravatar-partial').html());
+		Handlebars.registerPartial('author', $('#author-partial').html());
 	};
 
 	Feed.prototype.unescapeHtml = function (unsafe) {

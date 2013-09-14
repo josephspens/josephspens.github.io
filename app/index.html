@@ -139,9 +139,7 @@
 													<a href="{{repository.url}}/commit/{{payload.head}}">{{trimString payload.head}}</a>
 												</code>
 											{{/with}}
-											<div class="message">
-												<blockquote>{{[2]}}</blockquote>
-											</div>
+											<blockquote>{{[2]}}</blockquote>
 										</li>
 										{{/each}}
 									</ul>
@@ -166,7 +164,7 @@
 				</script>
 				<script id="time-partial" type="text/x-handlebars-template">
 					<div class="time">
-						<time class="js-relative-date" datetime="{{created_at}}" title="{{created_at}}">{{#date created_at}}{{/date}}</time>
+						<time class="js-relative-date" datetime="{{created_at}}" title="{{created_at}}">{{date created_at}}</time>
 					</div>
 				</script>
 				<script id="small-gravatar-partial" type="text/x-handlebars-template">
@@ -186,37 +184,47 @@
 				<div class="items">
 					<script id="blog-template" type="text/x-handlebars-template">
 						{{#each items}}
-							<div class="blog-item">
+							<div class="blog-item {{verb}}">
 								<div class="time">
-									<time datetime="{{published}}" title="{{published}}">{{#date published}}{{/date}}</time>
+									<time datetime="{{published}}" title="{{published}}">{{date published}}</time>
 								</div>
 								<div class="title">
-									<a href="{{actor.url}}">{{actor.displayName}}</a> <span>{{#verb verb}}{{/verb}}</span> {{#if title}}<a href="{{url}}">{{title}}</a>{{else}}a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>{{/if}} {{#if object.plusoners.totalItems}}<em>+{{object.plusoners.totalItems}}</em>{{/if}}
+									<a href="{{actor.url}}">{{actor.displayName}}</a> <span>{{verb verb}}</span> {{#if title}}<a href="{{url}}">{{title}}</a>{{else}}a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>{{/if}} {{#if object.plusoners.totalItems}}<em>+{{object.plusoners.totalItems}}</em>{{/if}}
 								</div>
 								<div class="details">
 									<a href="{{actor.url}}">
 										<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
 									</a>
-									{{#ifReshare verb}}
 									<div class="commits">
 										<ul>
-											<li>
-											{{#with object}}
-												<span title="{{actor.displayName}}"><img src="{{actor.image.url}}" height="16" width="16" /></span>
-												<div class="original-author">
-													<a href="{{actor.url}}">{{actor.displayName}}</a>
+											{{#ifArticle object.attachments.[0].objectType}}
+											{{#with object.attachments.[0]}}
+											<li class="article">
+												<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
+												<div class="content">
+													<a href="{{url}}" class="name">{{displayName}}</a>
+													<span class="url">{{url}}</span>
 												</div>
-												<div class="message">
-													<div class="original-message">{{{content}}}</div>
-												</div>
-											{{/with}}
 											</li>
+											{{/with}}
+											{{else}}
+											<li>
+												{{#ifPost verb}}
+													{{>author actor}}
+												{{else}}
+													{{>author object.actor}}
+												{{/ifPost}}
+											</li>
+											{{/ifArticle}}
 										</ul>
 									</div>
-									{{/ifReshare}}
 								</div>
 							</div>
 						{{/each}}
+					</script>
+					<script id="author-partial" type="text/x-handlebars-template">
+						<img src="{{image.url}}" class="original-author-image" height="16" width="16" />
+						<a href="{{url}}" class="original-author">{{displayName}}</a>
 					</script>
 					<div class="empty">
 						<h3>Oops... there's a problem<br />loading the feed from Google+</h3>

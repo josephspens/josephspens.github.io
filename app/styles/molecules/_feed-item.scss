@@ -27,29 +27,39 @@
 			img {
 				float: left;
 			}
-			code, .original-author {
+			code, blockquote, .original-author, .original-message, .view-attachment {
 				float: left;
-				margin: 0 0.5em;
+				margin: 0 0 0 0.5em;
 				font-size: 0.8em;
 			}
 			.message {
 				margin: 0;
 			}
-		}
-		.message {
-			float: left;
-			font-size: 0.8em;
-			margin: 0.5em 1em;
+			.article {
+				.content {
+					float: left;
+					padding: 0.8em;
 
-			blockquote, .original-message {
-				margin: 0;
+					.name {
+						display: block;
+					}
+					.url {
+						padding-top: 0.2em;
+						font-size: 0.8em;
+					}
+				}
+			}
+			.image {
+				.attachment {
+					display: none;
+				}
 			}
 		}
 	}
 	.attachment {
-		max-width: 7em;
 		height: auto;
-		display: none;
+		max-width: 5em;
+		//display: none;
 	}
 	.simple {
 		.title, .time {
