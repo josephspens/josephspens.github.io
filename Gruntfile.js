@@ -38,6 +38,10 @@ module.exports = function (grunt) {
                 files: ['<%= yeoman.app %>/styles/**/*.css'],
                 tasks: ['copy:styles', 'autoprefixer']
             },
+            handlebars: {
+                files: ['<%= yeoman.app %>/templates/*.hbs'],
+                tasks: ['handlebars']
+            },
             livereload: {
                 options: {
                     livereload: '<%= connect.options.livereload %>'
@@ -133,6 +137,26 @@ module.exports = function (grunt) {
                     dest: '.tmp/spec',
                     ext: '.js'
                 }]
+            }
+        },
+        handlebars: {
+            compile: {
+                options: {
+                    namespace: 'JS.Templates',
+                    wrapped: true,
+                    amd: true,
+                    processName: function(filename) {
+                        // funky name processing here
+                        return filename
+                                .replace(/^app\/templates\//, '')
+                                .replace(/\.hbs$/, '');
+                    }
+                },
+                files: {
+                    '<%= yeoman.app %>/scripts/templates.js': [
+                        '<%= yeoman.app %>/templates/*.hbs'
+                    ]
+                }
             }
         },
         compass: {
@@ -373,6 +397,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'useminPrepare',
+        'handlebars',
         'concurrent:dist',
         'autoprefixer',
         'requirejs',

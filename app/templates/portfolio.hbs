@@ -1,0 +1,21 @@
+{{#each items}}
+	<div class="portfolio-piece">
+		{{#link uri}}<img src="/images/portfolio/{{image}}" alt="{{name}}" />{{/link}}
+		<div class="content">
+			<h3>{{#link uri}}{{name}}{{/link}}</h3>
+			{{#either client company}}
+				<div class="created">Created{{#if client}} for {{client}}{{/if}}{{#if company}} while at {{company}}{{/if}}</div>
+			{{/either}}
+			<p>{{description}}</p>
+			<ul class="technologies">
+			{{#each technologies}}
+				<li>{{this}}</li>
+			{{/each}}
+			</ul>
+		</div>
+	</div>
+{{else}}
+	<div class="empty">
+		<h3>Coming Soon</h3>
+	</div>
+{{/each}}

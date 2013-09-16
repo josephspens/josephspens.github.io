@@ -1,0 +1,60 @@
+{{#each items}}
+<div class="blog-item feed-item">
+	{{#ifWatching type}}
+		<div class="simple">
+			<span class="octicon octicon-star"></span>
+			<div class="title">
+				<a href="https://github.com/{{actor}}">{{actor}}</a> <span>starred</span> <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
+			</div>
+			{{> time}}
+		</div>
+	{{else}}
+	{{#ifFollow type}}
+		<div class="simple">
+			<span class="octicon octicon-person-follow"></span>
+			<div class="title">
+				<a href="https://github.com/{{actor}}">{{actor}}</a> <span>started following</span> <a href="{{url}}">{{payload.target.login}}</a>
+			</div>
+			{{> time}}
+		</div>
+	{{else}}
+	{{#ifPush type}}
+		<span class="mega-octicon octicon-git-commit"></span>
+		{{> time}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}">{{actor}}</a> <span>pushed</span> to <a href="{{repository.url}}/tree/{{substr payload.ref}}">{{substr payload.ref}}</a> at <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
+		</div>
+		<div class="details">
+			{{> large-gravatar}}
+			<div class="commits pusher-is-only-committer">
+				<ul>
+					{{#each payload.shas}}
+					<li>
+						{{#with ../../this}}
+							{{> small-gravatar}}
+							<code>
+								<a href="{{repository.url}}/commit/{{payload.head}}">{{trimString payload.head}}</a>
+							</code>
+						{{/with}}
+						<blockquote>{{[2]}}</blockquote>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	{{else}}
+	{{#ifIssue type}}
+		<span class="mega-octicon octicon-issue-closed"></span>
+		{{> time}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}">{{actor}}</a> <span>{{payload.action}}</span> issue <a href="{{url}}">{{repository.organization}}/{{repository.name}}#{{payload.number}}</a>
+		</div>
+		<div class="details">
+			{{> large-gravatar}}
+		</div>
+	{{/ifIssue}}
+	{{/ifPush}}
+	{{/ifFollow}}
+	{{/ifWatching}}
+</div>
+{{/each}}

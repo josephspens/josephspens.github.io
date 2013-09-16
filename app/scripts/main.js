@@ -3,12 +3,13 @@ require.config({
         jquery: '../bower_components/jquery/jquery',
         requirejs: '../bower_components/requirejs/require',
         'sass-bootstrap': '../bower_components/sass-bootstrap/dist/js/bootstrap',
-        handlebars: '../bower_components/handlebars.js/dist/handlebars',
-        momentjs: '../bower_components/momentjs/moment'
+        handlebarsjs: '../bower_components/handlebars.js/dist/handlebars',
+        momentjs: '../bower_components/momentjs/moment',
+        handlebars: '../bower_components/handlebars-latest.js/index'
     }
 });
 
-require(['jquery', 'contactForm', 'portfolio', 'feed'], function ($) {
+require(['jquery', 'contactForm', 'feed'], function ($, contactForm, portfolio, feed) {
     'use strict';
 
     // nav scrolling

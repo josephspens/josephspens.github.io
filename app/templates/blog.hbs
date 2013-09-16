@@ -1,0 +1,51 @@
+{{#each items}}
+	<div class="blog-item feed-item {{verb}}">
+		<div class="time">
+			<time datetime="{{published}}" title="{{published}}">{{date published}}</time>
+		</div>
+		<div class="title">
+			<a href="{{actor.url}}">{{actor.displayName}}</a> 
+			<span>{{verb verb}}</span> 
+			{{#if annotation}}
+			<a href="{{url}}">{{annotation}}</a>
+			{{else}}
+			{{#if title}}
+			<a href="{{url}}">{{title}}</a>
+			{{/if}}
+			a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>
+			{{/if}} 
+			{{#if object.plusoners.totalItems}}
+			<em>+{{object.plusoners.totalItems}}</em>
+			{{/if}}
+		</div>
+		<div class="details">
+			<a href="{{actor.url}}">
+				<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
+			</a>
+			<div class="commits">
+				<ul>
+					{{#ifArticle object.attachments.[0].objectType}}
+					{{#with object.attachments.[0]}}
+					<li class="article">
+						<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
+						<div class="content">
+							<a href="{{url}}" class="name">{{displayName}}</a>
+							<span class="url">{{url}}</span>
+						</div>
+					</li>
+					{{/with}}
+					{{else}}
+					<li>
+						{{#ifPost verb}}
+							{{>author actor}}
+						{{else}}
+							{{>author object.actor}}
+						{{/ifPost}}
+						<div class="original-message">{{title}}</div>
+					</li>
+					{{/ifArticle}}
+				</ul>
+			</div>
+		</div>
+	</div>
+{{/each}}
