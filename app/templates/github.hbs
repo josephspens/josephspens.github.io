@@ -26,12 +26,10 @@
 				<ul>
 					{{#each payload.shas}}
 					<li>
-						{{#with ../../this}}
-							{{> small-gravatar}}
-							<code>
-								<a href="{{repository.url}}/commit/{{payload.head}}">{{trimCommitCode payload.head}}</a>
-							</code>
-						{{/with}}
+						{{> small-gravatar ../../this}}
+						<code>
+							<a href="{{../../repository.url}}/commit/{{[0]}}">{{trimCommitCode [0]}}</a>
+						</code>
 						<blockquote>{{[2]}}</blockquote>
 					</li>
 					{{/each}}

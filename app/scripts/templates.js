@@ -273,7 +273,7 @@ function program7(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.program(12, program12, data),fn:self.programWithDepth(8, program8, data, depth0),data:data};
+  options = {hash:{},inverse:self.program(11, program11, data),fn:self.programWithDepth(8, program8, data, depth0),data:data};
   stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "PushEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "PushEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
@@ -318,45 +318,38 @@ function program8(depth0,data,depth1) {
   }
 function program9(depth0,data,depth2) {
   
-  var buffer = "", stack1;
+  var buffer = "", stack1, stack2, options;
   buffer += "\n					<li>\n						";
-  stack1 = helpers['with'].call(depth0, depth2, {hash:{},inverse:self.noop,fn:self.program(10, program10, data),data:data});
+  stack1 = self.invokePartial(partials['small-gravatar'], 'small-gravatar', depth2, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n						<blockquote>";
-  if (stack1 = helpers[2]) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0[2]; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  buffer += escapeExpression(stack1)
+  buffer += "\n						<code>\n							<a href=\""
+    + escapeExpression(((stack1 = ((stack1 = depth2.repository),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "/commit/";
+  if (stack2 = helpers[0]) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
+  else { stack2 = depth0[0]; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
+  buffer += escapeExpression(stack2)
+    + "\">";
+  options = {hash:{},data:data};
+  buffer += escapeExpression(((stack1 = helpers.trimCommitCode || depth0.trimCommitCode),stack1 ? stack1.call(depth0, depth0[0], options) : helperMissing.call(depth0, "trimCommitCode", depth0[0], options)))
+    + "</a>\n						</code>\n						<blockquote>";
+  if (stack2 = helpers[2]) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
+  else { stack2 = depth0[2]; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
+  buffer += escapeExpression(stack2)
     + "</blockquote>\n					</li>\n					";
   return buffer;
   }
-function program10(depth0,data) {
-  
-  var buffer = "", stack1, options;
-  buffer += "\n							";
-  stack1 = self.invokePartial(partials['small-gravatar'], 'small-gravatar', depth0, helpers, partials, data);
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n							<code>\n								<a href=\""
-    + escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "/commit/"
-    + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\">";
-  options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.trimCommitCode || depth0.trimCommitCode),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options) : helperMissing.call(depth0, "trimCommitCode", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options)))
-    + "</a>\n							</code>\n						";
-  return buffer;
-  }
 
-function program12(depth0,data) {
+function program11(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.program(15, program15, data),fn:self.program(13, program13, data),data:data};
+  options = {hash:{},inverse:self.program(14, program14, data),fn:self.program(12, program12, data),data:data};
   stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "IssuesEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "IssuesEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
   return buffer;
   }
-function program13(depth0,data) {
+function program12(depth0,data) {
   
   var buffer = "", stack1, stack2;
   buffer += "\n		<span class=\"mega-octicon octicon-issue-closed\"></span>\n		";
@@ -389,17 +382,17 @@ function program13(depth0,data) {
   return buffer;
   }
 
-function program15(depth0,data) {
+function program14(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.noop,fn:self.program(16, program16, data),data:data};
+  options = {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data};
   stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "IssueCommentEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "IssueCommentEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
   return buffer;
   }
-function program16(depth0,data) {
+function program15(depth0,data) {
   
   var buffer = "", stack1, stack2;
   buffer += "\n		<span class=\"mega-octicon octicon-comment-discussion\"></span>\n		";
@@ -420,12 +413,12 @@ function program16(depth0,data) {
     + "\">"
     + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.issue_id)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "</a> of ";
-  stack2 = helpers['with'].call(depth0, depth0.repository, {hash:{},inverse:self.noop,fn:self.program(17, program17, data),data:data});
+  stack2 = helpers['with'].call(depth0, depth0.repository, {hash:{},inverse:self.noop,fn:self.program(16, program16, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n	";
   return buffer;
   }
-function program17(depth0,data) {
+function program16(depth0,data) {
   
   var buffer = "", stack1;
   buffer += "<a href=\"";
