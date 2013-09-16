@@ -57,17 +57,14 @@ function program1(depth0,data) {
   stack2 = helpers['if'].call(depth0, depth0.annotation, {hash:{},inverse:self.program(4, program4, data),fn:self.program(2, program2, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n			";
-  stack2 = helpers['if'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems), {hash:{},inverse:self.noop,fn:self.program(9, program9, data),data:data});
+  options = {hash:{},inverse:self.noop,fn:self.program(9, program9, data),data:data};
+  stack2 = ((stack1 = helpers.greater || depth0.greater),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems), "0", options) : helperMissing.call(depth0, "greater", ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems), "0", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n		</div>\n		<div class=\"details\">\n			<a href=\""
-    + escapeExpression(((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\">\n				<img class=\"gravatar\" src=\""
-    + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.image)),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\" height=\"30\" width=\"30\" />\n			</a>\n			<div class=\"commits\">\n				<ul>\n					";
+  buffer += "\n		</div>\n		";
   options = {hash:{},inverse:self.program(14, program14, data),fn:self.program(11, program11, data),data:data};
-  stack2 = ((stack1 = helpers.ifArticle || depth0.ifArticle),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), options) : helperMissing.call(depth0, "ifArticle", ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), options));
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", options) : helperMissing.call(depth0, "equals", ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n				</ul>\n			</div>\n		</div>\n	</div>\n";
+  buffer += "\n	</div>\n";
   return buffer;
   }
 function program2(depth0,data) {
@@ -132,10 +129,14 @@ function program9(depth0,data) {
 function program11(depth0,data) {
   
   var buffer = "", stack1, stack2;
-  buffer += "\n					";
+  buffer += "\n		<div class=\"details\">\n			<a href=\""
+    + escapeExpression(((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\">\n				<img class=\"gravatar\" src=\""
+    + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.image)),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" height=\"30\" width=\"30\" />\n			</a>\n			<div class=\"commits\">\n				<ul>\n					";
   stack2 = helpers['with'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0]), {hash:{},inverse:self.noop,fn:self.program(12, program12, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n					";
+  buffer += "\n				</ul>\n			</div>\n		</div>\n		";
   return buffer;
   }
 function program12(depth0,data) {
@@ -166,33 +167,27 @@ function program12(depth0,data) {
 function program14(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
-  buffer += "\n					<li>\n						";
-  options = {hash:{},inverse:self.program(17, program17, data),fn:self.program(15, program15, data),data:data};
-  stack2 = ((stack1 = helpers.ifPost || depth0.ifPost),stack1 ? stack1.call(depth0, depth0.verb, options) : helperMissing.call(depth0, "ifPost", depth0.verb, options));
+  buffer += "\n		";
+  options = {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data};
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.verb, "share", options) : helperMissing.call(depth0, "equals", depth0.verb, "share", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n						<div class=\"original-message\">";
-  options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.trimMessage || depth0.trimMessage),stack1 ? stack1.call(depth0, depth0.title, options) : helperMissing.call(depth0, "trimMessage", depth0.title, options)))
-    + "</div>\n					</li>\n					";
+  buffer += "\n		";
   return buffer;
   }
 function program15(depth0,data) {
   
-  var buffer = "", stack1;
-  buffer += "\n							";
-  stack1 = self.invokePartial(partials.author, 'author', depth0.actor, helpers, partials, data);
-  if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n						";
-  return buffer;
-  }
-
-function program17(depth0,data) {
-  
-  var buffer = "", stack1, stack2;
-  buffer += "\n							";
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n		<div class=\"details\">\n			<a href=\""
+    + escapeExpression(((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\">\n				<img class=\"gravatar\" src=\""
+    + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.image)),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\" height=\"30\" width=\"30\" />\n			</a>\n			<div class=\"commits\">\n				<ul>\n					<li>\n						";
   stack2 = self.invokePartial(partials.author, 'author', ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.actor), helpers, partials, data);
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n						";
+  buffer += "\n						<div class=\"original-message\">";
+  options = {hash:{},data:data};
+  buffer += escapeExpression(((stack1 = helpers.trimMessage || depth0.trimMessage),stack1 ? stack1.call(depth0, depth0.title, options) : helperMissing.call(depth0, "trimMessage", depth0.title, options)))
+    + "</div>\n					</li>\n				</ul>\n			</div>\n		</div>\n		";
   return buffer;
   }
 
@@ -204,22 +199,25 @@ function program17(depth0,data) {
 this["JS"]["Templates"]["github"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
   this.compilerInfo = [4,'>= 1.0.0'];
 helpers = this.merge(helpers, Handlebars.helpers); partials = this.merge(partials, Handlebars.partials); data = data || {};
-  var stack1, functionType="function", escapeExpression=this.escapeExpression, self=this, helperMissing=helpers.helperMissing;
+  var stack1, self=this, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing;
 
 function program1(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n<div class=\"blog-item feed-item\">\n	";
   options = {hash:{},inverse:self.program(4, program4, data),fn:self.program(2, program2, data),data:data};
-  stack2 = ((stack1 = helpers.ifWatching || depth0.ifWatching),stack1 ? stack1.call(depth0, depth0.type, options) : helperMissing.call(depth0, "ifWatching", depth0.type, options));
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "WatchEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "WatchEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n</div>\n";
   return buffer;
   }
 function program2(depth0,data) {
   
-  var buffer = "", stack1, stack2;
-  buffer += "\n		<div class=\"simple\">\n			<span class=\"octicon octicon-star\"></span>\n			<div class=\"title\">\n				<a href=\"https://github.com/";
+  var buffer = "", stack1;
+  buffer += "\n		<span class=\"octicon octicon-star\"></span>\n		";
+  stack1 = self.invokePartial(partials.time, 'time', depth0, helpers, partials, data);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n		<div class=\"title\">\n			<a href=\"https://github.com/";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -233,10 +231,7 @@ function program2(depth0,data) {
     + escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.owner)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "/"
     + escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "</a>\n			</div>\n			";
-  stack2 = self.invokePartial(partials.time, 'time', depth0, helpers, partials, data);
-  if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n		</div>\n	";
+    + "</a>\n		</div>\n	";
   return buffer;
   }
 
@@ -245,15 +240,18 @@ function program4(depth0,data) {
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
   options = {hash:{},inverse:self.program(7, program7, data),fn:self.program(5, program5, data),data:data};
-  stack2 = ((stack1 = helpers.ifFollow || depth0.ifFollow),stack1 ? stack1.call(depth0, depth0.type, options) : helperMissing.call(depth0, "ifFollow", depth0.type, options));
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "FollowEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "FollowEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
   return buffer;
   }
 function program5(depth0,data) {
   
-  var buffer = "", stack1, stack2;
-  buffer += "\n		<div class=\"simple\">\n			<span class=\"octicon octicon-person-follow\"></span>\n			<div class=\"title\">\n				<a href=\"https://github.com/";
+  var buffer = "", stack1;
+  buffer += "\n		<span class=\"octicon octicon-person-follow\"></span>\n		";
+  stack1 = self.invokePartial(partials.time, 'time', depth0, helpers, partials, data);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n		<div class=\"title\">\n			<a href=\"https://github.com/";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -267,10 +265,7 @@ function program5(depth0,data) {
   buffer += escapeExpression(stack1)
     + "\">"
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.target)),stack1 == null || stack1 === false ? stack1 : stack1.login)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "</a>\n			</div>\n			";
-  stack2 = self.invokePartial(partials.time, 'time', depth0, helpers, partials, data);
-  if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n		</div>\n	";
+    + "</a>\n		</div>\n	";
   return buffer;
   }
 
@@ -279,7 +274,7 @@ function program7(depth0,data) {
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
   options = {hash:{},inverse:self.program(12, program12, data),fn:self.programWithDepth(8, program8, data, depth0),data:data};
-  stack2 = ((stack1 = helpers.ifPush || depth0.ifPush),stack1 ? stack1.call(depth0, depth0.type, options) : helperMissing.call(depth0, "ifPush", depth0.type, options));
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "PushEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "PushEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
   return buffer;
@@ -355,8 +350,8 @@ function program12(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.noop,fn:self.program(13, program13, data),data:data};
-  stack2 = ((stack1 = helpers.ifIssue || depth0.ifIssue),stack1 ? stack1.call(depth0, depth0.type, options) : helperMissing.call(depth0, "ifIssue", depth0.type, options));
+  options = {hash:{},inverse:self.program(15, program15, data),fn:self.program(13, program13, data),data:data};
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "IssuesEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "IssuesEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
   return buffer;
@@ -391,6 +386,61 @@ function program13(depth0,data) {
   stack2 = self.invokePartial(partials['large-gravatar'], 'large-gravatar', depth0, helpers, partials, data);
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n	";
+  return buffer;
+  }
+
+function program15(depth0,data) {
+  
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n	";
+  options = {hash:{},inverse:self.noop,fn:self.program(16, program16, data),data:data};
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "IssueCommentEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "IssueCommentEvent", options));
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n	";
+  return buffer;
+  }
+function program16(depth0,data) {
+  
+  var buffer = "", stack1, stack2;
+  buffer += "\n		<span class=\"mega-octicon octicon-comment-discussion\"></span>\n		";
+  stack1 = self.invokePartial(partials.time, 'time', depth0, helpers, partials, data);
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n		<div class=\"title\">\n			<a href=\"https://github.com/";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\">";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "</a> <span>commented</span> on issue <a href=\"";
+  if (stack1 = helpers.url) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.url; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\">"
+    + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.issue_id)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "</a> of ";
+  stack2 = helpers['with'].call(depth0, depth0.repository, {hash:{},inverse:self.noop,fn:self.program(17, program17, data),data:data});
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n		</div>\n	";
+  return buffer;
+  }
+function program17(depth0,data) {
+  
+  var buffer = "", stack1;
+  buffer += "<a href=\"";
+  if (stack1 = helpers.url) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.url; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\">";
+  if (stack1 = helpers.owner) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.owner; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "/";
+  if (stack1 = helpers.name) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.name; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "</a>";
   return buffer;
   }
 
@@ -508,13 +558,7 @@ function program11(depth0,data) {
   return buffer;
   }
 
-function program13(depth0,data) {
-  
-  
-  return "\n	<div class=\"empty\">\n		<h3>Coming Soon</h3>\n	</div>\n";
-  }
-
-  stack1 = helpers.each.call(depth0, depth0.items, {hash:{},inverse:self.program(13, program13, data),fn:self.program(1, program1, data),data:data});
+  stack1 = helpers.each.call(depth0, depth0.items, {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
   if(stack1 || stack1 === 0) { return stack1; }
   else { return ''; }
   });

@@ -1,24 +1,20 @@
 {{#each items}}
 <div class="blog-item feed-item">
-	{{#ifWatching type}}
-		<div class="simple">
-			<span class="octicon octicon-star"></span>
-			<div class="title">
-				<a href="https://github.com/{{actor}}">{{actor}}</a> <span>starred</span> <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
-			</div>
-			{{> time}}
+	{{#equals type 'WatchEvent'}}
+		<span class="octicon octicon-star"></span>
+		{{> time}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}">{{actor}}</a> <span>starred</span> <a href="{{repository.url}}" class="css-truncate css-truncate-target">{{repository.owner}}/{{repository.name}}</a>
 		</div>
 	{{else}}
-	{{#ifFollow type}}
-		<div class="simple">
-			<span class="octicon octicon-person-follow"></span>
-			<div class="title">
-				<a href="https://github.com/{{actor}}">{{actor}}</a> <span>started following</span> <a href="{{url}}">{{payload.target.login}}</a>
-			</div>
-			{{> time}}
+	{{#equals type 'FollowEvent'}}
+		<span class="octicon octicon-person-follow"></span>
+		{{> time}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}">{{actor}}</a> <span>started following</span> <a href="{{url}}">{{payload.target.login}}</a>
 		</div>
 	{{else}}
-	{{#ifPush type}}
+	{{#equals type 'PushEvent'}}
 		<span class="mega-octicon octicon-git-commit"></span>
 		{{> time}}
 		<div class="title">
@@ -43,7 +39,7 @@
 			</div>
 		</div>
 	{{else}}
-	{{#ifIssue type}}
+	{{#equals type 'IssuesEvent'}}
 		<span class="mega-octicon octicon-issue-closed"></span>
 		{{> time}}
 		<div class="title">
@@ -52,9 +48,17 @@
 		<div class="details">
 			{{> large-gravatar}}
 		</div>
-	{{/ifIssue}}
-	{{/ifPush}}
-	{{/ifFollow}}
-	{{/ifWatching}}
+	{{else}}
+	{{#equals type 'IssueCommentEvent'}}
+		<span class="mega-octicon octicon-comment-discussion"></span>
+		{{> time}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}">{{actor}}</a> <span>commented</span> on issue <a href="{{url}}">{{payload.issue_id}}</a> of {{#with repository}}<a href="{{url}}">{{owner}}/{{name}}</a>{{/with}}
+		</div>
+	{{/equals}}
+	{{/equals}}
+	{{/equals}}
+	{{/equals}}
+	{{/equals}}
 </div>
 {{/each}}

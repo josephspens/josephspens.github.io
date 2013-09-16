@@ -15,17 +15,17 @@
 			a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>
 			{{/if}} 
 			{{/if}}
-			{{#if object.plusoners.totalItems}}
+			{{#greater object.plusoners.totalItems '0'}}
 			<em>+{{object.plusoners.totalItems}}</em>
-			{{/if}}
+			{{/greater}}
 		</div>
+		{{#equals object.attachments.[0].objectType 'article'}}
 		<div class="details">
 			<a href="{{actor.url}}">
 				<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
 			</a>
 			<div class="commits">
 				<ul>
-					{{#ifArticle object.attachments.[0].objectType}}
 					{{#with object.attachments.[0]}}
 					<li class="article">
 						<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
@@ -35,18 +35,25 @@
 						</div>
 					</li>
 					{{/with}}
-					{{else}}
-					<li>
-						{{#ifPost verb}}
-							{{>author actor}}
-						{{else}}
-							{{>author object.actor}}
-						{{/ifPost}}
-						<div class="original-message">{{trimMessage title}}</div>
-					</li>
-					{{/ifArticle}}
 				</ul>
 			</div>
 		</div>
+		{{else}}
+		{{#equals verb 'share'}}
+		<div class="details">
+			<a href="{{actor.url}}">
+				<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
+			</a>
+			<div class="commits">
+				<ul>
+					<li>
+						{{>author object.actor}}
+						<div class="original-message">{{trimMessage title}}</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		{{/equals}}
+		{{/equals}}
 	</div>
 {{/each}}
