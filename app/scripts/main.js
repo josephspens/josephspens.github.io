@@ -40,8 +40,8 @@ require(['jquery', 'contactForm', 'feed'], function ($, contactForm, portfolio, 
 
         // nav bar changing colors
         var isBelowContainer = ($('#container').offset().top - window.pageYOffset) < 0,
-            isAboveFooter = ($('footer').offset().top - window.pageYOffset) > 0,
-            isInPortfolio = (isBelowContainer && isAboveFooter);
+            isAboveFeeds = ($('#feeds').offset().top - window.pageYOffset) > 0,
+            isInPortfolio = (isBelowContainer && isAboveFeeds);
         $('nav').toggleClass('work_section', isInPortfolio);
     }).scroll();
 
