@@ -9,7 +9,7 @@ require.config({
     }
 });
 
-require(['jquery', 'contactForm', 'feed'], function ($, contactForm, portfolio, feed) {
+require(['jquery', 'contactForm', 'feed'], function ($) {
     'use strict';
 
     // nav scrolling

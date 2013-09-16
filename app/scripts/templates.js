@@ -56,15 +56,15 @@ function program1(depth0,data) {
     + "</span> \n			";
   stack2 = helpers['if'].call(depth0, depth0.annotation, {hash:{},inverse:self.program(4, program4, data),fn:self.program(2, program2, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += " \n			";
-  stack2 = helpers['if'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems), {hash:{},inverse:self.noop,fn:self.program(7, program7, data),data:data});
+  buffer += "\n			";
+  stack2 = helpers['if'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems), {hash:{},inverse:self.noop,fn:self.program(9, program9, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n		<div class=\"details\">\n			<a href=\""
     + escapeExpression(((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\">\n				<img class=\"gravatar\" src=\""
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.image)),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" height=\"30\" width=\"30\" />\n			</a>\n			<div class=\"commits\">\n				<ul>\n					";
-  options = {hash:{},inverse:self.program(12, program12, data),fn:self.program(9, program9, data),data:data};
+  options = {hash:{},inverse:self.program(14, program14, data),fn:self.program(11, program11, data),data:data};
   stack2 = ((stack1 = helpers.ifArticle || depth0.ifArticle),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), options) : helperMissing.call(depth0, "ifArticle", ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n				</ul>\n			</div>\n		</div>\n	</div>\n";
@@ -89,13 +89,9 @@ function program4(depth0,data) {
   
   var buffer = "", stack1;
   buffer += "\n			";
-  stack1 = helpers['if'].call(depth0, depth0.title, {hash:{},inverse:self.noop,fn:self.program(5, program5, data),data:data});
+  stack1 = helpers['if'].call(depth0, depth0.title, {hash:{},inverse:self.program(7, program7, data),fn:self.program(5, program5, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n			a <a href=\""
-    + escapeExpression(((stack1 = ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\">"
-    + escapeExpression(((stack1 = ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "</a>\n			";
+  buffer += " \n			";
   return buffer;
   }
 function program5(depth0,data) {
@@ -116,22 +112,33 @@ function program5(depth0,data) {
 function program7(depth0,data) {
   
   var buffer = "", stack1;
+  buffer += "\n			a <a href=\""
+    + escapeExpression(((stack1 = ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "\">"
+    + escapeExpression(((stack1 = ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "</a>\n			";
+  return buffer;
+  }
+
+function program9(depth0,data) {
+  
+  var buffer = "", stack1;
   buffer += "\n			<em>+"
     + escapeExpression(((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.plusoners)),stack1 == null || stack1 === false ? stack1 : stack1.totalItems)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "</em>\n			";
   return buffer;
   }
 
-function program9(depth0,data) {
+function program11(depth0,data) {
   
   var buffer = "", stack1, stack2;
   buffer += "\n					";
-  stack2 = helpers['with'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0]), {hash:{},inverse:self.noop,fn:self.program(10, program10, data),data:data});
+  stack2 = helpers['with'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0]), {hash:{},inverse:self.noop,fn:self.program(12, program12, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n					";
   return buffer;
   }
-function program10(depth0,data) {
+function program12(depth0,data) {
   
   var buffer = "", stack1, stack2;
   buffer += "\n					<li class=\"article\">\n						<img class=\"attachment\" height=\""
@@ -156,21 +163,20 @@ function program10(depth0,data) {
   return buffer;
   }
 
-function program12(depth0,data) {
+function program14(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n					<li>\n						";
-  options = {hash:{},inverse:self.program(15, program15, data),fn:self.program(13, program13, data),data:data};
+  options = {hash:{},inverse:self.program(17, program17, data),fn:self.program(15, program15, data),data:data};
   stack2 = ((stack1 = helpers.ifPost || depth0.ifPost),stack1 ? stack1.call(depth0, depth0.verb, options) : helperMissing.call(depth0, "ifPost", depth0.verb, options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n						<div class=\"original-message\">";
-  if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
-  else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
-  buffer += escapeExpression(stack2)
+  options = {hash:{},data:data};
+  buffer += escapeExpression(((stack1 = helpers.trimMessage || depth0.trimMessage),stack1 ? stack1.call(depth0, depth0.title, options) : helperMissing.call(depth0, "trimMessage", depth0.title, options)))
     + "</div>\n					</li>\n					";
   return buffer;
   }
-function program13(depth0,data) {
+function program15(depth0,data) {
   
   var buffer = "", stack1;
   buffer += "\n							";
@@ -180,7 +186,7 @@ function program13(depth0,data) {
   return buffer;
   }
 
-function program15(depth0,data) {
+function program17(depth0,data) {
   
   var buffer = "", stack1, stack2;
   buffer += "\n							";
@@ -340,7 +346,7 @@ function program10(depth0,data) {
     + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\">";
   options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.trimString || depth0.trimString),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options) : helperMissing.call(depth0, "trimString", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options)))
+  buffer += escapeExpression(((stack1 = helpers.trimCommitCode || depth0.trimCommitCode),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options) : helperMissing.call(depth0, "trimCommitCode", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.head), options)))
     + "</a>\n							</code>\n						";
   return buffer;
   }

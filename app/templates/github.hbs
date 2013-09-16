@@ -33,7 +33,7 @@
 						{{#with ../../this}}
 							{{> small-gravatar}}
 							<code>
-								<a href="{{repository.url}}/commit/{{payload.head}}">{{trimString payload.head}}</a>
+								<a href="{{repository.url}}/commit/{{payload.head}}">{{trimCommitCode payload.head}}</a>
 							</code>
 						{{/with}}
 						<blockquote>{{[2]}}</blockquote>

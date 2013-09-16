@@ -78,8 +78,15 @@ define(['jquery', 'handlebars', 'templates', 'momentjs'], function ($, Handlebar
 		return (context === 'IssuesEvent') ? block.fn(this) : block.inverse(this);
 	});
 
-	Handlebars.registerHelper('trimString', function(passedString) {
+	Handlebars.registerHelper('trimCommitCode', function(passedString) {
 		return new Handlebars.SafeString(passedString.substring(0,7));
+	});
+
+	Handlebars.registerHelper('trimMessage', function(passedString) {
+		var maxLength = 70,
+			string = new Handlebars.SafeString(passedString.substring(0, maxLength));
+		if(passedString.length >= maxLength) string += '...';
+		return string;
 	});
 
 	Handlebars.registerHelper('substr', function(passedString) {

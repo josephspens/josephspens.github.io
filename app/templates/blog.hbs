@@ -11,9 +11,10 @@
 			{{else}}
 			{{#if title}}
 			<a href="{{url}}">{{title}}</a>
-			{{/if}}
+			{{else}}
 			a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>
 			{{/if}} 
+			{{/if}}
 			{{#if object.plusoners.totalItems}}
 			<em>+{{object.plusoners.totalItems}}</em>
 			{{/if}}
@@ -41,7 +42,7 @@
 						{{else}}
 							{{>author object.actor}}
 						{{/ifPost}}
-						<div class="original-message">{{title}}</div>
+						<div class="original-message">{{trimMessage title}}</div>
 					</li>
 					{{/ifArticle}}
 				</ul>
