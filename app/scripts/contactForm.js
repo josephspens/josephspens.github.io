@@ -51,20 +51,15 @@ define(['jquery'], function ($) {
 		if (this.isValid) {
 			this.sendButton.classList.add('sending');
 
-			$.ajax({
-				url: '//spens.us/libs/services.php',
-				type: 'post',
-				dataType: 'jsonp',
+			$.getJSON('//spens.us/libs/services.php?callback=?', {
+				method: 'sendMail',
 				data: {
-					method: 'sendMail',
-					data: {
-						name: this.name.value,
-						email: this.email.value,
-						subject: this.subject.value,
-						message: this.message.value
-					}
+					name: this.name.value,
+					email: this.email.value,
+					subject: this.subject.value,
+					message: this.message.value
 				}
-			}).always(function (response) {
+			}, function (response) {
 				if (response) {
 					that.sendButton.classList.add('sent');
 				} else {
