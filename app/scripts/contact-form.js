@@ -52,7 +52,7 @@ define(['jquery'], function ($) {
 			this.sendButton.classList.add('sending');
 
 			$.ajax({
-				url: '//spens.us/libs/services.php?callback=?',
+				url: '//spens.us/lib/services.php?callback=?',
 				type: 'post',
 				dataType: 'jsonp',
 				data: {
