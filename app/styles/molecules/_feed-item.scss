@@ -17,63 +17,76 @@
 			display: block;
 			float: left;
 		}
-		.commits {
+		.commits, .article, .original-share {
 			margin-left: 2em;
-			padding: 0.2em 1em;
+			padding: 0.2em 0.5em;
 
-			li {
-				overflow: hidden;
-			}
 			img {
 				float: left;
 			}
-			code, blockquote, .original-author, .original-message, .view-attachment {
-				float: left;
-				margin: 0 0 0 0.5em;
-				font-size: 0.8em;
-			}
-			.message {
-				margin: 0;
-			}
-			.article {
-				.content {
-					margin-left: 5em;
-					padding: 0.8em;
+		}
+		code, .original-message, .original-author {
+			float: left;
+			margin: 0 0 0 0.5em;
+			font-size: 0.8em;
+		}
+		.original-author-image {
+			margin-left: 0.5em;
+		}
+	}
+}
 
-					.name {
-						display: block;
-					}
-					.url {
-						padding-top: 0.2em;
-						font-size: 0.8em;
-					}
-				}
+.blog-item {
+	.article {
+		.attachment {
+			height: auto;
+			max-width: 5em;
+		}
+		.content {
+			margin-left: 5em;
+			padding: 0.8em;
+
+			.name {
+				display: block;
 			}
-			.image {
-				.attachment {
-					display: none;
-				}
+			.url {
+				padding-top: 0.2em;
+				font-size: 0.8em;
 			}
 		}
 	}
-	.attachment {
-		height: auto;
-		max-width: 5em;
-		//display: none;
-	}
-	.simple {
-		.title, .time {
-			display: inline-block;
+}
+
+.github-item {
+	.commits {
+		.commit {
+			overflow: hidden;
+		}
+		.message {
+			margin: 0;
+		}
+		.image {
+			.attachment {
+				display: none;
+			}
 		}
 	}
 }
 
 @media #{$small} {
-	.github-item, .blog-item {
+
+	.feed-item {
 		.details {
-			.commits {
-				margin-left: 1.5em;
+			.original-author-image {
+				margin-left: 0;
 			}
 		}
 	}
+
+	.github-item {
+		.commits {
+			margin-left: 1.5em;
+		}
+	}
+
 }

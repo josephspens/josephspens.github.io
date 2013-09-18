@@ -53,7 +53,7 @@ header {
 	width: 100%;
 	padding: 6em 5%;
 	@include box-sizing(border-box);
-	background: image-url($header_background_uri);
+	background: image-url($header-background-uri);
 
 	.logo {
 		display: none;
@@ -96,23 +96,12 @@ header {
 		h2 {
 			background-color: $light-grey-on-light;
 		}
-		.empty {
-			h3 {
-				margin: 0;
-				border-top: 1px solid $light-grey-on-light;
-				padding: 10em 0 20em;
-				text-align: center;
-				text-decoration: underline;
-				font-variant: small-caps;
-				font-size: 1.5em;
-			}
-		}
 	}
 }
 
 #feeds {
 	@include pie-clearfix;
-	background: image-url($header_background_uri);
+	background: image-url($header-background-uri);
 
 	section {
 		@extend %section;

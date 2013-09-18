@@ -1,59 +1,42 @@
 {{#each items}}
-	<div class="blog-item feed-item {{verb}}">
-		<div class="time">
-			<time datetime="{{published}}" title="{{published}}">{{date published}}</time>
-		</div>
-		<div class="title">
-			<a href="{{actor.url}}">{{actor.displayName}}</a> 
-			<span>{{verb verb}}</span> 
-			{{#if annotation}}
-			<a href="{{url}}">{{{annotation}}}</a>
-			{{else}}
-			{{#if title}}
-			<a href="{{url}}">{{title}}</a>
-			{{else}}
-			a <a href="{{object.attachments.[0].url}}">{{object.attachments.[0].objectType}}</a>
-			{{/if}} 
-			{{/if}}
-			{{#greater object.plusoners.totalItems '0'}}
-			<em>+{{object.plusoners.totalItems}}</em>
-			{{/greater}}
-		</div>
-		{{#equals object.attachments.[0].objectType 'article'}}
-		<div class="details">
-			<a href="{{actor.url}}">
-				<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
-			</a>
-			<div class="commits">
-				<ul>
-					{{#with object.attachments.[0]}}
-					<li class="article">
-						<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
-						<div class="content">
-							<a href="{{url}}" class="name">{{displayName}}</a>
-							<span class="url">{{url}}</span>
-						</div>
-					</li>
-					{{/with}}
-				</ul>
-			</div>
-		</div>
+<div class="blog-item feed-item {{verb}}">
+	{{> time published}}
+	<div class="title">
+		{{#link actor.url}}{{actor.displayName}}{{/link}} 
+		<span>{{verb verb}}</span> 
+		{{#if annotation}}
+			{{#link url}}{{{annotation}}}{{/link}}
+		{{else}}{{#if title}}
+			{{#link url}}{{title}}{{/link}}
 		{{else}}
-		{{#equals verb 'share'}}
-		<div class="details">
-			<a href="{{actor.url}}">
-				<img class="gravatar" src="{{actor.image.url}}" height="30" width="30" />
-			</a>
-			<div class="commits">
-				<ul>
-					<li>
-						{{>author object.actor}}
-						<div class="original-message">{{trimMessage title}}</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		{{/equals}}
-		{{/equals}}
+			a {{#link object.attachments.[0].url}}{{object.attachments.[0].objectType}}{{/link}}
+		{{/if}} 
+		{{/if}}
+		{{#greater object.plusoners.totalItems '0'}}<em>+{{object.plusoners.totalItems}}</em>{{/greater}}
 	</div>
+	{{#equals object.attachments.[0].objectType 'article'}}
+	<div class="details">
+		{{> large-blog-gravatar}}
+		<div class="article">
+			{{#with object.attachments.[0]}}
+			<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
+			<div class="content">
+				<a href="{{url}}" class="name">{{displayName}}</a>
+				<span class="url">{{url}}</span>
+			</div>
+			{{/with}}
+		</div>
+	</div>
+	{{else}}
+	{{#equals verb 'share'}}
+	<div class="details">
+		{{> large-blog-gravatar}}
+		<div class="original-share">
+			{{> author object.actor}}
+			<div class="original-message">{{trimMessage title}}</div>
+		</div>
+	</div>
+	{{/equals}}
+	{{/equals}}
+</div>
 {{/each}}

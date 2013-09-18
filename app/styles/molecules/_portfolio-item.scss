@@ -1,4 +1,4 @@
-.portfolio-piece {
+.portfolio-item {
 	overflow: hidden;
 	padding: 20% 1% 0;
 	float: left;
@@ -31,7 +31,7 @@
 }
 
 @media #{$small} {
-	.portfolio-piece {
+	.portfolio-item {
 		width: 50%;
 		padding-top: 5%;
 
@@ -42,7 +42,7 @@
 }
 
 @media #{$medium} {
-	.portfolio-piece {
+	.portfolio-item {
 		width: 33%;
 
 		&:nth-of-type(2n + 1) {

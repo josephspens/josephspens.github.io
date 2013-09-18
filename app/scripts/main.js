@@ -5,11 +5,11 @@ require.config({
         'sass-bootstrap': '../bower_components/sass-bootstrap/dist/js/bootstrap',
         handlebarsjs: '../bower_components/handlebars.js/dist/handlebars',
         momentjs: '../bower_components/momentjs/moment',
-        handlebars: '../bower_components/handlebars-latest.js/index'
+        'handlebars-latest': '../bower_components/handlebars-latest.js/index'
     }
 });
 
-require(['jquery', 'contactForm', 'feed'], function ($) {
+require(['jquery', 'contact-form', 'feed'], function ($) {
     'use strict';
 
     // nav scrolling
@@ -39,9 +39,9 @@ require(['jquery', 'contactForm', 'feed'], function ($) {
         $('#about').css('top',(window.pageYOffset / - 5));
 
         // nav bar changing colors
-        var isBelowContainer = ($('#container').offset().top - window.pageYOffset) < 0,
+        var isBelowHeader = ($('#container').offset().top - window.pageYOffset) < 0,
             isAboveFeeds = ($('#feeds').offset().top - window.pageYOffset) > 0,
-            isInPortfolio = (isBelowContainer && isAboveFeeds);
+            isInPortfolio = (isBelowHeader && isAboveFeeds);
         $('nav').toggleClass('work_section', isInPortfolio);
     }).scroll();
 

@@ -8,4 +8,4 @@ Location: Brooklyn, New York, USA
 Last update: 2013/08/09
 Standards: HTML5, CSS3
 Components: Yeoman
-Software: Sublime Text 2, Google Chrome
+Software: Sublime Text 2, Google Chrome, Terminal
