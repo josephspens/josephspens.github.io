@@ -5,7 +5,7 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 	var Feed = function () {
 		this.fetch('github','https://github.com/josephspens.json?callback=?');
 		this.fetch('blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
-		this.fetch('portfolio','/portfolio.json');
+		this.fetch('portfolio','portfolio.json');
 
 		return this;
 	};
