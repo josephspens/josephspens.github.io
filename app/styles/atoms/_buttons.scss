@@ -6,43 +6,57 @@
 	text-transform: uppercase;
 	overflow: hidden;
 	margin-bottom: -1em;
+	position: relative;
+	z-index: 1;
 	@include transition(0.2s all linear);
 
+	&.captcha {
+		& + #captcha {
+			display: block;
+		}
+		.step1-text {
+			left: -6em;
+		}
+		.step2-text {
+			left: 0;
+		}
+	}
 	&.sending {
 		cursor: default;
 
-		.send-text {
+		& + #captcha {
+			display: none;
+		}
+		.step2-text {
 			left: -6em;
 		}
 		.sending-text {
 			left: 0;
 		}
-		&.sent {
-			background-color: $green;
-			
-			.sending-text {
-				top: 3em;
-			}
-			.sent-text {
-				top: 0;
-			}
+	}
+	&.sent {
+		background-color: $green;
+		
+		.sending-text {
+			top: 3em;
+		}
+		.sent-text {
+			top: 0;
 		}
 	}
-	
 	.container {
 		position: relative;
 	}
-	.send-text, .sending-text, .sent-text {
+	.step1-text, .step2-text, .sending-text, .sent-text {
 		position: absolute;
 		width: 100%;
 		@include transition(0.2s all linear);
-
 	}
-	.send-text {
+	.step1-text {
 		top: 0;
 		left: 0;
 	}
-	.sending-text {
+	.step2-text, .sending-text {
 		top: 0;
 		left: 6em;
 	}

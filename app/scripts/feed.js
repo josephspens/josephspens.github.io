@@ -2,15 +2,7 @@
 define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates) {
 	'use strict';
 
-	var Feed = function () {
-		this.fetch('github','https://github.com/josephspens.json?callback=?');
-		this.fetch('blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
-		this.fetch('portfolio','portfolio.json');
-
-		return this;
-	};
-
-	Feed.prototype.fetch = function (container, url) {
+	function fetch (container, url) {
 		$.getJSON(url, function(data){
 			// Github JSON feed is malformed
 			if(container === 'github'){
@@ -23,7 +15,10 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 
 			$('#' + container + ' .items').html(Templates[container](data));
 		});
-	};
+	}
 
-	return new Feed();
+	fetch('github','https://github.com/josephspens.json?callback=?');
+	fetch('blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
+	fetch('portfolio','portfolio.json');
+
 });

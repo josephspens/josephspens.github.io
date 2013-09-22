@@ -17,7 +17,7 @@
 		<meta itemprop="description" content="Joseph Spens' personal website and portfolio of web applications.">
 		<meta itemprop="image" content="http://spens.us/images/logo_90x90.png">
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		<link rel="stylesheet" href="styles/88f8fab1.main.css">
+		<link rel="stylesheet" href="styles/878958fd.main.css">
 		<script src="scripts/vendor/f7f27360.modernizr.js"></script>
 	</head>
 	<body>
@@ -114,11 +114,21 @@
 				<button id="send-mail">
 					<div class="container">
 						<span class="hidden">Sending</span>
-						<span class="send-text">Send</span>
+						<span class="step1-text">Next</span>
+						<span class="step2-text">Send</span>
 						<span class="sending-text">Sending</span>
 						<span class="sent-text">Sent</span>
 					</div>
 				</button>
+				
+				<div id="captcha">
+					<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
+					<noscript>
+						<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br>
+						<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+						<input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+					</noscript>
+				</div>
 			</div>
 			<div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
 		</footer>
@@ -135,6 +145,6 @@
 			ga('create','UA-24686161-1');ga('send','pageview');
 		</script>
 
-		<script data-main="scripts/aa22b7c4.main" src="bower_components/requirejs/require.js"></script>
+		<script data-main="scripts/c7576d06.main" src="bower_components/requirejs/require.js"></script>
 </body>
 </html>

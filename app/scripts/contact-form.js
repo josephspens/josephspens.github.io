@@ -2,79 +2,102 @@
 define(['jquery'], function ($) {
 	'use strict';
 
-	var ContactForm = function () {
-		this.emailAddressRegexPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-		this.isValid = true;
+	function showCaptcha () {
+		validate({ inputs: validatedInputs });
 
-		this.name = document.getElementById('name');
-		this.email = document.getElementById('email');
-		this.subject = document.getElementById('subject');
-		this.message = document.getElementById('message');
-		this.sendButton = document.getElementById('send-mail');
+		if (isValid) {
+			sendButton.classList.add('captcha');
+			$(sendButton).one('click', testCaptcha);
+		} else {
+			$(sendButton).one('click', showCaptcha);
+		}
+	}
 
-		this.validatedInputs = [ this.email, this.name, this.message ];
+	function testCaptcha () {
+		var captchaResponse = document.getElementById('recaptcha_response_field'),
+			captchaChallenge = document.getElementById('recaptcha_challenge_field');
 
-		$(this.sendButton).one('click', this.sendMail.bind(this));
-		$(this.validatedInputs).on('blur', { context: this }, function(event){
-			event.data.context.validate({ inputs: $(this).get() });
+		$.ajax({
+			url: '//spens.us/lib/services.php?callback=?',
+			type: 'get',
+			dataType: 'jsonp',
+			data: {
+				method: 'testCaptcha',
+				data: {
+					recaptchaResponseField: captchaResponse.value,
+					recaptchaChallengeField: captchaChallenge.value
+				}
+			},
+		}).done(function (response) {
+			if (response.isCorrect) {
+				captchaResponse.classList.remove('error');
+				sendMail();
+			} else {
+				captchaResponse.classList.add('error');
+				$(sendButton).one('click', testCaptcha);
+			}
 		});
+	}
 
-		return this;
-	};
+	function sendMail () {
+		sendButton.classList.add('sending');
+		
+		$.ajax({
+			url: '//spens.us/lib/services.php?callback=?',
+			type: 'get',
+			dataType: 'jsonp',
+			data: {
+				method: 'sendMail',
+				data: {
+					name: name.value,
+					email: email.value,
+					subject: subject.value,
+					message: message.value
+				}
+			}
+		}).done(function (response) {
+			if (response.success) {
+				sendButton.classList.add('sent');
+			} else {
+				$(sendButton).one('click', sendMail);
+			}
+		});
+	}
 
-	ContactForm.prototype.validate = function (options) {
+	function validate (options) {
 		// validate text fields
 		return options.inputs.map(function (input) {
-			var type = input.getAttribute('type'),
-				isEmpty = (input.value.trim() === ''),
+			var isEmpty = (input.value.trim() === ''),
 				isInputValid;
 
-			if (type === 'email') {
-				isInputValid = (!isEmpty && this.emailAddressRegexPattern.test(input.value));
+			if (input === email) {
+				isInputValid = (!isEmpty && emailAddressRegexPattern.test(input.value));
 			} else  {
 				isInputValid = !isEmpty;
 			}
 
 			if(!isInputValid){
-				this.isValid = false;
+				isValid = false;
 				input.classList.add('error');
 			} else {
 				input.classList.remove('error');
 			}
-		}, this);
-	};
+		});
+	}
 
-	ContactForm.prototype.sendMail = function () {
-		var that = this;
-		this.validate({ inputs: this.validatedInputs });
+	var emailAddressRegexPattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+		isValid = true,
 
-		if (this.isValid) {
-			this.sendButton.classList.add('sending');
+		name = document.getElementById('name'),
+		email = document.getElementById('email'),
+		subject = document.getElementById('subject'),
+		message = document.getElementById('message'),
+		sendButton = document.getElementById('send-mail'),
 
-			$.ajax({
-				url: '//spens.us/lib/services.php?callback=?',
-				type: 'post',
-				dataType: 'jsonp',
-				data: {
-					method: 'sendMail',
-					data: {
-						name: this.name.value,
-						email: this.email.value,
-						subject: this.subject.value,
-						message: this.message.value
-					}
-				}
-			}).always(function (response) {
-				if (response.success) {
-					that.sendButton.classList.add('sent');
-				} else {
-					$(that.sendButton).one('click', that.sendMail.bind(that));
-				}
-			});
-		} else {
-			$(that.sendButton).one('click', that.sendMail.bind(that));
-		}
-	};
+		validatedInputs = [ email, name, message ];
 
-	return new ContactForm();
+	$(sendButton).one('click', showCaptcha);
+	$(validatedInputs).on('blur', function(){
+		validate({ inputs: $(this).get() });
+	});
 });

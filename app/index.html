@@ -118,11 +118,21 @@
 				<button id="send-mail">
 					<div class="container">
 						<span class="hidden">Sending</span>
-						<span class="send-text">Send</span>
+						<span class="step1-text">Next</span>
+						<span class="step2-text">Send</span>
 						<span class="sending-text">Sending</span>
 						<span class="sent-text">Sent</span>
 					</div>
 				</button>
+				
+				<div id="captcha">
+					<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
+					<noscript>
+						<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br/>
+						<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+						<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+					</noscript>
+				</div>
 			</div>
 			<div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
 		</footer>
