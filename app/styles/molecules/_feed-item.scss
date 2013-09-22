@@ -17,7 +17,7 @@
 			display: block;
 			float: left;
 		}
-		.commits, .article, .original-share {
+		.commits, .external, .original-share {
 			margin-left: 2em;
 			padding: 0.2em 0.5em;
 
@@ -37,7 +37,7 @@
 }
 
 .blog-item {
-	.article {
+	.external {
 		.attachment {
 			height: auto;
 			max-width: 5em;

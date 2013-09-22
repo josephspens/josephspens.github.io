@@ -47,6 +47,14 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 		}
 	});
 
+	Handlebars.registerHelper('equalsEither', function(compare, v1, v2, block) {
+		if (compare === v1 || compare === v2) {
+			return block.fn(this);
+		} else {
+			return block.inverse(this);
+		}
+	});
+
 	Handlebars.registerHelper('greater', function(v1, v2, block) {
 		if (v1 > v2) {
 			return block.fn(this);

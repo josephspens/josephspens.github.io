@@ -123,7 +123,7 @@ function program1(depth0,data) {
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	</div>\n	";
   options = {hash:{},inverse:self.program(19, program19, data),fn:self.program(16, program16, data),data:data};
-  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", options) : helperMissing.call(depth0, "equals", ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", options));
+  stack2 = ((stack1 = helpers.equalsEither || depth0.equalsEither),stack1 ? stack1.call(depth0, ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", "video", options) : helperMissing.call(depth0, "equalsEither", ((stack1 = ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0])),stack1 == null || stack1 === false ? stack1 : stack1.objectType), "article", "video", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n</div>\n";
   return buffer;
@@ -210,7 +210,7 @@ function program16(depth0,data) {
   buffer += "\n	<div class=\"details\">\n		";
   stack1 = self.invokePartial(partials['large-blog-gravatar'], 'large-blog-gravatar', depth0, helpers, partials, data);
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += "\n		<div class=\"article\">\n			";
+  buffer += "\n		<div class=\"external\">\n			";
   stack2 = helpers['with'].call(depth0, ((stack1 = ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.attachments)),stack1 == null || stack1 === false ? stack1 : stack1[0]), {hash:{},inverse:self.noop,fn:self.program(17, program17, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n	</div>\n	";

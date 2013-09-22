@@ -13,6 +13,8 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 				};
 			}
 
+			console.log(data);
+
 			$('#' + container + ' .items').html(Templates[container](data));
 		});
 	}

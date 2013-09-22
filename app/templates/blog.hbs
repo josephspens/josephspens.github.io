@@ -14,10 +14,10 @@
 		{{/if}}
 		{{#greater object.plusoners.totalItems '0'}}<em>+{{object.plusoners.totalItems}}</em>{{/greater}}
 	</div>
-	{{#equals object.attachments.[0].objectType 'article'}}
+	{{#equalsEither object.attachments.[0].objectType 'article' 'video'}}
 	<div class="details">
 		{{> large-blog-gravatar}}
-		<div class="article">
+		<div class="external">
 			{{#with object.attachments.[0]}}
 			<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
 			<div class="content">
@@ -37,6 +37,6 @@
 		</div>
 	</div>
 	{{/equals}}
-	{{/equals}}
+	{{/equalsEither}}
 </div>
 {{/each}}
