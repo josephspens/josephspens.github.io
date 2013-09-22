@@ -70,6 +70,13 @@
 				display: none;
 			}
 		}
+		.original-message {
+			float: none;
+			margin-left: 6.5em;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+		}
 	}
 }
 
