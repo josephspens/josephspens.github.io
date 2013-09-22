@@ -57,7 +57,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 
 	Handlebars.registerHelper('link', function(uri, block) {
 		if (uri) {
-			return '<a href="' + uri + '">' + block.fn(this) + '</a>';
+			return '<a href="' + uri + '" target="_blank">' + block.fn(this) + '</a>';
 		} else {
 			return block.fn(this);
 		}

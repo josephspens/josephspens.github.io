@@ -3,23 +3,23 @@
 	{{> time created_at}}
 	{{#equals type 'WatchEvent'}}
 		<div class="title">
-			<a href="https://github.com/{{actor}}">{{actor}}</a> 
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a> 
 			<span>starred</span> 
 			{{#link repository.url}}{{repository.owner}}/{{repository.name}}{{/link}}
 		</div>
 	{{else}}
 	{{#equals type 'FollowEvent'}}
 		<div class="title">
-			<a href="https://github.com/{{actor}}">{{actor}}</a> 
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a> 
 			<span>started following</span> 
 			{{#link url}}{{payload.target.login}}{{/link}}
 		</div>
 	{{else}}
 	{{#equals type 'PushEvent'}}
 		<div class="title">
-			<a href="https://github.com/{{actor}}">{{actor}}</a> 
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a> 
 			<span>pushed</span> to 
-			<a href="{{repository.url}}/tree/{{substr payload.ref}}">{{substr payload.ref}}</a> at 
+			<a href="{{repository.url}}/tree/{{substr payload.ref}}" target="_blank">{{substr payload.ref}}</a> at 
 			{{#link repository.url}}{{repository.owner}}/{{repository.name}}{{/link}}
 		</div>
 		<div class="details">
@@ -30,7 +30,7 @@
 					<li class="commit">
 						{{> small-github-gravatar ../../this}}
 						<code>
-							<a href="{{../../repository.url}}/commit/{{[0]}}">{{trimCommitCode [0]}}</a>
+							<a href="{{../../repository.url}}/commit/{{[0]}}" target="_blank">{{trimCommitCode [0]}}</a>
 						</code>
 						<blockquote class="original-message">{{[2]}}</blockquote>
 					</li>
@@ -41,7 +41,7 @@
 	{{else}}
 	{{#equals type 'IssuesEvent'}}
 		<div class="title">
-			<a href="https://github.com/{{actor}}">{{actor}}</a> 
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a> 
 			<span>{{payload.action}}</span> issue 
 			{{#link url}}{{repository.organization}}/{{repository.name}}#{{payload.number}}{{/link}}
 		</div>
@@ -51,7 +51,7 @@
 	{{else}}
 	{{#equals type 'IssueCommentEvent'}}
 		<div class="title">
-			<a href="https://github.com/{{actor}}">{{actor}}</a> 
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a> 
 			<span>commented</span> on issue 
 			{{#link url}}{{payload.issue_id}}{{/link}} of 
 			{{#with repository}}

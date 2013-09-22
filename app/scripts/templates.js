@@ -15,7 +15,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   if (stack2 = helpers.url) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0.url; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
-    + "\" class=\"original-author\">";
+    + "\" class=\"original-author\" target=\"_blank\">";
   if (stack2 = helpers.displayName) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0.displayName; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
@@ -53,7 +53,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">\n	<img class=\"gravatar\" height=\"30\" width=\"30\" src=\"https://0.gravatar.com/avatar/"
+    + "\" target=\"_blank\">\n	<img class=\"gravatar\" height=\"30\" width=\"30\" src=\"https://0.gravatar.com/avatar/"
     + escapeExpression(((stack1 = ((stack1 = depth0.actor_attributes),stack1 == null || stack1 === false ? stack1 : stack1.gravatar_id)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "\" />\n</a>";
   return buffer;
@@ -229,7 +229,7 @@ function program17(depth0,data) {
   if (stack2 = helpers.url) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0.url; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
-    + "\" class=\"name\">";
+    + "\" class=\"name\" target=\"_blank\">";
   if (stack2 = helpers.displayName) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0.displayName; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
@@ -297,7 +297,7 @@ function program2(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">";
+    + "\" target=\"_blank\">";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -334,7 +334,7 @@ function program6(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">";
+    + "\" target=\"_blank\">";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -368,7 +368,7 @@ function program10(depth0,data,depth1) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">";
+    + "\" target=\"_blank\">";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -377,7 +377,7 @@ function program10(depth0,data,depth1) {
     + "/tree/";
   options = {hash:{},data:data};
   buffer += escapeExpression(((stack1 = helpers.substr || depth0.substr),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options) : helperMissing.call(depth0, "substr", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options)))
-    + "\">";
+    + "\" target=\"_blank\">";
   options = {hash:{},data:data};
   buffer += escapeExpression(((stack1 = helpers.substr || depth0.substr),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options) : helperMissing.call(depth0, "substr", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options)))
     + "</a> at \n			";
@@ -405,7 +405,7 @@ function program11(depth0,data,depth2) {
   if (stack2 = helpers[0]) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0[0]; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
   buffer += escapeExpression(stack2)
-    + "\">";
+    + "\" target=\"_blank\">";
   options = {hash:{},data:data};
   buffer += escapeExpression(((stack1 = helpers.trimCommitCode || depth0.trimCommitCode),stack1 ? stack1.call(depth0, depth0[0], options) : helperMissing.call(depth0, "trimCommitCode", depth0[0], options)))
     + "</a>\n						</code>\n						<blockquote class=\"original-message\">";
@@ -433,7 +433,7 @@ function program14(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">";
+    + "\" target=\"_blank\">";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
@@ -477,7 +477,7 @@ function program18(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "\">";
+    + "\" target=\"_blank\">";
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
