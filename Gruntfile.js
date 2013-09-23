@@ -321,8 +321,7 @@ module.exports = function (grunt) {
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
                         'bower_components/sass-bootstrap/fonts/*.*',
-                        'portfolio.json',
-                        'CNAME'
+                        'portfolio.json'
                     ]
                 }]
             },
@@ -379,7 +378,7 @@ module.exports = function (grunt) {
                 recursive: true,
                 ssh: true
             }
-        },
+        }
     });
 
     // rename tasks
