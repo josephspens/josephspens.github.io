@@ -18,15 +18,12 @@ define(['jquery'], function ($) {
 			captchaChallenge = document.getElementById('recaptcha_challenge_field');
 
 		$.ajax({
-			url: '//spens.us/lib/services.php?callback=?',
+			url: '//maple-reaper.herokuapp.com/recaptcha?callback=?',
 			type: 'get',
 			dataType: 'jsonp',
 			data: {
-				method: 'testCaptcha',
-				data: {
-					recaptchaResponseField: captchaResponse.value,
-					recaptchaChallengeField: captchaChallenge.value
-				}
+				recaptchaResponseField: captchaResponse.value,
+				recaptchaChallengeField: captchaChallenge.value
 			},
 		}).done(function (response) {
 			if (response.isCorrect) {
@@ -43,17 +40,14 @@ define(['jquery'], function ($) {
 		sendButton.classList.add('sending');
 		
 		$.ajax({
-			url: '//spens.us/lib/services.php?callback=?',
+			url: '//maple-reaper.herokuapp.com/mail?callback=?',
 			type: 'get',
 			dataType: 'jsonp',
 			data: {
-				method: 'sendMail',
-				data: {
-					name: name.value,
-					email: email.value,
-					subject: subject.value,
-					message: message.value
-				}
+				name: name.value,
+				email: email.value,
+				subject: subject.value,
+				message: message.value
 			}
 		}).done(function (response) {
 			if (response.success) {
