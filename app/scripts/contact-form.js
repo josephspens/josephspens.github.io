@@ -24,8 +24,10 @@ define(['jquery'], function ($) {
 			data: {
 				recaptchaResponseField: captchaResponse.value,
 				recaptchaChallengeField: captchaChallenge.value
-			},
+			}
 		}).done(function (response) {
+			console.log(response);
+			console.log(response.isCorrect);
 			if (response.isCorrect) {
 				captchaResponse.classList.remove('error');
 				sendMail();
