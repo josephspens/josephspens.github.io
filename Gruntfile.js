@@ -201,11 +201,6 @@ module.exports = function (grunt) {
                 }]
             }
         },
-        // not used since Uglify task does concat,
-        // but still available if needed
-        /*concat: {
-            dist: {}
-        },*/
         requirejs: {
             dist: {
                 // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
@@ -370,20 +365,8 @@ module.exports = function (grunt) {
             all: {
                 rjsConfig: '<%= yeoman.app %>/scripts/main.js'
             }
-        },
-        deploy: {
-            production: {
-                src: './dist/',
-                dest: '~/www/',
-                host: 'spensus1@spens.us',
-                recursive: true,
-                ssh: true
-            }
         }
     });
-
-    // rename tasks
-    grunt.renameTask('rsync', 'deploy');
 
     grunt.registerTask('server', function (target) {
         if (target === 'dist') {
