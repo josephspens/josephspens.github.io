@@ -17,6 +17,7 @@
 body {
 	font-family: $primary_font;
 	font-size: $small-font-size;
+	-webkit-font-smoothing: antialiased;
 }
 
 nav {
@@ -54,6 +55,7 @@ header {
 	padding: 6em 5%;
 	@include box-sizing(border-box);
 	background: image-url($header-background-uri);
+	@include box-shadow(0 0 1em $dark-grey-on-light);
 
 	.logo {
 		display: none;
@@ -102,6 +104,7 @@ header {
 #feeds {
 	@include pie-clearfix;
 	background: image-url($header-background-uri);
+	@include box-shadow(0 2px 1em $dark-grey-on-light);
 
 	section {
 		@extend %section;
