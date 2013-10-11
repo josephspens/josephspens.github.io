@@ -57,8 +57,6 @@ header {
 	h1 {
 		position: relative;
 		top: 25%;
-		font: normal 3em/1em $secondary_font;
-		white-space: nowrap;
 		margin: 0;
 		overflow: hidden;
 
@@ -147,8 +145,6 @@ footer {
 			display: inline-block;
 		}
 		h1 {
-			font-size: 5em;
-
 			span {
 				&:first-child {
 					margin-bottom: -0.2em;
