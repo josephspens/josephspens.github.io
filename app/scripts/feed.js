@@ -8,7 +8,7 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 			if(container === 'github'){
 				data = {
 					items: $.map(data, function(value, index) {
-						return (index < 6) ? value : null;
+						return (index < 8) ? value : null;
 					})
 				};
 			}
