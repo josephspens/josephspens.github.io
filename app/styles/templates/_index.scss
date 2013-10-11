@@ -1,9 +1,3 @@
-%black-section {
-	background-color: $black;
-	color: $white;
-	position: relative;
-}
-
 %section {
 	padding-top: 3em;
 	text-align: center;
@@ -14,10 +8,10 @@
 	}
 }
 
-body {
-	font-family: $primary_font;
-	font-size: $small-font-size;
-	-webkit-font-smoothing: antialiased;
+%black-section {
+	@extend %section;
+	background-color: $black;
+	color: $white;
 }
 
 nav {
@@ -88,7 +82,7 @@ header {
 
 	#about {
 		@extend %black-section;
-		@extend %section;
+		position: relative;
 	}
 
 	#portfolio {
@@ -123,8 +117,8 @@ header {
 
 footer {
 	@extend %black-section;
-	@extend %section;
 	clear: both;
+	@include box-shadow($white 0 0 1em 0.5em);
 
 	ul {
 		padding: 1em 0;

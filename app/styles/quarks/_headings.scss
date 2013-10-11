@@ -6,10 +6,11 @@ h2 {
 	height: 1em;
 	color: $white;
 	background-color: $dark-grey-on-dark;
-	font:normal 2em/1em $secondary_font;
+	font:normal 2em/1.1em $secondary_font;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	@include transition(0.2s all ease-in-out);
+	@include border-radius;
 }
 
 @media #{$small} {

@@ -1,7 +1,8 @@
-/////// Config defaults for site border style /////// 
+/////// Config defaults for site border style ///////
 // -----------------------------------------------------------------------------
+$default-border-radius: 3px;
 
-/////// Config defaults for site colors /////// 
+/////// Config defaults for site colors ///////
 // -----------------------------------------------------------------------------
 $black: #000000;
 $white: #ffffff;
@@ -17,12 +18,10 @@ $green: #009900;
 
 $blue: #0000cc;
 
-/////// Page dimension configuration /////// 
+/////// Page dimension configuration ///////
 // -----------------------------------------------------------------------------
-$footer_height: 50em;
-$page-width: emCalc(1000);
 
-/////// Typography configuration /////// 
+/////// Typography configuration ///////
 // -----------------------------------------------------------------------------
 $primary_font: Raleway, Helvetica, sans-serif;
 $secondary_font: Museo, serif;
@@ -30,10 +29,10 @@ $secondary_font: Museo, serif;
 $base-font-size: 16px;
 $small-font-size: 12px;
 
-/////// Config defaults for buttons /////// 
+/////// Config defaults for buttons ///////
 // -----------------------------------------------------------------------------
 
-/////// UI @media breakpoint defaults /////// 
+/////// UI @media breakpoint defaults ///////
 // -----------------------------------------------------------------------------
 $small-screen: 768px;
 $medium-screen: 1280px;
@@ -46,6 +45,6 @@ $large: "only screen and (min-width: #{$large-screen})";
 $landscape: "only screen and (orientation: landscape)";
 $portrait: "only screen and (orientation: portrait)";
 
-/////// Site Icons and Images /////// 
+/////// Site Icons and Images ///////
 // -----------------------------------------------------------------------------
 $header-background-uri: "45degree_fabric.png";

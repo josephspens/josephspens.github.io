@@ -1,6 +1,9 @@
 html, body {
 	height: 100%;
 	width: 100%;
+	font-family: $primary_font;
+	font-size: $small-font-size;
+	-webkit-font-smoothing: antialiased;
 }
 
 ul {

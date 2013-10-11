@@ -5,6 +5,7 @@
 	background-color: $dark-grey-on-dark;
 	position: relative;
 	@include box-sizing(border-box);
+	@include border-radius;
 
 	label {
 		margin-top: 0.8em;
@@ -13,8 +14,6 @@
 	input, textarea {
 		float: left;
 		margin: 0 0 1em;
-		@include box-shadow(inset 0 0 0.5em $black);
-		@include border-radius(0.5em);
 	}
 	textarea {
 		height: 8em;
