@@ -111,10 +111,10 @@ function program1(depth0,data) {
   options = {hash:{},inverse:self.noop,fn:self.program(2, program2, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url), options) : helperMissing.call(depth0, "link", ((stack1 = depth0.actor),stack1 == null || stack1 === false ? stack1 : stack1.url), options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += " \n		<span>";
+  buffer += "\n		<span>";
   options = {hash:{},data:data};
   buffer += escapeExpression(((stack1 = helpers.verb || depth0.verb),stack1 ? stack1.call(depth0, depth0.verb, options) : helperMissing.call(depth0, "verb", depth0.verb, options)))
-    + "</span> \n		";
+    + "</span>\n		";
   stack2 = helpers['if'].call(depth0, depth0.annotation, {hash:{},inverse:self.program(7, program7, data),fn:self.program(4, program4, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		";
@@ -158,7 +158,7 @@ function program7(depth0,data) {
   var buffer = "", stack1;
   stack1 = helpers['if'].call(depth0, depth0.title, {hash:{},inverse:self.program(11, program11, data),fn:self.program(8, program8, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
-  buffer += " \n		";
+  buffer += "\n		";
   return buffer;
   }
 function program8(depth0,data) {
@@ -173,10 +173,11 @@ function program8(depth0,data) {
   }
 function program9(depth0,data) {
   
-  var stack1;
-  if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  return escapeExpression(stack1);
+  var stack1, stack2, options;
+  options = {hash:{},data:data};
+  stack2 = ((stack1 = helpers.trimTitle || depth0.trimTitle),stack1 ? stack1.call(depth0, ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options) : helperMissing.call(depth0, "trimTitle", ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options));
+  if(stack2 || stack2 === 0) { return stack2; }
+  else { return ''; }
   }
 
 function program11(depth0,data) {

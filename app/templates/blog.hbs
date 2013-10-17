@@ -2,15 +2,15 @@
 <div class="blog-item feed-item {{verb}}">
 	{{> time published}}
 	<div class="title">
-		{{#link actor.url}}{{actor.displayName}}{{/link}} 
-		<span>{{verb verb}}</span> 
+		{{#link actor.url}}{{actor.displayName}}{{/link}}
+		<span>{{verb verb}}</span>
 		{{#if annotation}}
 			{{#link url}}{{{annotation}}}{{/link}}
 		{{else}}{{#if title}}
-			{{#link url}}{{title}}{{/link}}
+			{{#link url}}{{{trimTitle object.content}}}{{/link}}
 		{{else}}
 			a {{#link object.attachments.[0].url}}{{object.attachments.[0].objectType}}{{/link}}
-		{{/if}} 
+		{{/if}}
 		{{/if}}
 		{{#greater object.plusoners.totalItems '0'}}<em>+{{object.plusoners.totalItems}}</em>{{/greater}}
 	</div>
