@@ -2,19 +2,21 @@
 define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 	'use strict';
 
-	var helpers = function helper (arr) {
-		arr.map(function (fn) {
-			Handlebars.registerHelper(fn.name, fn);
-		});
+	var helpers = function helper (obj) {
+		for(var key in obj) {
+			if(obj.hasOwnProperty(key)) {
+				Handlebars.registerHelper(key, obj[key]);
+			}
+		}
 	};
 
-	helpers([
+	helpers({
 
-		function date (context) {
+		date: function (context) {
 			return moment(context).format('MMMM D, YYYY');
 		},
 
-		function verb (context) {
+		verb: function (context) {
 			if (context === 'post') {
 				return 'posted';
 			} else {
@@ -22,11 +24,11 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		function trimCommitCode (passedString) {
+		trimCommitCode: function (passedString) {
 			return new Handlebars.SafeString(passedString.substring(0,7));
 		},
 
-		function trimMessage (passedString) {
+		trimMessage: function (passedString) {
 			var maxLength = 70,
 				string = passedString.substring(0, maxLength);
 			if (passedString.length >= maxLength) {
@@ -35,15 +37,22 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			return new Handlebars.SafeString(string);
 		},
 
-		function trimTitle (passedString) {
-			return passedString.replace('<br /><br />','<br />');
+		trimTitle: function (passedString) {
+			var string = passedString.replace('<br /><br />','<br />'),
+					test = /<b>(.)*<\/b><br \/>/;
+
+			if (string.search(test) === 0) {
+				string = string.match(test)[0];
+			}
+
+			return string;
 		},
 
-		function substr (passedString) {
+		substr: function (passedString) {
 			return new Handlebars.SafeString(passedString.substr(passedString.lastIndexOf('/')+1));
 		},
 
-		function either (v1, v2, block) {
+		either: function (v1, v2, block) {
 			if (v1 || v2) {
 				return block.fn(this);
 			} else {
@@ -51,7 +60,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		function equals (v1, v2, block) {
+		equals: function (v1, v2, block) {
 			if (v1 === v2) {
 				return block.fn(this);
 			} else {
@@ -59,7 +68,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		function equalsEither (compare, v1, v2, block) {
+		equalsEither: function (compare, v1, v2, block) {
 			if (compare === v1 || compare === v2) {
 				return block.fn(this);
 			} else {
@@ -67,7 +76,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		function greater (v1, v2, block) {
+		greater: function (v1, v2, block) {
 			if (v1 > v2) {
 				return block.fn(this);
 			} else {
@@ -75,7 +84,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		function link (uri, block) {
+		link: function (uri, block) {
 			if (uri) {
 				return '<a href="' + uri + '" target="_blank">' + block.fn(this) + '</a>';
 			} else {
@@ -83,7 +92,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		}
 
-	]);
+	});
 
 	return Handlebars;
 });
