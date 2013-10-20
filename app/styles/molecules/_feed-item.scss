@@ -43,9 +43,12 @@
 		.attachment {
 			height: auto;
 			max-width: 5em;
+
+			& + .content {
+				margin-left: 5em;
+			}
 		}
 		.content {
-			margin-left: 5em;
 			padding: 0.8em;
 
 			.name {

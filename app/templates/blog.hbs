@@ -19,7 +19,9 @@
 		{{> large-blog-gravatar}}
 		<div class="external">
 			{{#with object.attachments.[0]}}
+			{{#if image}}
 			<img class="attachment" height="{{image.height}}" width="{{image.width}}" src="{{image.url}}" />
+			{{/if}}
 			<div class="content">
 				<a href="{{url}}" class="name" target="_blank">{{displayName}}</a>
 				<span class="url">{{url}}</span>
