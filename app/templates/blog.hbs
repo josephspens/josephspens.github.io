@@ -3,11 +3,11 @@
 	{{> time published}}
 	<div class="title">
 		{{#link actor.url}}{{actor.displayName}}{{/link}}
-		<span>{{verb verb}}</span>
+		<span>{{Blog-showVerb verb}}</span>
 		{{#if annotation}}
 			{{#link url}}{{{annotation}}}{{/link}}
 		{{else}}{{#if title}}
-			{{#link url}}{{{trimTitle object.content}}}{{/link}}
+			{{#link url}}{{{Blog-trimTitle object.content}}}{{/link}}
 		{{else}}
 			a {{#link object.attachments.[0].url}}{{object.attachments.[0].objectType}}{{/link}}
 		{{/if}}
@@ -35,7 +35,7 @@
 		{{> large-blog-gravatar}}
 		<div class="original-share">
 			{{> author object.actor}}
-			<div class="original-message">{{trimMessage title}}</div>
+			<div class="original-message">{{Blog-trimMessage title}}</div>
 		</div>
 	</div>
 	{{/equals}}

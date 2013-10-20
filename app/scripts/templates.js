@@ -113,7 +113,7 @@ function program1(depth0,data) {
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		<span>";
   options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.verb || depth0.verb),stack1 ? stack1.call(depth0, depth0.verb, options) : helperMissing.call(depth0, "verb", depth0.verb, options)))
+  buffer += escapeExpression(((stack1 = helpers['Blog-showVerb'] || depth0['Blog-showVerb']),stack1 ? stack1.call(depth0, depth0.verb, options) : helperMissing.call(depth0, "Blog-showVerb", depth0.verb, options)))
     + "</span>\n		";
   stack2 = helpers['if'].call(depth0, depth0.annotation, {hash:{},inverse:self.program(7, program7, data),fn:self.program(4, program4, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
@@ -175,7 +175,7 @@ function program9(depth0,data) {
   
   var stack1, stack2, options;
   options = {hash:{},data:data};
-  stack2 = ((stack1 = helpers.trimTitle || depth0.trimTitle),stack1 ? stack1.call(depth0, ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options) : helperMissing.call(depth0, "trimTitle", ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options));
+  stack2 = ((stack1 = helpers['Blog-trimTitle'] || depth0['Blog-trimTitle']),stack1 ? stack1.call(depth0, ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options) : helperMissing.call(depth0, "Blog-trimTitle", ((stack1 = depth0.object),stack1 == null || stack1 === false ? stack1 : stack1.content), options));
   if(stack2 || stack2 === 0) { return stack2; }
   else { return ''; }
   }
@@ -272,7 +272,7 @@ function program21(depth0,data) {
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n			<div class=\"original-message\">";
   options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.trimMessage || depth0.trimMessage),stack1 ? stack1.call(depth0, depth0.title, options) : helperMissing.call(depth0, "trimMessage", depth0.title, options)))
+  buffer += escapeExpression(((stack1 = helpers['Blog-trimMessage'] || depth0['Blog-trimMessage']),stack1 ? stack1.call(depth0, depth0.title, options) : helperMissing.call(depth0, "Blog-trimMessage", depth0.title, options)))
     + "</div>\n		</div>\n	</div>\n	";
   return buffer;
   }
@@ -311,7 +311,7 @@ function program2(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</a> \n			<span>starred</span> \n			";
+    + "</a>\n			<span>starred</span>\n			";
   options = {hash:{},inverse:self.noop,fn:self.program(3, program3, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options) : helperMissing.call(depth0, "link", ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
@@ -348,7 +348,7 @@ function program6(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</a> \n			<span>started following</span> \n			";
+    + "</a>\n			<span>started following</span>\n			";
   options = {hash:{},inverse:self.noop,fn:self.program(7, program7, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, depth0.url, options) : helperMissing.call(depth0, "link", depth0.url, options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
@@ -382,7 +382,7 @@ function program10(depth0,data,depth1) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</a> \n			<span>pushed</span> to \n			<a href=\""
+    + "</a>\n			<span>pushed</span> to\n			<a href=\""
     + escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
     + "/tree/";
   options = {hash:{},data:data};
@@ -390,7 +390,7 @@ function program10(depth0,data,depth1) {
     + "\" target=\"_blank\">";
   options = {hash:{},data:data};
   buffer += escapeExpression(((stack1 = helpers.substr || depth0.substr),stack1 ? stack1.call(depth0, ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options) : helperMissing.call(depth0, "substr", ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref), options)))
-    + "</a> at \n			";
+    + "</a> at\n			";
   options = {hash:{},inverse:self.noop,fn:self.program(3, program3, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options) : helperMissing.call(depth0, "link", ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
@@ -417,7 +417,7 @@ function program11(depth0,data,depth2) {
   buffer += escapeExpression(stack2)
     + "\" target=\"_blank\">";
   options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.trimCommitCode || depth0.trimCommitCode),stack1 ? stack1.call(depth0, depth0[0], options) : helperMissing.call(depth0, "trimCommitCode", depth0[0], options)))
+  buffer += escapeExpression(((stack1 = helpers['Code-trimCommitCode'] || depth0['Code-trimCommitCode']),stack1 ? stack1.call(depth0, depth0[0], options) : helperMissing.call(depth0, "Code-trimCommitCode", depth0[0], options)))
     + "</a>\n						</code>\n						<blockquote class=\"original-message\">";
   if (stack2 = helpers[2]) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
   else { stack2 = depth0[2]; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
@@ -447,9 +447,9 @@ function program14(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</a> \n			<span>"
+    + "</a>\n			<span>"
     + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.action)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "</span> issue \n			";
+    + "</span> issue\n			";
   options = {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, depth0.url, options) : helperMissing.call(depth0, "link", depth0.url, options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
@@ -491,11 +491,11 @@ function program18(depth0,data) {
   if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</a> \n			<span>commented</span> on issue \n			";
+    + "</a>\n			<span>commented</span> on issue\n			";
   options = {hash:{},inverse:self.noop,fn:self.program(19, program19, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, depth0.url, options) : helperMissing.call(depth0, "link", depth0.url, options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += " of \n			";
+  buffer += " of\n			";
   stack2 = helpers['with'].call(depth0, depth0.repository, {hash:{},inverse:self.noop,fn:self.program(21, program21, data),data:data});
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n	";

@@ -2,21 +2,31 @@
 define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 	'use strict';
 
-	var helpers = function helper (obj) {
-		for(var key in obj) {
-			if(obj.hasOwnProperty(key)) {
-				Handlebars.registerHelper(key, obj[key]);
+	var helpers = function helpers () {
+		var args = Array.prototype.slice.call(arguments),
+				obj,
+				ns;
+
+		for (var index in args) {
+			if (typeof args[index] === 'object') {
+				obj = args[index];
+			} else if (typeof args[index] === 'string') {
+				ns = args[index];
+			}
+		}
+
+		if (obj !== void 0) {
+			for (var key in obj) {
+				if (obj.hasOwnProperty(key)) {
+					Handlebars.registerHelper(((ns) ? ns+'-'+key : key), obj[key]);
+				}
 			}
 		}
 	};
 
-	helpers({
+	helpers('Blog', {
 
-		date: function (context) {
-			return moment(context).format('MMMM D, YYYY');
-		},
-
-		verb: function (context) {
+		showVerb: function showVerb (context) {
 			if (context === 'post') {
 				return 'posted';
 			} else {
@@ -24,11 +34,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		trimCommitCode: function (passedString) {
-			return new Handlebars.SafeString(passedString.substring(0,7));
-		},
-
-		trimMessage: function (passedString) {
+		trimMessage: function trimMessage (passedString) {
 			var maxLength = 70,
 				string = passedString.substring(0, maxLength);
 			if (passedString.length >= maxLength) {
@@ -37,7 +43,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			return new Handlebars.SafeString(string);
 		},
 
-		trimTitle: function (passedString) {
+		trimTitle: function trimTitle (passedString) {
 			var string = passedString.replace('<br /><br />','<br />'),
 					test = /<b>(.)*<\/b><br \/>/;
 
@@ -46,13 +52,29 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 
 			return string;
+		}
+
+	});
+
+	helpers('Code', {
+
+		trimCommitCode: function trimCommitCode (passedString) {
+			return new Handlebars.SafeString(passedString.substring(0,7));
+		}
+
+	});
+
+	helpers({
+
+		date: function date (context) {
+			return moment(context).format('MMMM D, YYYY');
 		},
 
-		substr: function (passedString) {
+		substr: function substr (passedString) {
 			return new Handlebars.SafeString(passedString.substr(passedString.lastIndexOf('/')+1));
 		},
 
-		either: function (v1, v2, block) {
+		either: function either (v1, v2, block) {
 			if (v1 || v2) {
 				return block.fn(this);
 			} else {
@@ -60,7 +82,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		equals: function (v1, v2, block) {
+		equals: function equals (v1, v2, block) {
 			if (v1 === v2) {
 				return block.fn(this);
 			} else {
@@ -68,7 +90,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		equalsEither: function (compare, v1, v2, block) {
+		equalsEither: function equalsEither (compare, v1, v2, block) {
 			if (compare === v1 || compare === v2) {
 				return block.fn(this);
 			} else {
@@ -76,7 +98,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		greater: function (v1, v2, block) {
+		greater: function greater (v1, v2, block) {
 			if (v1 > v2) {
 				return block.fn(this);
 			} else {
@@ -84,7 +106,7 @@ define(['handlebars-latest', 'momentjs'], function (Handlebars) {
 			}
 		},
 
-		link: function (uri, block) {
+		link: function link (uri, block) {
 			if (uri) {
 				return '<a href="' + uri + '" target="_blank">' + block.fn(this) + '</a>';
 			} else {
