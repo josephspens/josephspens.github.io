@@ -220,6 +220,7 @@ module.exports = function (grunt) {
                 }
             }
         },
+        // Use the rev task together with usemin for cache busting of static files in your app. This allows them to be cached forever by the browser.
         rev: {
             dist: {
                 files: {
