@@ -1,6 +1,24 @@
 {
 	"items": [
 		{
+			"name": "Work Market",
+			"date": {
+				"start": "Oct 2013"
+			},
+			"description": "Marketplace for freelance and contract work",
+			"image": "wm_logo_thumb.png",
+			"uri": "//workmarket.com",
+			"technologies": [
+				"Java",
+				"Spring",
+				"LESS",
+				"Github",
+				"Wro4j",
+				"Bootstrap",
+				"Backbone"
+			]
+		},
+		{
 			"name": "Dror Baitel",
 			"date": {
 				"start": "Oct 2013",
