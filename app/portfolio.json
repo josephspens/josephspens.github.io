@@ -1,6 +1,26 @@
 {
 	"items": [
 		{
+			"name": "Dror Baitel",
+			"date": {
+				"start": "Oct 2013",
+				"end": "Dec 2013"
+			},
+			"description": "Portfolio of musician Dror Baitel",
+			"image": "baitel_logo_thumb.png",
+			"uri": "//drorbaitel.com",
+			"technologies": [
+				"Yeoman",
+				"Github",
+				"Atomic CSS",
+				"Grunt",
+				"Susy",
+				"Compass",
+				"Backbone",
+				"Node"
+			]
+		},
+		{
 			"name": "Space Advocates",
 			"company": "Space Advocates",
 			"date": {
@@ -23,7 +43,7 @@
 			"date": {
 				"start": "Sept 2013"
 			},
-			"description": "My own personal portfolio website.",
+			"description": "My own personal portfolio.",
 			"image": "spens_logo_thumb.jpg",
 			"uri": "//spens.us",
 			"technologies": [
