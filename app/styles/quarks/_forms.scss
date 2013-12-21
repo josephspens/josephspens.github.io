@@ -16,7 +16,6 @@ input, textarea {
 	@include box-sizing(border-box);
 	@include transition(0.1s all linear);
 	@include box-shadow(inset 0 0 0.4em $black);
-	@include border-radius(5px);
 
 	&:focus {
 		border-color: $white;

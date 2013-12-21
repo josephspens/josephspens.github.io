@@ -9,7 +9,6 @@
 	position: relative;
 	z-index: 1;
 	@include transition(0.2s all linear);
-	@include border-radius;
 
 	&.captcha {
 		& + #captcha {
