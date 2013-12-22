@@ -19,16 +19,11 @@ script:
  - bower install
  - grunt
 after_success:
- # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
- - git submodule add -b master https://Ow43+jp2Al+Y/AUVIbRxfjbqmAzQPv8U+wH38tqp27OeYM0iW6tIkEqyxBSTIA24HCBqrHvjuGEDxyLMruS90tx/9pybddzmMQxgTXD4wvzjNxTDvBFfKCA8VQDWwxwAELoAT8vLB3f4ovlZBWAGKkBHgVtzQ6hA2XhuXEw39ag=@github.com/josephspens/josephspens.github.io site > /dev/null 2>&1
- - cd site
- - if git checkout master; then git checkout -b master; fi
- - git rm -r .
- - cp -R ../dist/* .
- - cp ../dist/.* .
- - git add -f .
- - git config user.email "jpspens@gmail.com"
- - git config user.name "josephspens"
- - git commit -am "adding the yeoman build files to master [ci skip]"
- # Any command that using GH_OAUTH_TOKEN must pipe the output to /dev/null to not expose your oauth token
- - git push https://Ow43+jp2Al+Y/AUVIbRxfjbqmAzQPv8U+wH38tqp27OeYM0iW6tIkEqyxBSTIA24HCBqrHvjuGEDxyLMruS90tx/9pybddzmMQxgTXD4wvzjNxTDvBFfKCA8VQDWwxwAELoAT8vLB3f4ovlZBWAGKkBHgVtzQ6hA2XhuXEw39ag=@github.com/josephspens/josephspens.github.io HEAD:master > /dev/null 2>&1
+ - cd dist
+ - git add --all
+ - git commit -m 'Travis Build'
+ - git push origin master
+ - cd ..
+ - git add --all
+ - git commit -m 'Tavis Build'
+ - git push origin source

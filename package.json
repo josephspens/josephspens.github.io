@@ -1,6 +1,18 @@
 {
   "name": "josephspens",
+  "title": "Joseph Spens",
+  "description": "Joseph Spens' personal portfolio website",
+  "homepage": "http://spens.us",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephspens/josephspens.github.io"
+  },
   "version": "0.0.0",
+  "author": {
+    "name": "Joseph Spens",
+    "email": "joseph@spens.us",
+    "url": "http://spens.us"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
