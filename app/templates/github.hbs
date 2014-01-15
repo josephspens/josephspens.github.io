@@ -69,6 +69,14 @@
 				<p>{{payload.description}}</p>
 			</div>
 		</div>
+	{{else}}
+	{{#equals type 'DeleteEvent'}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a>
+			<span>deleted</span> {{payload.ref_type}} {{payload.ref}} from
+			{{#link repository.url}}{{repository.name}}{{/link}}
+		</div>
+	{{/equals}}
 	{{/equals}}
 	{{/equals}}
 	{{/equals}}

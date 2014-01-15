@@ -531,7 +531,7 @@ function program24(depth0,data,depth1) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.noop,fn:self.programWithDepth(25, program25, data, depth1),data:data};
+  options = {hash:{},inverse:self.program(32, program32, data),fn:self.programWithDepth(25, program25, data, depth1),data:data};
   stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "CreateEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "CreateEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
@@ -582,6 +582,39 @@ function program30(depth0,data) {
   
   var stack1;
   return escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1));
+  }
+
+function program32(depth0,data) {
+  
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n	";
+  options = {hash:{},inverse:self.noop,fn:self.program(33, program33, data),data:data};
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "DeleteEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "DeleteEvent", options));
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n	";
+  return buffer;
+  }
+function program33(depth0,data) {
+  
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n		<div class=\"title\">\n			<a href=\"https://github.com/";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\" target=\"_blank\">";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "</a>\n			<span>deleted</span> "
+    + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref_type)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + " "
+    + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.ref)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + " from\n			";
+  options = {hash:{},inverse:self.noop,fn:self.program(30, program30, data),data:data};
+  stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options) : helperMissing.call(depth0, "link", ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options));
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n		</div>\n	";
+  return buffer;
   }
 
   stack1 = helpers.each.call(depth0, depth0.items, {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});
