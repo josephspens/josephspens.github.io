@@ -18,12 +18,3 @@ script:
  # We want to gate on passing tests and a successful build
  - bower install
  - grunt
-after_success:
- - cd dist
- - git add --all
- - git commit -m 'Travis Build'
- - git push origin master
- - cd ..
- - git add --all
- - git commit -m 'Tavis Build'
- - git push origin source
