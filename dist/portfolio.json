@@ -1,0 +1,127 @@
+{
+	"items": [
+		{
+			"name": "Work Market",
+			"date": {
+				"start": "Oct 2013"
+			},
+			"description": "Marketplace for freelance and contract work",
+			"image": "wm_logo_thumb.png",
+			"uri": "//workmarket.com",
+			"technologies": [
+				"Java",
+				"Spring",
+				"LESS",
+				"Github",
+				"Maven",
+				"Bootstrap",
+				"Backbone"
+			]
+		},
+		{
+			"name": "Dror Baitel",
+			"date": {
+				"start": "Oct 2013",
+				"end": "Dec 2013"
+			},
+			"description": "Portfolio of musician Dror Baitel",
+			"image": "baitel_logo_thumb.png",
+			"uri": "//drorbaitel.com",
+			"technologies": [
+				"Yeoman",
+				"Github",
+				"Atomic CSS",
+				"Grunt",
+				"Susy",
+				"Compass",
+				"Backbone",
+				"Node"
+			]
+		},
+		{
+			"name": "Space Advocates",
+			"company": "Space Advocates",
+			"date": {
+				"start": "June 2013"
+			},
+			"description": "A non profit advocacy group for space exploration. The site promotes space advocacy campaigns, has a blog, and call to actions to get involved such as writing to congressional representatives.",
+			"image": "sa_logo_thumb.png",
+			"uri": "//spaceadvocates.com",
+			"technologies": [
+				"Wordpress",
+				"Github",
+				"Compass",
+				"Foundation",
+				"Modular CSS Design",
+				"Grunt"
+			]
+		},
+		{
+			"name": "Joseph Spens",
+			"date": {
+				"start": "Sept 2013"
+			},
+			"description": "My own personal portfolio.",
+			"image": "spens_logo_thumb.jpg",
+			"uri": "//spens.us",
+			"technologies": [
+				"Yeoman",
+				"Github",
+				"AJAX",
+				"Compass",
+				"Atomic CSS Design",
+				"RequireJS"
+			]
+		},
+		{
+			"name": "Chazer Clothing Store",
+			"client": "Chazer Clothing Company",
+			"date": {
+				"start": "Feb 2013"
+			},
+			"description": "Shopify retail store for tees, hoodies, hats, and other merchandise.",
+			"image": "chazer_logo_thumb.png",
+			"uri": "//chazerclothing.com",
+			"technologies": [
+				"Shopify",
+				"PHP",
+				"Git",
+				"Sass"
+			]
+		},
+		{
+			"name": "Brand Networks Website",
+			"company": "Brand Networks",
+			"date": {
+				"start": "Feb 2013",
+				"end": "May 2013"
+			},
+			"description": "Website and blog for Brand Networks, Inc.",
+			"image": "bn_logo_thumb.png",
+			"uri": "//brandnetworksinc.com",
+			"technologies": [
+				"Drupal",
+				"PHP"
+			]
+		},
+		{
+			"name": "OPEN Forum Beta",
+			"client": "American Express",
+			"company": "Brand Networks",
+			"date": {
+				"start": "Sep 2012",
+				"end": "Feb 2013"
+			},
+			"description": "A social network for entrepreneurs.",
+			"image": "of_logo_thumb.png",
+			"uri": "//openforum.com",
+			"technologies": [
+				"Wordpress",
+				"PHP",
+				"Sass",
+				"Git",
+				"jQuery"
+			]
+		}
+	]
+}

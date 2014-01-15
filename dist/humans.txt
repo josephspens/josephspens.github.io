@@ -1,0 +1,10 @@
+/* TEAM */
+Developer/Designer: Joseph Spens
+Twitter: @joespens
+Location: New York, NY, USA
+
+/* SITE */
+Last update: 2013/10/10
+Standards: HTML5, CSS3, Atomic CSS
+Components: Yeoman (Yo, Bower, Grunt), jQuery, Modernizr, RequireJS, Compass (Sass)
+Software: Sublime Text 2, Google Chrome, Terminal
