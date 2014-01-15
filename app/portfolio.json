@@ -122,23 +122,6 @@
 				"Git",
 				"jQuery"
 			]
-		},
-		{
-			"name": "Callaway Hit The Links",
-			"client": "Callaway Golf",
-			"company": "Brand Networks",
-			"date": {
-				"start": "Mar 2013",
-				"end": "May 2013"
-			},
-			"description": "A campaign to promote golf outings as networking opportunities for business professionals.",
-			"image": "callaway_logo_thumb.png",
-			"technologies": [
-				"ASP.NET",
-				"SVN",
-				"LESS",
-				"UnderscoreJS"
-			]
 		}
 	]
 }
