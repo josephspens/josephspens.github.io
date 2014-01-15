@@ -8,12 +8,12 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 			if(container === 'github'){
 				data = {
 					items: $.map(data, function(value, index) {
-						return (index < 8) ? value : null;
+						return value;
 					})
 				};
 			}
 
-			//console.log(data);
+			console.log(data);
 
 			$('#' + container + ' .items').html(Templates[container](data));
 		});

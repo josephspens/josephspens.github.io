@@ -453,9 +453,6 @@ function program14(depth0,data) {
   options = {hash:{},inverse:self.noop,fn:self.program(15, program15, data),data:data};
   stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, depth0.url, options) : helperMissing.call(depth0, "link", depth0.url, options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n		</div>\n		<div class=\"details\">\n			";
-  stack2 = self.invokePartial(partials['large-github-gravatar'], 'large-github-gravatar', depth0, helpers, partials, data);
-  if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n		</div>\n	";
   return buffer;
   }
@@ -474,7 +471,7 @@ function program17(depth0,data) {
   
   var buffer = "", stack1, stack2, options;
   buffer += "\n	";
-  options = {hash:{},inverse:self.noop,fn:self.program(18, program18, data),data:data};
+  options = {hash:{},inverse:self.programWithDepth(24, program24, data, depth0),fn:self.program(18, program18, data),data:data};
   stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "IssueCommentEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "IssueCommentEvent", options));
   if(stack2 || stack2 === 0) { buffer += stack2; }
   buffer += "\n	";
@@ -528,6 +525,63 @@ function program22(depth0,data) {
   else { stack1 = depth0.name; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1);
   return buffer;
+  }
+
+function program24(depth0,data,depth1) {
+  
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n	";
+  options = {hash:{},inverse:self.noop,fn:self.programWithDepth(25, program25, data, depth1),data:data};
+  stack2 = ((stack1 = helpers.equals || depth0.equals),stack1 ? stack1.call(depth0, depth0.type, "CreateEvent", options) : helperMissing.call(depth0, "equals", depth0.type, "CreateEvent", options));
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n	";
+  return buffer;
+  }
+function program25(depth0,data,depth2) {
+  
+  var buffer = "", stack1, stack2, options;
+  buffer += "\n		<div class=\"title\">\n			<a href=\"https://github.com/";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "\" target=\"_blank\">";
+  if (stack1 = helpers.actor) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
+  else { stack1 = depth0.actor; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  buffer += escapeExpression(stack1)
+    + "</a>\n			<span>";
+  stack2 = helpers['if'].call(depth0, ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.fork), {hash:{},inverse:self.program(28, program28, data),fn:self.program(26, program26, data),data:data});
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "</span> repository\n			";
+  options = {hash:{},inverse:self.noop,fn:self.program(30, program30, data),data:data};
+  stack2 = ((stack1 = helpers.link || depth0.link),stack1 ? stack1.call(depth0, ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options) : helperMissing.call(depth0, "link", ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.url), options));
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n		</div>\n		<div class=\"details\">\n			";
+  stack2 = self.invokePartial(partials['large-github-gravatar'], 'large-github-gravatar', depth0, helpers, partials, data);
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n			<div class=\"repo-description\">\n				";
+  stack2 = self.invokePartial(partials['small-github-gravatar'], 'small-github-gravatar', depth2, helpers, partials, data);
+  if(stack2 || stack2 === 0) { buffer += stack2; }
+  buffer += "\n				<p>"
+    + escapeExpression(((stack1 = ((stack1 = depth0.payload),stack1 == null || stack1 === false ? stack1 : stack1.description)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
+    + "</p>\n			</div>\n		</div>\n	";
+  return buffer;
+  }
+function program26(depth0,data) {
+  
+  
+  return "forked";
+  }
+
+function program28(depth0,data) {
+  
+  
+  return "created";
+  }
+
+function program30(depth0,data) {
+  
+  var stack1;
+  return escapeExpression(((stack1 = ((stack1 = depth0.repository),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1));
   }
 
   stack1 = helpers.each.call(depth0, depth0.items, {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data});

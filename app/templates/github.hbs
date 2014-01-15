@@ -45,9 +45,6 @@
 			<span>{{payload.action}}</span> issue
 			{{#link url}}{{repository.organization}}/{{repository.name}}#{{payload.number}}{{/link}}
 		</div>
-		<div class="details">
-			{{> large-github-gravatar}}
-		</div>
 	{{else}}
 	{{#equals type 'IssueCommentEvent'}}
 		<div class="title">
@@ -58,6 +55,21 @@
 				{{#link url}}{{owner}}/{{name}}{{/link}}
 			{{/with}}
 		</div>
+	{{else}}
+	{{#equals type 'CreateEvent'}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a>
+			<span>{{#if repository.fork}}forked{{else}}created{{/if}}</span> repository
+			{{#link repository.url}}{{repository.name}}{{/link}}
+		</div>
+		<div class="details">
+			{{> large-github-gravatar}}
+			<div class="repo-description">
+				{{> small-github-gravatar ../../this}}
+				<p>{{payload.description}}</p>
+			</div>
+		</div>
+	{{/equals}}
 	{{/equals}}
 	{{/equals}}
 	{{/equals}}
