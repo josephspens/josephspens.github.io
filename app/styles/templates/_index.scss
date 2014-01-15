@@ -93,6 +93,7 @@ header {
 }
 
 #feeds {
+	@include pie-clearfix;
 	background: image-url($header-background-uri);
 
 	section {

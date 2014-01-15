@@ -76,6 +76,15 @@
 			<span>deleted</span> {{payload.ref_type}} {{payload.ref}} from
 			{{#link repository.url}}{{repository.name}}{{/link}}
 		</div>
+	{{else}}
+	{{#equals type 'PullRequestEvent'}}
+		<div class="title">
+			<a href="https://github.com/{{actor}}" target="_blank">{{actor}}</a>
+			<span>{{#if payload.pull_request.merged}}merged{{else}}{{payload.action}}{{/if}}</span>
+			{{#link payload.pull_request.html_url}}{{payload.pull_request.title}}{{/link}} on
+			{{#link repository.url}}{{repository.name}}{{/link}}
+		</div>
+	{{/equals}}
 	{{/equals}}
 	{{/equals}}
 	{{/equals}}

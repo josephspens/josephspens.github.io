@@ -8,7 +8,7 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 			if(container === 'github'){
 				data = {
 					items: $.map(data, function(value, index) {
-						return value;
+						return (index < 10) ? value : null;
 					})
 				};
 			}
@@ -20,7 +20,7 @@ define(['jquery', 'handlebars', 'templates'], function ($, Handlebars, Templates
 	}
 
 	fetch('github','https://github.com/josephspens.json?callback=?');
-	fetch('blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=5&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
+	fetch('blog','https://www.googleapis.com/plus/v1/people/105984509136518387439/activities/public?maxResults=4&key=AIzaSyCjsAgokjM_8s_M2HMuCt2YuKSxcE9Owb8');
 	fetch('portfolio','portfolio.json');
 
 });
