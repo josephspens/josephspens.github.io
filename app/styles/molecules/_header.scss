@@ -1,14 +1,16 @@
 header {
+
+	padding-top: $grid-padding;
 	width: 100%;
-	padding: 6em 5%;
-	@include box-sizing(border-box);
 	background: image-url($header-background-uri);
 
 	@media #{$small} {
 		height: 100%;
-		padding: 5em 5%;
 	}
 
+	.container {
+		height: 100%;
+	}
 	.logo {
 		display: none;
 
@@ -22,8 +24,7 @@ header {
 		margin: 0;
 		overflow: hidden;
 
-		span {
-			display: block;
+		div {
 			float: left;
 			clear: both;
 			background-color: $white;

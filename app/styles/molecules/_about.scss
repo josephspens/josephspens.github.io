@@ -1,12 +1,8 @@
 #about {
-	@extend %black-section;
 	position: relative;
-	padding: 3em 1em;
-
-	@media #{$small} {
-		padding: 3em;
-		position: relative;
-	}
+	@extend %black-section;
+	padding-top: 3em;
+	padding-bottom: 3em;
 
 	.bio {
 		font-size: 2em;

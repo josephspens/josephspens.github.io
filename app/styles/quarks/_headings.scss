@@ -1,33 +1,8 @@
 h1 {
-	font: normal 3em/1em $secondary_font;
+	font: normal 3em/1em $header-font;
 	white-space: nowrap;
-}
 
-h2 {
-	opacity: 1;
-	padding: 0.8em;
-	margin: -2.5em auto 0;
-	width: 6em;
-	height: 1em;
-	color: $white;
-	background-color: $dark-grey-on-dark;
-	font:normal 2em/1.1em $secondary_font;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	@include transition(0.2s all ease-in-out);
-}
-
-@media #{$small} {
-
-	h1 {
+	@media #{$small} {
 		font-size: 5em;
 	}
-
-	h2.hidden {
-		opacity: 0;
-		width: 0;
-		height: 0;
-		color: $dark-grey-on-dark;
-	}
-
 }

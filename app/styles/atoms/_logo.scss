@@ -1,15 +1,17 @@
 .logo {
+	font-weight: bold;
+	line-height: 0.9em;
+	font-family: $header-font;
 	display: inline-block;
 	margin: 0;
-	padding: 0.5em;
+	padding: $small-grid-spacing;
 	background-color: $white;
-	font: bold 1.5em/0.9em $secondary_font;
 	letter-spacing: -0.1em;
 	width: auto;
 	color: $black;
 
 	* {
-		border-bottom: 0.15em solid $black;
+		border-bottom: 3px solid $black;
 		display: inline-block;
 	}
 }

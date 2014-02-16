@@ -1,4 +1,5 @@
 %section {
+	@include container;
 	padding-top: 3em;
 	text-align: center;
 
@@ -10,4 +11,28 @@
 
 section {
 	@extend %section;
+
+	h2 {
+		opacity: 1;
+		padding: 0.8em;
+		margin: -2.5em auto 0;
+		width: 6em;
+		height: 1em;
+		color: $white;
+		background-color: $dark-grey-on-dark;
+		font:normal 2em/1.1em $header-font;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		@include transition(0.2s all ease-in-out);
+		box-sizing: content-box;
+
+		&.hidden {
+			@media #{$small} {
+				opacity: 0;
+				width: 0;
+				height: 0;
+				color: $dark-grey-on-dark;
+			}
+		}
+	}
 }

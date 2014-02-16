@@ -173,9 +173,7 @@ module.exports = function (grunt) {
 				httpGeneratedImagesPath: '/images/generated',
 				httpFontsPath: '/styles/fonts',
 				relativeAssets: false,
-				require: [
-					'sass-globbing'
-				]
+				require: [ 'sass-globbing', 'susy' ]
 			},
 			dist: {
 				options: {

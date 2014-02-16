@@ -18,13 +18,24 @@ $green: #009900;
 
 $blue: #0000cc;
 
-/////// Page dimension configuration ///////
+/////// Susy configuration ///////
 // -----------------------------------------------------------------------------
+$total-columns: 12;				// The number of Columns in your default Grid Layout
+$column-width: 6em;				// The width of a single Column in your Grid
+$gutter-width: 1em;				// The space between Columns
+$grid-padding: 1em;				// Padding on the left and right of a Grid Container
+
+$base-grid-spacing: 1em;
+$small-grid-spacing: $base-grid-spacing / 2;
+
+$small-screen: 2 48em;
+$medium-screen: 48em 6 80em;
+$large-screen: 80em 12;
 
 /////// Typography configuration ///////
 // -----------------------------------------------------------------------------
 $primary_font: Raleway, Helvetica, sans-serif;
-$secondary_font: Museo, serif;
+$header-font: Museo, serif;
 
 $base-font-size: 16px;
 $small-font-size: 12px;
