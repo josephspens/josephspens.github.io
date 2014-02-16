@@ -2,6 +2,7 @@
 	"items": [
 		{
 			"name": "Work Market",
+			"company": "Work Market",
 			"date": {
 				"start": "Oct 2013"
 			},
@@ -20,6 +21,7 @@
 		},
 		{
 			"name": "Dror Baitel",
+			"client": "Dror Baitel",
 			"date": {
 				"start": "Oct 2013",
 				"end": "Dec 2013"
@@ -102,25 +104,6 @@
 			"technologies": [
 				"Drupal",
 				"PHP"
-			]
-		},
-		{
-			"name": "OPEN Forum Beta",
-			"client": "American Express",
-			"company": "Brand Networks",
-			"date": {
-				"start": "Sep 2012",
-				"end": "Feb 2013"
-			},
-			"description": "A social network for entrepreneurs.",
-			"image": "of_logo_thumb.png",
-			"uri": "//openforum.com",
-			"technologies": [
-				"Wordpress",
-				"PHP",
-				"Sass",
-				"Git",
-				"jQuery"
 			]
 		}
 	]
