@@ -1,4 +1,4 @@
-.feed-item {
+%feed-item {
 	max-width: 40em;
 	text-align: left;
 	margin: 0 auto;
@@ -34,11 +34,16 @@
 		}
 		.original-author-image {
 			margin-left: 0.5em;
+
+			@media #{$small} {
+				margin-left: 0;
+			}
 		}
 	}
 }
 
 .blog-item {
+	@extend %feed-item;
 	@include pie-clearfix;
 
 	.external {
@@ -65,7 +70,13 @@
 }
 
 .github-item {
+	@extend %feed-item;
+
 	.commits {
+		@media #{$small} {
+			margin-left: 1.5em;
+		}
+
 		.commit {
 			overflow: hidden;
 		}
@@ -85,22 +96,4 @@
 			overflow: hidden;
 		}
 	}
-}
-
-@media #{$small} {
-
-	.feed-item {
-		.details {
-			.original-author-image {
-				margin-left: 0;
-			}
-		}
-	}
-
-	.github-item {
-		.commits {
-			margin-left: 1.5em;
-		}
-	}
-
 }

@@ -1,0 +1,42 @@
+header {
+	width: 100%;
+	padding: 6em 5%;
+	@include box-sizing(border-box);
+	background: image-url($header-background-uri);
+
+	@media #{$small} {
+		height: 100%;
+		padding: 5em 5%;
+	}
+
+	.logo {
+		display: none;
+
+		@media #{$small} {
+			display: inline-block;
+		}
+	}
+	h1 {
+		position: relative;
+		top: 25%;
+		margin: 0;
+		overflow: hidden;
+
+		span {
+			display: block;
+			float: left;
+			clear: both;
+			background-color: $white;
+			padding: 0.3em 0.4em;
+
+			&:first-child {
+				padding-bottom: 0;
+				position: relative;
+
+				@media #{$small} {
+					margin-bottom: -0.2em;
+				}
+			}
+		}
+	}
+}

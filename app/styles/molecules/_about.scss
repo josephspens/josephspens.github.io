@@ -1,6 +1,12 @@
 #about {
+	@extend %black-section;
+	position: relative;
 	padding: 3em 1em;
-	position: static;
+
+	@media #{$small} {
+		padding: 3em;
+		position: relative;
+	}
 
 	.bio {
 		font-size: 2em;
@@ -15,12 +21,5 @@
 		p {
 			margin: 0;
 		}
-	}
-}
-
-@media #{$small} {
-	#about {
-		padding: 3em;
-		position: relative;
 	}
 }

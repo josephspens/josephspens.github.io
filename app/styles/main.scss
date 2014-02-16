@@ -9,24 +9,23 @@
 // ------------------------------------------------------------------------------
 @import "utilities/normalize";
 
-// Compass Libraries
+// Vendor Libraries
 // ------------------------------------------------------------------------------
 @import "compass/css3";
 @import "compass/utilities";
 
-// Vendor Libraries
-// ------------------------------------------------------------------------------
+@import "font-awesome/scss/font-awesome";
 
-// Web fonts
+// Fonts
 // ------------------------------------------------------------------------------
 @import "fonts/*";
 
 // Images
 // ------------------------------------------------------------------------------
-//@import "utilities/sprites";
 
 // Custom styles
 // ------------------------------------------------------------------------------
+@import "utilities/*";
 @import "quarks/*";
 @import "atoms/*";
 @import "molecules/*";

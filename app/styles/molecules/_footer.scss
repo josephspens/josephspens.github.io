@@ -1,0 +1,18 @@
+footer {
+	@extend section;
+	@extend %black-section;
+	clear: both;
+
+	ul {
+		@extend %horizontal-list;
+		font-size: 2em;
+		padding: 1em 0;
+
+		li {
+			margin: 0 0.5em;
+		}
+		a {
+			color: inherit;
+		}
+	}
+}

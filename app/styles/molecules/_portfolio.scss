@@ -1,3 +1,11 @@
+#portfolio {
+	border-top: 1px solid $light-grey-on-light;
+
+	h2 {
+		background-color: $light-grey-on-light;
+	}
+}
+
 .portfolio-item {
 	overflow: hidden;
 	padding: 5% 1% 0;

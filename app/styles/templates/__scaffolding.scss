@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: $primary_font;
+	font-size: $small-font-size;
+	-webkit-font-smoothing: antialiased;
+
+	@media #{$small} {
+		font-size: $base-font-size;
+	}
+}
+
+#container {
+	padding: 0;
+
+	@media #{$small} {
+		padding: 0 5%;
+	}
+}

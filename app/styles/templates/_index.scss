@@ -1,103 +1,18 @@
-%section {
-	padding-top: 3em;
-	text-align: center;
-
-	.items {
-		overflow: hidden;
-		padding-bottom: 5em;
-	}
-}
-
-%black-section {
-	@extend %section;
-	background-color: $black;
-	color: $white;
-}
-
-nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 0.5em;
-	@include box-sizing(border-box);
-	z-index: 1;
-
-	&, ul {
-		background-color: $white;
-		@include transition(0.2s all linear);
-	}
-	&.work_section {
-		&, ul {
-			background: $light-grey-on-light;
-		}
-	}
-	ul {
-		text-align: center;
-		padding: 0.2em 1em;
-
-		li {
-			display: inline-block;
-			padding: 1em 2%;
-			cursor: pointer;
-			text-transform: lowercase;
-		}
-	}
-}
-
-header {
-	width: 100%;
-	padding: 6em 5%;
-	@include box-sizing(border-box);
-	background: image-url($header-background-uri);
-
-	.logo {
-		display: none;
-	}
-	h1 {
-		position: relative;
-		top: 25%;
-		margin: 0;
-		overflow: hidden;
-
-		span {
-			display: block;
-			float: left;
-			clear: both;
-			background-color: $white;
-			padding: 0.3em 0.4em;
-
-			&:first-child {
-				padding-bottom: 0;
-				position: relative;
-			}
-		}
-	}
-}
-
-#container {
-	padding: 0;
-
-	#about {
-		@extend %black-section;
-		position: relative;
-	}
-
-	#portfolio {
-		@extend %section;
-		border-top: 1px solid $light-grey-on-light;
-
-		h2 {
-			background-color: $light-grey-on-light;
-		}
-	}
-}
-
 #feeds {
 	@include pie-clearfix;
 	background: image-url($header-background-uri);
 
+	@media #{$small} {
+		padding: 0 5%;
+	}
+
 	section {
 		@extend %section;
+
+		@media #{$small} {
+			float: left;
+			width: 50%;
+		}
 
 		h2 {
 			background-color: $dark-grey-on-light;
@@ -106,70 +21,8 @@ header {
 			padding-top: 3em;
 		}
 	}
-	#blog {
-		border-top: 1px solid $dark-grey-on-light;
-	}
 }
 
-footer {
-	@extend %black-section;
-	clear: both;
-
-	ul {
-		padding: 1em 0;
-
-		a {
-			color: inherit;
-		}
-	}
-}
-
-@media #{$small} {
-
-	body {
-		font-size: $base-font-size;
-	}
-
-	#container, #feeds {
-		padding: 0 5%;
-	}
-
-	header {
-		height:100%;
-		padding: 5em 5%;
-
-		.logo {
-			display: inline-block;
-		}
-		h1 {
-			span {
-				&:first-child {
-					margin-bottom: -0.2em;
-				}
-			}
-		}
-	}
-
-	nav {
-		ul {
-			margin: 0 2em 0 0;
-			padding: 0.5em 1em;
-			float: right;
-
-			li {
-				padding: 0.5em 1em;
-			}
-		}
-	}
-
-	#feeds {
-		section {
-			float: left;
-			width: 50%;
-		}
-		#blog {
-			border-top: none;
-		}
-	}
-
+iframe {
+	display: none;
 }

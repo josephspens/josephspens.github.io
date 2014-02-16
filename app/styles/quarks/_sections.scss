@@ -1,0 +1,13 @@
+%section {
+	padding-top: 3em;
+	text-align: center;
+
+	.items {
+		overflow: hidden;
+		padding-bottom: 5em;
+	}
+}
+
+section {
+	@extend %section;
+}

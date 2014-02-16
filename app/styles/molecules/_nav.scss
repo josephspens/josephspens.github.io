@@ -1,0 +1,39 @@
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 0.5em;
+	@include box-sizing(border-box);
+	z-index: 1;
+
+	&, ul {
+		background-color: $white;
+		@include transition(0.2s all linear);
+	}
+	&.work_section {
+		&, ul {
+			background: $light-grey-on-light;
+		}
+	}
+	ul {
+		text-align: center;
+		padding: 0.2em 1em;
+
+		@media #{$small} {
+			margin: 0 2em 0 0;
+			padding: 0.5em 1em;
+			float: right;
+		}
+
+		li {
+			display: inline-block;
+			padding: 1em 2%;
+			cursor: pointer;
+			text-transform: lowercase;
+
+			@media #{$small} {
+				padding: 0.5em 1em;
+			}
+		}
+	}
+}
