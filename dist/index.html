@@ -18,7 +18,7 @@
 		<meta itemprop="image" content="http://spens.us/images/logo_90x90.png">
 		<link type="text/plain" rel="author" href="http://domain/humans.txt">
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		<link rel="stylesheet" href="styles/63c58251.main.css">
+		<link rel="stylesheet" href="styles/187a8b6c.main.css">
 		<script src="scripts/vendor/f7f27360.modernizr.js"></script>
 	</head>
 	<body>
@@ -27,46 +27,46 @@
 		<![endif]-->
 
 		<nav>
-			<ul>
-				<li class="home">Home</li>
-				<li class="about">About</li>
-				<li class="work">Work</li>
-				<li class="github">Code</li>
-				<li class="blog">Blog</li>
-				<li class="contact">Contact</li>
-			</ul>
+			<div class="container">
+				<ul>
+					<li class="home">Home</li>
+					<li class="about">About</li>
+					<li class="work">Work</li>
+					<li class="github">Code</li>
+					<!-- <li class="blog">Blog</li> -->
+					<li class="contact">Contact</li>
+				</ul>
+			</div>
 		</nav>
 
 		<header>
-			<div class="logo"><span>JS</span></div>
-			<h1>
-				<span>I like creating</span>
-				<span>web <strong>experiences</strong></span>
-			</h1>
+			<div class="container">
+				<div class="logo"><span>JS</span></div>
+				<h1>
+					<div>I like creating</div>
+					<div>web <strong>experiences</strong></div>
+				</h1>
+			</div>
 		</header>
 
-		<div id="container">
+		<section id="about">
+			<h2>About</h2>
+			<p class="bio">My&nbsp;name&nbsp;is&nbsp;Joseph&nbsp;Spens, I&nbsp;am&nbsp;a&nbsp;Frontend&nbsp;Web&nbsp;Engineer living&nbsp;in&nbsp;New&nbsp;York&nbsp;City.</p>
+			<div class="background">
+				<p><span>I received my MS degree</span> <span>in Web Development from <a href="//rit.edu" target="_blank">RIT</a></span></p>
+				<p><span>I am currently a Software Engineer</span> <span>at <a href="//workmarket.com" target="_blank">Work Market</a></span></p>
+				<p><span>and the Lead Web Developer</span> <span>at <a href="//spaceadvocates.com" target="_blank">Space Advocates</a></span></p>
+			</div>
+		</section>
 
-			<section id="about">
-				<h2>About</h2>
-				<p class="bio">My&nbsp;name&nbsp;is&nbsp;Joseph&nbsp;Spens, I&nbsp;am&nbsp;a&nbsp;Frontend&nbsp;Web&nbsp;Engineer living&nbsp;in&nbsp;New&nbsp;York&nbsp;City.</p>
-				<div class="background">
-					<p><span>I received my MS degree</span> <span>in Web Development from <a href="//rit.edu" target="_blank">RIT</a></span></p>
-					<p><span>I am currently a Software Engineer</span> <span>at <a href="//workmarket.com" target="_blank">Work Market</a></span></p>
-					<p><span>and the Lead Web Developer</span> <span>at <a href="//spaceadvocates.com" target="_blank">Space Advocates</a></span></p>
+		<section id="portfolio">
+			<h2>Work</h2>
+			<div class="items">
+				<div class="empty">
+					<h3>Oops... there's a problem loading the portfolio feed</h3>
 				</div>
-			</section>
-
-			<section id="portfolio">
-				<h2>Work</h2>
-				<div class="items">
-					<div class="empty">
-						<h3>Oops... there's a problem loading the portfolio feed</h3>
-					</div>
-				</div>
-			</section>
-
-		</div>
+			</div>
+		</section>
 
 		<div id="feeds">
 
@@ -79,60 +79,62 @@
 				</div>
 			</section>
 
-			<section id="blog">
+<!-- 			<section id="blog">
 				<h2>Blog</h2>
 				<div class="items">
 					<div class="empty">
-						<h3>Oops... there's a problem<br>loading the feed from Google+</h3>
+						<h3>Oops... there's a problem<br />loading the feed from Google+</h3>
 					</div>
 				<div>
-			</div></div></section>
+			</section> -->
 
 		</div>
 
 		<footer>
-			<h2>Contact</h2>
-			<ul>
-				<li><a href="https://plus.google.com/+JosephSpens" target="_blank">Google+</a></li>
-				<li><a href="https://github.com/josephspens" target="_blank">Github</a></li>
-				<li><a href="http://stackoverflow.com/users/1824448/joseph-spens" target="_blank">Stack Overflow</a></li>
-				<li><a href="https://twitter.com/JoeSpens" target="_blank">Twitter</a></li>
-				<li><a href="http://www.linkedin.com/in/josephspens" target="_blank">LinkedIn</a></li>
-				<li><a href="https://www.facebook.com/jspens" target="_blank">Facebook</a></li>
-			</ul>
-			<div id="mail-form">
-				<label for="name">Name</label>
-				<input id="name" type="text">
+			<div class="container">
+				<h2>Contact</h2>
+				<ul>
+					<li><a href="https://twitter.com/JoeSpens" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://github.com/josephspens" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li><a href="http://stackoverflow.com/users/1824448/joseph-spens" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+					<li><a href="https://plus.google.com/+JosephSpens" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				<div id="mail-form">
+					<label for="name">Name</label>
+					<input id="name" type="text">
 
-				<label for="email">Email</label>
-				<input id="email" type="email">
+					<label for="email">Email</label>
+					<input id="email" type="email">
 
-				<label for="subject">Subject</label>
-				<input id="subject" type="text">
+					<label for="subject">Subject</label>
+					<input id="subject" type="text">
 
-				<label for="message">Mesasge</label>
-				<textarea id="message"></textarea>
+					<label for="message">Mesasge</label>
+					<textarea id="message"></textarea>
 
-				<button id="send-mail">
-					<div class="container">
-						<span class="hidden">Sending</span>
-						<span class="step1-text">Next</span>
-						<span class="step2-text">Send</span>
-						<span class="sending-text">Sending</span>
-						<span class="sent-text">Sent</span>
+					<button id="send-mail">
+						<div class="send-mail--states">
+							<span class="hidden">Sending</span>
+							<span class="step1-text">Next</span>
+							<span class="step2-text">Send</span>
+							<span class="sending-text">Sending</span>
+							<span class="sent-text">Sent</span>
+						</div>
+					</button>
+
+					<div id="captcha">
+						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
+						<noscript>
+							<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br>
+							<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+							<input type="hidden" name="recaptcha_response_field" value="manual_challenge">
+						</noscript>
 					</div>
-				</button>
-
-				<div id="captcha">
-					<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
-					<noscript>
-						<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br>
-						<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-						<input type="hidden" name="recaptcha_response_field" value="manual_challenge">
-					</noscript>
 				</div>
 			</div>
-			<div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
+			<div class="copy">
+				All Content &copy; 2013 Joseph Spens. All Rights Reserved.
+			</div>
 		</footer>
 
 		<script src="scripts/1137e1f5.vendor.js"></script>
@@ -147,6 +149,6 @@
 			ga('create','UA-24686161-1');ga('send','pageview');
 		</script>
 
-		<script data-main="scripts/9f84e583.main" src="bower_components/requirejs/require.js"></script>
-</body>
+		<script data-main="scripts/fdf64948.main" src="bower_components/requirejs/require.js"></script>
+	</body>
 </html>
