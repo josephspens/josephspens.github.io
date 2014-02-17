@@ -9,16 +9,8 @@
 	section {
 		@extend %section;
 
-		@media #{$small} {
-			float: left;
-			width: 50%;
-		}
-
 		h2 {
 			background-color: $dark-grey-on-light;
-		}
-		.items {
-			padding-top: 3em;
 		}
 	}
 }

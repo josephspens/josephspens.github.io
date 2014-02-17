@@ -5,7 +5,7 @@
 
 	.items {
 		overflow: hidden;
-		padding-bottom: 5em;
+		padding-bottom: 3em;
 	}
 }
 
@@ -13,18 +13,19 @@ section {
 	@extend %section;
 
 	h2 {
+		@include span-columns(2);
+		@include isolate(6);
+		// font-size: 2em;
+		line-height: 1.1em;
+		font-family: $header-font;
+		text-transform: uppercase;
 		opacity: 1;
 		padding: 0.8em;
-		margin: -2.5em auto 0;
-		width: 6em;
-		height: 1em;
+		margin-top: -3em;
 		color: $white;
 		background-color: $dark-grey-on-dark;
-		font:normal 2em/1.1em $header-font;
-		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		@include transition(0.2s all ease-in-out);
-		box-sizing: content-box;
 
 		&.hidden {
 			@media #{$small} {

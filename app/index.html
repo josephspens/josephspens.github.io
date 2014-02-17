@@ -37,7 +37,7 @@
 					<li class="about">About</li>
 					<li class="work">Work</li>
 					<li class="github">Code</li>
-					<li class="blog">Blog</li>
+					<!-- <li class="blog">Blog</li> -->
 					<li class="contact">Contact</li>
 				</ul>
 			</div>
@@ -83,58 +83,62 @@
 				</div>
 			</section>
 
-			<section id="blog">
+<!-- 			<section id="blog">
 				<h2>Blog</h2>
 				<div class="items">
 					<div class="empty">
 						<h3>Oops... there's a problem<br />loading the feed from Google+</h3>
 					</div>
 				<div>
-			</section>
+			</section> -->
 
 		</div>
 
 		<footer>
-			<h2>Contact</h2>
-			<ul>
-				<li><a href="https://twitter.com/JoeSpens" target="_blank"><i class="fa fa-twitter"></i></li>
-				<li><a href="https://github.com/josephspens" target="_blank"><i class="fa fa-github"></i></a></li>
-				<li><a href="http://stackoverflow.com/users/1824448/joseph-spens" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-				<li><a href="https://plus.google.com/+JosephSpens" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-			</ul>
-			<div id="mail-form">
-				<label for="name">Name</label>
-				<input id="name" type="text" />
+			<div class="container">
+				<h2>Contact</h2>
+				<ul>
+					<li><a href="https://twitter.com/JoeSpens" target="_blank"><i class="fa fa-twitter"></i></li>
+					<li><a href="https://github.com/josephspens" target="_blank"><i class="fa fa-github"></i></a></li>
+					<li><a href="http://stackoverflow.com/users/1824448/joseph-spens" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
+					<li><a href="https://plus.google.com/+JosephSpens" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				</ul>
+				<div id="mail-form">
+					<label for="name">Name</label>
+					<input id="name" type="text" />
 
-				<label for="email">Email</label>
-				<input id="email" type="email" />
+					<label for="email">Email</label>
+					<input id="email" type="email" />
 
-				<label for="subject">Subject</label>
-				<input id="subject" type="text" />
+					<label for="subject">Subject</label>
+					<input id="subject" type="text" />
 
-				<label for="message">Mesasge</label>
-				<textarea id="message"></textarea>
+					<label for="message">Mesasge</label>
+					<textarea id="message"></textarea>
 
-				<button id="send-mail">
-					<div class="container">
-						<span class="hidden">Sending</span>
-						<span class="step1-text">Next</span>
-						<span class="step2-text">Send</span>
-						<span class="sending-text">Sending</span>
-						<span class="sent-text">Sent</span>
+					<button id="send-mail">
+						<div class="send-mail--states">
+							<span class="hidden">Sending</span>
+							<span class="step1-text">Next</span>
+							<span class="step2-text">Send</span>
+							<span class="sending-text">Sending</span>
+							<span class="sent-text">Sent</span>
+						</div>
+					</button>
+
+					<div id="captcha">
+						<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
+						<noscript>
+							<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br/>
+							<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+							<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
+						</noscript>
 					</div>
-				</button>
-
-				<div id="captcha">
-					<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37"></script>
-					<noscript>
-						<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdizOcSAAAAAL93AbPwSSK-dP5M4L2txnUbjS37" height="300" width="500" frameborder="0"></iframe><br/>
-						<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-						<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
-					</noscript>
 				</div>
 			</div>
-			<div class="copy">All Content &copy; 2013 Joseph Spens. All Rights Reserved.</div>
+			<div class="copy">
+				All Content &copy; 2013 Joseph Spens. All Rights Reserved.
+			</div>
 		</footer>
 
 		<!-- build:js scripts/vendor.js -->

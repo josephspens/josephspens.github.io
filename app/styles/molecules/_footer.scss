@@ -1,8 +1,10 @@
 footer {
-	@extend section;
 	@extend %black-section;
 	clear: both;
 
+	.container {
+		@extend section;
+	}
 	ul {
 		@extend %horizontal-list;
 		font-size: 2em;
