@@ -3,8 +3,15 @@ require.config({
 		jquery: '../bower_components/jquery/jquery',
 		requirejs: '../bower_components/requirejs/require',
 		handlebarsjs: '../bower_components/handlebars.js/dist/handlebars',
-		momentjs: '../bower_components/momentjs/moment',
-		'handlebars-latest': '../bower_components/handlebars-latest.js/index'
+		momentjs: '../bower_components/momentjs/moment'
+	},
+	shim: {
+		'handlebarsjs': {
+			exports: 'Handlebars'
+		},
+		'momentjs': {
+			exports: 'moment'
+		}
 	}
 });
 

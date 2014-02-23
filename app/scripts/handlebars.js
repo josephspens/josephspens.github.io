@@ -1,5 +1,5 @@
-/*global define, moment */
-define(['handlebars-latest', 'momentjs'], function (Handlebars) {
+/*global define */
+define(['handlebarsjs', 'momentjs'], function (Handlebars, moment) {
 	'use strict';
 
 	var helpers = function helpers () {
