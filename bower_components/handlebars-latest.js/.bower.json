@@ -1,0 +1,14 @@
+{
+  "name": "handlebars-latest.js",
+  "_cacheHeaders": {
+    "ETag": "\"209fb9e59d6dd795f628597f0ddd26e7\"",
+    "Last-Modified": "Mon, 10 Feb 2014 05:04:43 GMT",
+    "Content-Length": "96568",
+    "Content-Type": "binary/octet-stream"
+  },
+  "_release": "e-tag:209fb9e59",
+  "main": "index.js",
+  "_source": "http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-latest.js",
+  "_target": "*",
+  "_originalSource": "http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-latest.js"
+}
