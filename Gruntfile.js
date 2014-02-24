@@ -315,7 +315,7 @@ module.exports = function (grunt) {
 						'images/{,*/}*.{webp,gif}',
 						'styles/fonts/{,*/}*.*',
 						'bower_components/font-awesome/fonts/*',
-						'bower_components/handlebars.js/lib/**',
+						'bower_components/handlebars/handlebars.js',
 						'bower_components/jquery/jquery.js',
 						'bower_components/momentjs/moment.js',
 						'bower_components/requirejs/require.js',
