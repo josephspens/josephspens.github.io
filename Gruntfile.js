@@ -213,8 +213,8 @@ module.exports = function (grunt) {
 					// http://requirejs.org/docs/errors.html#sourcemapcomments
 					preserveLicenseComments: false,
 					useStrict: true,
-					wrap: true
-					//uglify2: {} // https://github.com/mishoo/UglifyJS2
+					wrap: true,
+					uglify2: {} // https://github.com/mishoo/UglifyJS2
 				}
 			}
 		},
@@ -400,9 +400,9 @@ module.exports = function (grunt) {
 		'cssmin',
 		'uglify',
 		// 'modernizr',
-		'copy:dist',
-		'rev',
-		'usemin'
+		'copy:dist'
+		// 'rev',
+		// 'usemin'
 	]);
 
 	grunt.registerTask('default', [
