@@ -18,3 +18,6 @@ script:
  # We want to gate on passing tests and a successful build
  - bower install
  - grunt
+after_script:
+ # Deploy the app
+ - sh deploy.sh
