@@ -182,7 +182,7 @@ module.exports = function (grunt) {
 			},
 			server: {
 				options: {
-					debugInfo: true
+					debugInfo: false
 				}
 			}
 		},
@@ -314,7 +314,6 @@ module.exports = function (grunt) {
 						'.htaccess',
 						'images/{,*/}*.{webp,gif}',
 						'styles/fonts/{,*/}*.*',
-						'bower_components/font-awesome/scss/*',
 						'bower_components/font-awesome/fonts/*',
 						'bower_components/handlebars.js/dist/handlebars.js',
 						'bower_components/jquery/jquery.js',
