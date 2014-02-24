@@ -17,3 +17,13 @@
 	normal,
 	normal
 );
+
+@include font-face(
+	"FontAwesome",
+	font-files( "#{$fa-font-path}/fontawesome-webfont.ttf",
+		"#{$fa-font-path}/fontawesome-webfont.woff",
+		"#{$fa-font-path}/fontawesome-webfont.svg#fontawesomeregular"),
+		"#{$fa-font-path}/fontawesome-webfont.eot?#iefix",
+	normal,
+	normal
+);
