@@ -9,7 +9,7 @@ env:
   - secure: Ow43+jp2Al+Y/AUVIbRxfjbqmAzQPv8U+wH38tqp27OeYM0iW6tIkEqyxBSTIA24HCBqrHvjuGEDxyLMruS90tx/9pybddzmMQxgTXD4wvzjNxTDvBFfKCA8VQDWwxwAELoAT8vLB3f4ovlZBWAGKkBHgVtzQ6hA2XhuXEw39ag=
   - GH_OWNER: josephspens
   - GH_PROJECT_NAME: josephspens.github.io
-before_script:
+install:
  # install dependencies
  - gem update --system
  - gem install compass
@@ -18,6 +18,6 @@ script:
  # We want to gate on passing tests and a successful build
  - bower install
  - grunt
-after_script:
+after_success:
  # Deploy the app
  - sh deploy.sh
