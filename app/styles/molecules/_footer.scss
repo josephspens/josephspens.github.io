@@ -15,11 +15,6 @@ footer {
 		}
 		a {
 			color: inherit;
-			transition: 0.2s color linear;
-
-			&:hover {
-				color: $red;
-			}
 		}
 	}
 }
