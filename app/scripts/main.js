@@ -2,7 +2,7 @@ require.config({
 	paths: {
 		jquery: '../bower_components/jquery/jquery',
 		requirejs: '../bower_components/requirejs/require',
-		handlebarsjs: '../bower_components/handlebars.js/dist/handlebars',
+		handlebarsjs: '../bower_components/handlebars/handlebars',
 		momentjs: '../bower_components/momentjs/moment'
 	},
 	shim: {

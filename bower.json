@@ -1,13 +1,14 @@
 {
-	"name": "josephspens",
-	"version": "0.0.0",
-	"dependencies": {
-		"requirejs": "~2.1.8",
-		"modernizr": "~2.6.2",
-		"jquery": "~1.10.2",
-		"handlebars.js": "~1.0.12",
-		"momentjs": "~2.2.1",
-		"font-awesome": "~4.0.3"
-	},
-	"devDependencies": {}
+  "name": "josephspens",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "~2.1.8",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "handlebars.js": "~1.3.0",
+    "momentjs": "~2.2.1",
+    "font-awesome": "~4.0.3",
+    "handlebars": "~1.3.0"
+  },
+  "devDependencies": {}
 }
