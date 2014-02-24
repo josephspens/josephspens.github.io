@@ -1,4 +1,4 @@
-(function () {/*!
+/*!
  * jQuery JavaScript Library v1.10.2
  * http://jquery.com/
  *
@@ -15415,5 +15415,5 @@ require(['jquery', 'contact-form', 'feed', 'utilities'], function ($) {
 
 define("main", function(){});
 
-}());
+
 //# sourceMappingURL=main.js.map
