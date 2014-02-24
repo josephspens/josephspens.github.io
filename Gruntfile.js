@@ -402,7 +402,7 @@ module.exports = function (grunt) {
 		'requirejs',
 		'concat',
 		'cssmin',
-		'uglify',
+		// 'uglify',
 		// 'modernizr',
 		'copy:dist',
 		'rev',
