@@ -314,7 +314,12 @@ module.exports = function (grunt) {
 						'.htaccess',
 						'images/{,*/}*.{webp,gif}',
 						'styles/fonts/{,*/}*.*',
-						'bower_components/**',
+						'bower_components/font-awesome/scss/*',
+						'bower_components/font-awesome/fonts/*',
+						'bower_components/handlebars.js/dist/handlebars.js',
+						'bower_components/jquery/jquery.js',
+						'bower_components/momentjs/moment.js',
+						'bower_components/requirejs/require.js',
 						'portfolio.json',
 						'CNAME'
 					]
@@ -400,9 +405,9 @@ module.exports = function (grunt) {
 		'cssmin',
 		'uglify',
 		// 'modernizr',
-		'copy:dist'
-		// 'rev',
-		// 'usemin'
+		'copy:dist',
+		'rev',
+		'usemin'
 	]);
 
 	grunt.registerTask('default', [
