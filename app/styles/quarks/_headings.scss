@@ -1,8 +1,12 @@
-h1 {
-	font: normal 3em/1em $header-font;
-	white-space: nowrap;
+%heading {
+	font-family: $header-font;
+	font-weight: normal;
+	margin-bottom: 0.5em;
+}
 
-	@media #{$small} {
-		font-size: 5em;
+@for $i from 1 through 3 {
+	h#{$i} {
+		@extend %heading;
+		font-size: 1.33rem * (4 - $i);
 	}
 }

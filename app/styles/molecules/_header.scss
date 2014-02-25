@@ -1,10 +1,8 @@
 header {
-
-	padding-top: $grid-padding * 3;
-	width: 100%;
+	padding-top: 3em;
 	background: image-url($header-background-uri);
 
-	@media #{$small} {
+	@include at-breakpoint($small-layout) {
 		height: 100%;
 	}
 
@@ -14,15 +12,13 @@ header {
 	.logo {
 		display: none;
 
-		@media #{$small} {
+		@include at-breakpoint($small-layout) {
 			display: inline-block;
 		}
 	}
 	h1 {
 		position: relative;
 		top: 25%;
-		margin: 0;
-		overflow: hidden;
 
 		div {
 			float: left;
@@ -34,7 +30,7 @@ header {
 				padding-bottom: 0;
 				position: relative;
 
-				@media #{$small} {
+				@include at-breakpoint($small-layout) {
 					margin-bottom: -0.2em;
 				}
 			}

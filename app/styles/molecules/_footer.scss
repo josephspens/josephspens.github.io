@@ -5,16 +5,12 @@ footer {
 	.container {
 		@extend section;
 	}
-	ul {
-		@extend %horizontal-list;
-		font-size: 2em;
-		padding: 1em 0;
-
-		li {
-			margin: 0 0.5em;
-		}
-		a {
-			color: inherit;
-		}
+	.social-links {
+		@include span-columns(4);
+		@include isolate(5);
+	}
+	#mail-form {
+		@include span-columns(6);
+		@include isolate(4);
 	}
 }

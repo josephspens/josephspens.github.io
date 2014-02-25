@@ -16,23 +16,25 @@
 	clear: right;
 
 	.content {
+		@include container;
 		padding: 2em 0;
-		margin: 0 auto;
 
+		a {
+			color: inherit;
+		}
+		p {
+			margin-top: 0.5em;
+		}
 		h3 {
-			margin: 0;
-
-			a {
-				color: inherit;
-			}
+			margin-bottom: 0.1em;
 		}
 		.date, .created, .technologies {
 			font-size: 0.8em;
 		}
 		.technologies {
+			@include span-columns(6);
+			@include isolate(4);
 			font-style: italic;
-			font-size: 0.8em;
-			padding: 0 20%;
 		}
 	}
 }

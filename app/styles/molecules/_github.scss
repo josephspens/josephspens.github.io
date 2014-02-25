@@ -1,0 +1,6 @@
+#github {
+	.items {
+		@include span-columns(6);
+		@include isolate(4);
+	}
+}

@@ -5,12 +5,9 @@
 // ------------------------------------------------------------------------------
 @import "config";
 
-// CSS Normalize
-// ------------------------------------------------------------------------------
-@import "utilities/normalize";
-
 // Vendor Libraries
 // ------------------------------------------------------------------------------
+@import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities";
 @import "font-awesome/scss/font-awesome";
@@ -25,8 +22,22 @@
 
 // Custom styles
 // ------------------------------------------------------------------------------
+//// Utils
+// Helper classes and mixins
 @import "utilities/*";
+
+//// Quarks
+// These are basic HTML element styles
 @import "quarks/*";
+
+//// Atoms
+// Combinations of quarks, small regions of a view
 @import "atoms/*";
+
+//// Molecules
+// Combinations of quarks and atoms, medium to large regions of a view
 @import "molecules/*";
+
+//// Templates
+// Styling for groups of pages
 @import "templates/*";

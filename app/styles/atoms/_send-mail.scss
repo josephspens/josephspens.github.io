@@ -1,0 +1,89 @@
+%send-mail--text {
+	position: absolute;
+	width: 100%;
+	@include transition(0.2s all linear);
+}
+
+%send-mail--text--top {
+	@extend %send-mail--text;
+	top: -3em;
+	left: 0;
+}
+
+%send-mail--text--right {
+	@extend %send-mail--text;
+	top: 0;
+	left: 6em;
+}
+
+%send-mail--text--center {
+	@extend %send-mail--text;
+	top: 0;
+	left: 0;
+}
+
+#send-mail {
+	overflow: hidden;
+	margin-bottom: -1em;
+	position: relative;
+	z-index: 1;
+	@include transition(0.2s all linear);
+
+	&.sending {
+		cursor: default;
+	}
+	&.sent {
+		background-color: $green;
+	}
+}
+
+#captcha {
+	#send-mail.captcha + & {
+		display: block;
+	}
+	#send-mail.sending + & {
+		display: none;
+	}
+}
+
+.send-mail--states {
+	position: relative;
+
+	.step1-text {
+		@extend %send-mail--text--center;
+
+		#send-mail.captcha & {
+			left: -6em;
+		}
+	}
+	.step2-text {
+		@extend %send-mail--text--right;
+
+		#send-mail.captcha & {
+			left: 0;
+		}
+		#send-mail.sending & {
+			left: -6em;
+		}
+	}
+	.sending-text {
+		@extend %send-mail--text--right;
+
+		#send-mail.sending & {
+			left: 0;
+		}
+		#send-mail.sent & {
+			top: 3em;
+		}
+	}
+	.sent-text {
+		@extend %send-mail--text--top;
+
+		#send-mail.sent & {
+			top: 0;
+		}
+	}
+	.hidden {
+		visibility: hidden;
+	}
+}

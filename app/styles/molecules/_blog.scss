@@ -1,7 +1,7 @@
 #blog {
 	border-top: 1px solid $dark-grey-on-light;
 
-	@media #{$small} {
+	@include at-breakpoint($small-layout) {
 		border-top: none;
 	}
 }

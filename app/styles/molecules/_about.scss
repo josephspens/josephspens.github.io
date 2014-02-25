@@ -1,20 +1,17 @@
 #about {
-	position: relative;
 	@extend %black-section;
+	position: relative;
 	padding-top: 3em;
 	padding-bottom: 3em;
 
-	.bio {
-		font-size: 2em;
-	}
-	.background {
-		margin-bottom: 0;
+	p {
 		font-size: 1.2em;
 
-		a {
-			color: $red;
+		&:first-of-type {
+			font-size: 2em;
+			padding-top: 0.5em;
 		}
-		p {
+		& + p {
 			margin: 0;
 		}
 	}

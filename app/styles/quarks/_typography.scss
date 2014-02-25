@@ -1,0 +1,10 @@
+%ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+p {
+	margin-bottom: 0.5em;
+	line-height: 1.2;
+}

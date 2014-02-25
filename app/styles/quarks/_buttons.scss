@@ -1,4 +1,11 @@
 button {
+	background-color: $white;
+	padding: 0.8em;
+	font-size: 1.7em;
+	font-family: $header-font;
+	text-transform: uppercase;
+	border: none;
+
 	&:focus {
 		outline: none;
 	}

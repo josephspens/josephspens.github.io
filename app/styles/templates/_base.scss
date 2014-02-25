@@ -9,14 +9,46 @@
 	}
 }
 
+@include border-box-sizing;
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: $base-font;
+	font-size: $small-font-size;
+	-webkit-font-smoothing: antialiased;
+
+	@include at-breakpoint($small-layout) {
+		font-size: $base-font-size;
+	}
+}
+
+.container {
+	@include container;
+}
+
+#feeds {
+	@include pie-clearfix;
+	background: image-url($header-background-uri);
+
+	section {
+		h2 {
+			background-color: $dark-grey-on-light;
+		}
+	}
+}
+
+iframe {
+	display: none;
+}
+
 section {
 	@extend %section;
 
 	h2 {
 		@include span-columns(2);
 		@include isolate(6);
-		// font-size: 2em;
-		line-height: 1.1em;
+		font-size: 1.5em;
 		font-family: $header-font;
 		text-transform: uppercase;
 		opacity: 1;
@@ -28,7 +60,7 @@ section {
 		@include transition(0.2s all ease-in-out);
 
 		&.hidden {
-			@media #{$small} {
+			@include at-breakpoint($small-layout) {
 				opacity: 0;
 				width: 0;
 				height: 0;

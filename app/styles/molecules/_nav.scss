@@ -2,7 +2,7 @@ nav {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: $small-grid-spacing;
+	height: 0.5em;
 	z-index: 1;
 
 	&, ul {
@@ -18,19 +18,19 @@ nav {
 		text-align: center;
 		padding: 0.2em 1em;
 
-		@media #{$small} {
+		@include at-breakpoint($small-layout) {
 			@include omega;
-			padding: $small-grid-spacing $base-grid-spacing;
+			padding: 0.5em 1em;
 		}
 
 		li {
 			display: inline-block;
-			padding: $base-grid-spacing 2%;
+			padding: 1em 2%;
 			cursor: pointer;
 			text-transform: lowercase;
 
-			@media #{$small} {
-				padding: $small-grid-spacing $base-grid-spacing;
+			@include at-breakpoint($small-layout) {
+				padding: 0.5em 1em;
 			}
 		}
 	}

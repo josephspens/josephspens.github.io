@@ -1,8 +1,6 @@
 %feed-item {
-	max-width: 40em;
 	text-align: left;
-	margin: 0 auto;
-	padding: 0.5em 1em;
+	padding: 0.5em 0;
 
 	.time {
 		font-size: 0.8em;
@@ -35,7 +33,7 @@
 		.original-author-image {
 			margin-left: 0.5em;
 
-			@media #{$small} {
+			@include at-breakpoint($small-layout) {
 				margin-left: 0;
 			}
 		}
@@ -73,7 +71,7 @@
 	@extend %feed-item;
 
 	.commits {
-		@media #{$small} {
+		@include at-breakpoint($small-layout) {
 			margin-left: 1.5em;
 		}
 
@@ -91,9 +89,7 @@
 		.original-message {
 			float: none;
 			margin-left: 6.5em;
-			white-space: nowrap;
-			text-overflow: ellipsis;
-			overflow: hidden;
+			@extend %ellipsis;
 		}
 	}
 }
