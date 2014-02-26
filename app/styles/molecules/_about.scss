@@ -1,8 +1,11 @@
 #about {
 	@extend %black-section;
-	position: relative;
 	padding-top: 3em;
 	padding-bottom: 3em;
+
+	@include at-breakpoint($small-layout) {
+		position: relative;
+	}
 
 	p {
 		font-size: 1.2em;

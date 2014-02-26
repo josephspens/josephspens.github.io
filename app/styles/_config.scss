@@ -21,12 +21,9 @@ $column-width: 6em;
 $gutter-width: 1em;
 $grid-padding: 1em;
 
-$base-grid-spacing: 1em;
-$small-grid-spacing: $base-grid-spacing / 2;
-
 $small-layout: 30em 12;
-$medium-layout: 40em 12;
-$large-layout: 60em 12;
+$medium-layout: 50em 12;
+$large-layout: 70em 12;
 
 /////// Typography configuration ///////
 // -----------------------------------------------------------------------------
@@ -44,19 +41,6 @@ $default-border-radius: 3px;
 
 /////// Config defaults for buttons ///////
 // -----------------------------------------------------------------------------
-
-/////// UI @media breakpoint defaults ///////
-// -----------------------------------------------------------------------------
-$small-screen: 768px;
-$medium-screen: 1280px;
-$large-screen: 1440px;
-
-$screen: "only screen";
-$small: "only screen and (min-width: #{$small-screen})";
-$medium: "only screen and (min-width: #{$medium-screen})";
-$large: "only screen and (min-width: #{$large-screen})";
-$landscape: "only screen and (orientation: landscape)";
-$portrait: "only screen and (orientation: portrait)";
 
 /////// Site Icons and Images ///////
 // -----------------------------------------------------------------------------

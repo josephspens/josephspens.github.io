@@ -6,11 +6,19 @@ footer {
 		@extend section;
 	}
 	.social-links {
-		@include span-columns(4);
-		@include isolate(5);
+		@include at-breakpoint($small-layout) {
+			@include span-columns(4);
+			@include isolate(5);
+		}
 	}
 	#mail-form {
-		@include span-columns(6);
-		@include isolate(4);
+		@include at-breakpoint($medium-layout) {
+			@include span-columns(8);
+			@include isolate(3);
+		}
+		@include at-breakpoint($large-layout) {
+			@include span-columns(6);
+			@include isolate(4);
+		}
 	}
 }

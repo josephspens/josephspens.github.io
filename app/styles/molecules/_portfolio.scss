@@ -10,11 +10,31 @@
 }
 
 .portfolio-item {
-	@include span-columns(4);
-	@include nth-omega(3n);
+	@include span-columns(12);
+	@include omega;
 	overflow: hidden;
 	clear: right;
 
+	@include at-breakpoint($small-layout) {
+		@include span-columns(6);
+		@include nth-omega(2n);
+
+		&:nth-child(n) {
+			float: left;
+		}
+	}
+	@include at-breakpoint($medium-layout) {
+		@include span-columns(4);
+		@include nth-omega(3n);
+
+		&:nth-child(2n) {
+			float: left;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
 	.content {
 		@include container;
 		padding: 2em 0;
@@ -32,8 +52,8 @@
 			font-size: 0.8em;
 		}
 		.technologies {
-			@include span-columns(6);
-			@include isolate(4);
+			@include span-columns(8);
+			@include isolate(3);
 			font-style: italic;
 		}
 	}

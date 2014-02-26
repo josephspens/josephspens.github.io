@@ -1,12 +1,28 @@
+$golden-ratio: 1.618;
+$heading-count: 4;
+
+@function golden-ratio-font($index) {
+	@return 1rem * $golden-ratio * ($heading-count - $index);
+}
+
 %heading {
 	font-family: $header-font;
 	font-weight: normal;
 	margin-bottom: 0.5em;
 }
 
-@for $i from 1 through 3 {
+@for $i from 1 through $heading-count {
+	$font-size: golden-ratio-font($i);
+
 	h#{$i} {
 		@extend %heading;
-		font-size: 1.618rem * (4 - $i);
+		font-size: $font-size * 0.5 + 0.5;
+
+		@include at-breakpoint($small-layout) {
+			font-size: $font-size * 0.6;
+		}
+		@include at-breakpoint($medium-layout) {
+			font-size: $font-size;
+		}
 	}
 }

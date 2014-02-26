@@ -1,10 +1,11 @@
 .social-links {
+	@include container;
 	@extend %horizontal-list;
 	font-size: 2em;
 	padding: 1em 0;
 
 	.social-link {
-		@include span-columns(3);
+		@include span-columns(3, 12);
 		@include nth-omega(4n);
 	}
 	a {

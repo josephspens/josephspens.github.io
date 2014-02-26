@@ -1,5 +1,6 @@
 header {
-	padding-top: 3em;
+	padding-top: 6em;
+	padding-bottom: 6em;
 	background: image-url($header-background-uri);
 
 	@include at-breakpoint($small-layout) {

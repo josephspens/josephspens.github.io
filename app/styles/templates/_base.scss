@@ -46,8 +46,8 @@ section {
 	@extend %section;
 
 	h2 {
-		@include span-columns(2);
-		@include isolate(6);
+		@include span-columns(6);
+		@include isolate(4);
 		font-size: 1.5em;
 		font-family: $header-font;
 		text-transform: uppercase;
@@ -58,6 +58,15 @@ section {
 		background-color: $dark-grey-on-dark;
 		letter-spacing: 0.1em;
 		@include transition(0.2s all ease-in-out);
+
+		@include at-breakpoint($medium-layout) {
+			@include span-columns(4);
+			@include isolate(5);
+		}
+		@include at-breakpoint($large-layout) {
+			@include span-columns(2);
+			@include isolate(6);
+		}
 
 		&.hidden {
 			@include at-breakpoint($small-layout) {
