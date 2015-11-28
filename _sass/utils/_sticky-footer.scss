@@ -1,0 +1,20 @@
+$site-footer-height: 0 !default;
+
+html, body {
+	height: 100%;
+}
+
+%sticky-footer-container {
+	min-height: 100%;
+	margin-bottom: $site-footer-height * -1;
+
+	&::after {
+		content: "";
+		display: block;
+		height: $site-footer-height;
+	}
+}
+
+%sticky-footer { 
+	height: $site-footer-height;
+}

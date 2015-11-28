@@ -1,0 +1,16 @@
+# Site settings
+title: Joseph Spens
+email: jpspens@gmail.com
+description: My name is Joseph Spens, I am a Frontend Web Engineer living in New York City. I am currently a Software Engineer at Work Market and the Lead Web Developer at Space Advocates.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://josephspens.github.io" # the base hostname & protocol for your site
+twitter_username: joespens
+github_username: josephspens
+stack_overflow_username: 1824448/joseph-spens
+
+# Build settings
+markdown: kramdown
+exclude: [vendor]
+
+# Development
+host: 0.0.0.0

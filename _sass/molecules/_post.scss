@@ -1,0 +1,43 @@
+.post {
+  padding: 1rem 1rem 0;
+  margin-bottom: 3rem;
+
+  @include susy-breakpoint($tiny-screen) {
+      padding-top: 2rem;
+    }
+
+  &--header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    flex-direction: column;
+
+    @include susy-breakpoint($tiny-screen) {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &--title {
+    flex-grow: 1;
+    padding-top: 1rem;
+
+    @include susy-breakpoint($tiny-screen) {
+      padding-top: 0;
+    }
+  }
+  &--meta {
+    margin: 0;
+  }
+  &--back {
+    @include clean-link;
+    height: 1em;
+    width: 1em;
+    font-size: 2em;
+    color: $alternate-background-color;
+
+    @include susy-breakpoint($large-screen + 6rem) {
+      margin-left: -2em;
+      margin-right: 1em;
+    }
+  }
+}

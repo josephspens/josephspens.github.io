@@ -1,0 +1,29 @@
+$green:      #81b71a;
+$dark-green: #86a54c;
+$black:      #111;
+$white:      #eee;
+$grey:       #ccc;
+$light-grey: #eee;
+$off-white:  #f9f7f4;
+
+$primary-color:              $green;
+$text-color:                 $black;
+$background-color:           $off-white;
+$alternate-background-color: $dark-green;
+$alternate-text-color:       $white;
+$link-color:                 $green;
+$border-color:               $grey;
+$divider-color:              $border-color;
+
+$site-footer-height: 3rem;
+
+$tiny-screen: 30rem;
+$small-screen: 40rem;
+$medium-screen: 50rem;
+$large-screen: 60rem;
+
+$susy: (
+  columns:           12,
+  container:         $large-screen,
+  global-box-sizing: border-box
+);

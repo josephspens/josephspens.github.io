@@ -1,0 +1,21 @@
+.post-list {
+  &--item {
+    display: flex;
+    padding: 1em;
+    border-bottom: 1px solid $border-color;
+    flex-direction: column;
+
+    @include susy-breakpoint($tiny-screen) {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &--link {
+    flex-grow: 1;
+    font-size: 1.2em;
+    margin-right: 1em;
+  }
+  &--meta {
+    white-space: nowrap;
+  }
+}

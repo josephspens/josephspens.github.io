@@ -1,0 +1,38 @@
+.site-footer {
+  @extend %sticky-footer;
+  @include clearfix;
+  background-color: $alternate-background-color;
+  padding: 1em;
+  color: $alternate-text-color;
+  line-height: 1;
+
+  a {
+    @include clean-link;
+    color: $alternate-text-color;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    li {
+      display: inline-flex;
+      padding: 0 0.5em;
+
+      &.contact {
+        border-right: 1px solid;
+        margin-right: 0.5em;
+        padding-right: 1em;
+      }
+    }
+    svg {
+      width: 1em;
+      height: 1em;
+      margin-right: 0.3em;
+      fill: $white;
+    }
+    a {
+      display: flex;
+    }
+  }
+}

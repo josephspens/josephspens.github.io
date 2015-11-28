@@ -1,0 +1,42 @@
+<footer class="site-footer">
+
+  <div class="container">
+
+    <ul class="contact-list">
+      <li class="contact">{{ site.title }}</li>
+
+      <li>
+        <a class="fa fa-envelope" href="mailto:{{ site.email }}"></a>
+      </li>
+
+      {% if site.github_username %}
+      <li>
+        <a class="fa fa-github" href="//github.com/{{ site.github_username }}"></a>
+      </li>
+      {% endif %}
+
+      {% if site.twitter_username %}
+      <li>
+        <a class="fa fa-twitter" href="//twitter.com/{{ site.twitter_username }}"></a>
+      </li>
+      {% endif %}
+
+      {% if site.stack_overflow_username %}
+      <li>
+        <a class="fa fa-stack-overflow" href="//stackoverflow.com/users/{{ site.stack_overflow_username }}"></a>
+      </li>
+      {% endif %}
+    </ul>
+
+  </div>
+
+</footer>
+
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-24686161-1');ga('send','pageview');
+</script>

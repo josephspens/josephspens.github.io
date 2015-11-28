@@ -1,0 +1,16 @@
+* {
+  &, &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  color: $text-color;
+  background-color: $alternate-background-color;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  @include container;
+}

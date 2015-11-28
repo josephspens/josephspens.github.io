@@ -1,0 +1,39 @@
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 100;
+}
+
+blockquote {
+  margin: 0 0 1rem 0;
+  padding: 1em;
+  background-color: $light-grey;
+  font-style: italic;
+
+  @include susy-breakpoint($small-screen) {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  p:last-of-type {
+    margin: 0;
+  }
+}
+
+p {
+  margin: 0 0 1rem 0;
+}

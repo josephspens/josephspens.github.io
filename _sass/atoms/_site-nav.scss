@@ -1,0 +1,23 @@
+.site-nav {
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+
+  &--items {
+    list-style-type: disc;
+    display: flex;
+    justify-content: center;
+
+    @include susy-breakpoint($tiny-screen) {
+      justify-content: flex-start;
+    }
+  }
+  &--item {
+    margin: 0 0.9em;
+    color: $divider-color;
+
+    &:first-child {
+      list-style-type: none;
+      margin-left: 0;
+    }
+  }
+}
