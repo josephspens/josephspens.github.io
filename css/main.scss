@@ -9,7 +9,7 @@ layout: null
 @import "config";
 
 // Vendors
-@import "susy";
+@import "../bower_components/susy/sass/susy";
 
 // Utils
 @import "utils/normalize";
