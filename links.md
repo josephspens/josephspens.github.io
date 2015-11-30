@@ -23,3 +23,7 @@ Highlighting pitfalls in CSS, identifying side effects in CSS and how to minimiz
 [No Longer An Inspiration](http://www.gina.codes/2015/04/13/no-longer-an-inspiration)
 ---
 My good friend Gina Maini's comments on the current state of women in the hacking community [trended \#1 on Hacker News](https://news.ycombinator.com/item?id=9381524) and inspired me to write my first post [Why We Hack]({% post_url /2015-11-29-why-we-hack %}).
+
+[Classy CSS: a Programmatic Approach to Sass Stylesheets](http://una.im/classy-css)
+---
+Most people don't realize or acknowledge that CSS requires programmatic approaches with tools like Sass. Variables, DRY code, functional CSS. Make sure you check out links in the article including [Atomic OOBEMITSCSS](http://www.sitepoint.com/atomic-oobemitscss/).
