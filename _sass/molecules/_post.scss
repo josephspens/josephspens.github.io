@@ -3,8 +3,8 @@
   margin-bottom: 3rem;
 
   @include susy-breakpoint($tiny-screen) {
-      padding-top: 2rem;
-    }
+    padding-top: 2rem;
+  }
 
   &--header {
     display: flex;
@@ -38,6 +38,11 @@
     @include susy-breakpoint($large-screen + 6rem) {
       margin-left: -2em;
       margin-right: 1em;
+    }
+  }
+  &--content {
+    h2 {
+      margin-bottom: 0.75rem;
     }
   }
 }
