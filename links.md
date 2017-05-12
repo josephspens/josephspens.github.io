@@ -24,6 +24,15 @@ My good friend Gina Maini's comments on the current state of women in the hackin
 ---
 Why continuous deployment is important, how continuous integration affects your deployment process, and why it's important to help your reviewers with small changes.
 
+[Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
+---
+Five reasons why testing is important. Good tests can:
+1. Verify the code is working correctly
+2. Prevent future regressions
+3. Document the code's behavior
+4. Provide design guidance
+5. Support refactoring
+
 ## Performance
 
 [Jank Free](http://jankfree.org/)
