@@ -33,6 +33,10 @@ Five reasons why testing is important. Good tests can:
 4. Provide design guidance
 5. Support refactoring
 
+[Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+---
+A great React design pattern which separates presentational view-only React components and stateful Redux connectors. This affords reusability of React components, easy testing, and clear separation of concerns for simple maintainence.
+
 ## Performance
 
 [Jank Free](http://jankfree.org/)
