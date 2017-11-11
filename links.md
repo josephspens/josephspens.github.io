@@ -49,6 +49,10 @@ A good write up about variable and function hoisting, functional expressions and
 ---
 A great React design pattern which separates presentational view-only React components and stateful Redux connectors. This affords reusability of React components, easy testing, and clear separation of concerns for simple maintainence.
 
+[React + Redux Architecture : Separation of Concerns](https://medium.com/prod-io/react-redux-architecture-part-1-separation-of-concerns-812da3b08b46)
+---
+Take an intermediary dive into arctitecting your client applications with React and Redux by applying _separation of concerns_. Both tools are unidirectional and promote immutability, configuring them correctly will create resiliant applications.
+
 ## CSS
 
 [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/)
