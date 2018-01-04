@@ -10,7 +10,7 @@ stack_overflow_username: 1824448/joseph-spens
 
 # Build settings
 markdown: kramdown
-exclude: [vendor]
+exclude: [vendor,bower_components]
 
 # Development
 host: 0.0.0.0
