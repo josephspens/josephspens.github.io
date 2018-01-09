@@ -6,10 +6,10 @@ permalink: /links/
 
 ## Leadership
 
-[How to run 1:1 meetings that work for 2](https://blog.intercom.com/high-impact-one-to-one-meetings/)
+### [How to run 1:1 meetings that work for 2](https://blog.intercom.com/high-impact-one-to-one-meetings/)
 A comprehensive how-to in scheduling, planning, executing, and following up with productive 1:1s with your direct reports.
 
-[Senior Engineers Reduce Risk](https://hackernoon.com/senior-engineers-reduce-risk-5ab2adc13c97#.8qzvmcn25)
+### [Senior Engineers Reduce Risk](https://hackernoon.com/senior-engineers-reduce-risk-5ab2adc13c97#.8qzvmcn25)
 This is a really great article about what a senior engineer is and how they add value to companies of different sizes. It also covers culture and interviewing.
 
 ## Programming
