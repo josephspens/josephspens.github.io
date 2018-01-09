@@ -43,6 +43,9 @@ Take an intermediary dive into arctitecting your client applications with React 
 4. You don't need to use UML
 5. A good software architecture enables agility
 
+### [Redux for Transactional Apps](https://youtu.be/V8oTJ8OZ5S0?t=18m54s)
+At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the application and business data is maintained in Redux, so that the rest of the application is a lightweight UI reacting to state changes.
+
 ## Performance
 
 ### [Jank Free](http://jankfree.org/)
