@@ -46,6 +46,9 @@ Take an intermediary dive into arctitecting your client applications with React 
 ### [Redux for Transactional Apps](https://youtu.be/V8oTJ8OZ5S0?t=18m54s)
 At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the application and business data is maintained in Redux, so that the rest of the application is a lightweight UI reacting to state changes.
 
+### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
+At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
+
 ## Performance
 
 ### [Jank Free](http://jankfree.org/)
