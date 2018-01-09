@@ -33,6 +33,14 @@ Five reasons why testing is important. Good tests can:
 4. Provide design guidance
 5. Support refactoring
 
+[Five Things Every Developer Should Know About Software Architecture](https://www.infoq.com/articles/architecture-five-things)
+---
+1. Software architecture isn't about big design up front
+2. Every software team needs to consider software architecture
+3. The software architecture role is about coding, coaching and collaboration
+4. You don't need to use UML
+5. A good software architecture enables agility
+
 ## Performance
 
 [Jank Free](http://jankfree.org/)
