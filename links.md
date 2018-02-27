@@ -28,6 +28,9 @@ Five reasons why testing is important. Good tests can:
 4. Provide design guidance
 5. Support refactoring
 
+### [Unlearning Toxic Behaviors in a Code Review Culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
+What can you do to become a better code reviewer? There are certain toxic behaviors common in our industry when it comes to code reviews, but there is a simple checklist you can follow to make your reviews more positive, productive, and collaborative.
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
