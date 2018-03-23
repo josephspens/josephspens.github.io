@@ -31,6 +31,9 @@ Five reasons why testing is important. Good tests can:
 ### [Unlearning Toxic Behaviors in a Code Review Culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
 What can you do to become a better code reviewer? There are certain toxic behaviors common in our industry when it comes to code reviews, but there is a simple checklist you can follow to make your reviews more positive, productive, and collaborative.
 
+### [Run Less Software](https://blog.intercom.com/run-less-software/)
+Engineering and Product teams need to focus on their core value prop in order to stay competitive. This means teams need to spend less time on technologies and tools that have a high overhead cost, but provide little direct value to the business. Knowing when to outsourcing these tools is a key indicator of a successful engineering team.
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
