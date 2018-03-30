@@ -20,14 +20,6 @@ My good friend Gina Maini's comments on the current state of women in the hackin
 ### [Ship Small Diffs](https://blog.skyliner.io/ship-small-diffs-741308bec0d1#.1mrqc28up)
 Why continuous deployment is important, how continuous integration affects your deployment process, and why it's important to help your reviewers with small changes.
 
-### [Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
-Five reasons why testing is important. Good tests can:
-1. Verify the code is working correctly
-2. Prevent future regressions
-3. Document the code's behavior
-4. Provide design guidance
-5. Support refactoring
-
 ### [Unlearning Toxic Behaviors in a Code Review Culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
 What can you do to become a better code reviewer? There are certain toxic behaviors common in our industry when it comes to code reviews, but there is a simple checklist you can follow to make your reviews more positive, productive, and collaborative.
 
@@ -54,6 +46,19 @@ At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the app
 
 ### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
 At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
+
+## Testing
+
+### [Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
+Five reasons why testing is important. Good tests can:
+1. Verify the code is working correctly
+2. Prevent future regressions
+3. Document the code's behavior
+4. Provide design guidance
+5. Support refactoring
+
+### [Please don't mock me: and other test double advice](http://blog.testdouble.com/posts/2018-03-06-please-dont-mock-me)
+A break down of some code smells when mocking and other testing tools are misused and mislead issues. A big takeaway is that functions should do or delegate, but never both.
 
 ## Performance
 
