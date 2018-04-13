@@ -12,6 +12,9 @@ A comprehensive how-to in scheduling, planning, executing, and following up with
 ### [Senior Engineers Reduce Risk](https://hackernoon.com/senior-engineers-reduce-risk-5ab2adc13c97#.8qzvmcn25)
 This is a really great article about what a senior engineer is and how they add value to companies of different sizes. It also covers culture and interviewing.
 
+### [A journey from Junior Developer to Technical Lead](https://medium.com/comparethemarket/a-journey-from-junior-developer-to-technical-lead-b1af4d2419fb)
+You own your career, and each phase of your career has different challenges. Understanding your trajectory and what you need to succeed at each step is critical in personal and professional growth.
+
 ## Programming
 
 ### [No Longer An Inspiration](http://www.gina.codes/2015/04/13/no-longer-an-inspiration)
