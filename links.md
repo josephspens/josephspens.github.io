@@ -86,3 +86,8 @@ Highlighting pitfalls in CSS, identifying side effects in CSS and how to minimiz
 
 ### [Classy CSS: a Programmatic Approach to Sass Stylesheets](http://una.im/classy-css)
 Most people don't realize or acknowledge that CSS requires programmatic approaches with tools like Sass. Variables, DRY code, functional CSS. Make sure you check out links in the article including [Atomic OOBEMITSCSS](http://www.sitepoint.com/atomic-oobemitscss/).
+
+## Miscellaneous
+
+### [How to Feel Progress](http://jkglei.com/progress/)
+Feeling like you've made progress towards a worthy goal at the end of a day or week is critically important to moral and motivation. Understanding that context and learning some tools to break large tasks into small bite-sized ones are the first steps in feeling your progress.
