@@ -65,10 +65,17 @@ At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refa
 ## Learning Architectural Design Patterns
 
 ### 1. [Ports and Adaptors](http://alistair.cockburn.us/Hexagonal+architecture) by Alistair Cockburn
-*Intent* - Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+#### Intent
+Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
 
 ### 2. [Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) by Jeffrey Palermo
-*Intent* - It emphasizes the use of interfaces for behavior contracts, and it forces the externalization of infrastructure.
+#### Intent
+It emphasizes the use of interfaces for behavior contracts, and it forces the externalization of infrastructure.
+#### Key Tenents
+1. The application is built around an independent object model
+2. Inner layers define interfaces.  Outer layers implement interfaces
+3. Direction of coupling is toward the center
+4. All application core code can be compiled and run separate from infrastructure
 
 ## Testing
 
