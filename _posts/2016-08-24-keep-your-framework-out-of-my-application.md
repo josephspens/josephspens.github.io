@@ -33,3 +33,6 @@ Ultimately, a framework is designed to solve a particular set of problems a part
 This simple division forces you to recognize when it's appropriate to leverage a framework and when it isn't. You can then start to carve out code that is specific to your framework, and code that is specific to your business. That is respectively your framework logic and your business logic. When an engineer comes upon the framework code, whether they be experienced with the app or a new team member, they are much more likely to recognize boilerplate framework code. This makes maintainability so much easier since much of your code is heavily leveraging an open source framework with community driven design patterns. It then becomes obvious what is your business logic specific to your domain, and _that_ is what you need to focus on maintaining. The scope of code which requires your attention has immediately shrunk.
 
 Don't be a framework engineer, be a language engineer.
+
+
+> ***Update [4/20/18]*** - If you enjoyed this article, I recommend [Screaming Architecture](https://8thlight.com/blog/uncle-bob/2011/09/30/Screaming-Architecture.html) by Uncle Bob Martin.
