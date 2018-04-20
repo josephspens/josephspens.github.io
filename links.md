@@ -15,6 +15,11 @@ This is a really great article about what a senior engineer is and how they add 
 ### [A journey from Junior Developer to Technical Lead](https://medium.com/comparethemarket/a-journey-from-junior-developer-to-technical-lead-b1af4d2419fb)
 You own your career, and each phase of your career has different challenges. Understanding your trajectory and what you need to succeed at each step is critical in personal and professional growth.
 
+## Personal Development
+
+### [How to Feel Progress](http://jkglei.com/progress/)
+Feeling like you've made progress towards a worthy goal at the end of a day or week is critically important to moral and motivation. Understanding that context and learning some tools to break large tasks into small bite-sized ones are the first steps in feeling your progress.
+
 ## Programming
 
 ### [No Longer An Inspiration](http://www.gina.codes/2015/04/13/no-longer-an-inspiration)
@@ -101,8 +106,3 @@ Highlighting pitfalls in CSS, identifying side effects in CSS and how to minimiz
 
 ### [Classy CSS: a Programmatic Approach to Sass Stylesheets](http://una.im/classy-css)
 Most people don't realize or acknowledge that CSS requires programmatic approaches with tools like Sass. Variables, DRY code, functional CSS. Make sure you check out links in the article including [Atomic OOBEMITSCSS](http://www.sitepoint.com/atomic-oobemitscss/).
-
-## Miscellaneous
-
-### [How to Feel Progress](http://jkglei.com/progress/)
-Feeling like you've made progress towards a worthy goal at the end of a day or week is critically important to moral and motivation. Understanding that context and learning some tools to break large tasks into small bite-sized ones are the first steps in feeling your progress.
