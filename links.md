@@ -50,6 +50,9 @@ At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the app
 ### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
 At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
 
+### [Pattern: Ports and Adaptors](http://alistair.cockburn.us/Hexagonal+architecture)
+*Intent* - Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+
 ## Testing
 
 ### [Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
