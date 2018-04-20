@@ -77,6 +77,9 @@ It emphasizes the use of interfaces for behavior contracts, and it forces the ex
 3. Direction of coupling is toward the center
 4. All application core code can be compiled and run separate from infrastructure
 
+### 3. [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) by Bob Martin
+An evolution of the Onion Architecture that emphasizes higher trust and truth in the center of your architecture, fanning out into layers of higher rates of change, connected together leveraging dependency inversion. It redefines the Onion Architecture in terms of _Entities_, _Use Cases_, _Interface Adaptors_, and _Frameworks & Drivers_.
+
 ## Testing
 
 ### [Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
