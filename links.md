@@ -29,6 +29,13 @@ What can you do to become a better code reviewer? There are certain toxic behavi
 ### [Run Less Software](https://blog.intercom.com/run-less-software/)
 Engineering and Product teams need to focus on their core value prop in order to stay competitive. This means teams need to spend less time on technologies and tools that have a high overhead cost, but provide little direct value to the business. Knowing when to outsourcing these tools is a key indicator of a successful engineering team.
 
+### [SOLID Principles](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
+1. [Single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle) - a class should have only a single responsibility (i.e. changes to only one part of the software's specification should be able to affect the specification of the class).
+2. [Open/closed principle](https://en.wikipedia.org/wiki/Open/closed_principle) - "software entities ... should be open for extension, but closed for modification."
+3. [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) - "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." See also design by contract.
+4. [Interface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle) - "many client-specific interfaces are better than one general-purpose interface."
+5. [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle) - one should "depend upon abstractions, _not_ concretions."
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
