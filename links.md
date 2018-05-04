@@ -41,6 +41,9 @@ Engineering and Product teams need to focus on their core value prop in order to
 4. [Interface segregation principle](https://en.wikipedia.org/wiki/Interface_segregation_principle) - "many client-specific interfaces are better than one general-purpose interface."
 5. [Dependency inversion principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle) - one should "depend upon abstractions, _not_ concretions."
 
+### [How to Get Buy-in for Reducing Technical Debt](https://blog.coleadership.com/how-to-get-buy-in-for-reducing-technical-debt/)
+So important for every engineer to master this "soft skill" of communication. The only way you'll make an impact is if the stakeholders understand the impact in terms that prove valuable to the business and the mission.
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
