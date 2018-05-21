@@ -1,4 +1,3 @@
-# Violence in Video Games
 Many people believe that recent spurs of violence in children are the result of violent video games. These people believe that Video Game Designers have a goal to design extremely violent video games to corrupt the minds of children. Not just are these accusations wrong, but examples and reasoning will show that violence is a useful tool in making video games.
 
 One piece of evidence against violent video games is that they "… [cross] the line of good taste and shouldn't be in the hands of children or young teens…" (Grossman 64).  This is simply the opinion of the anti-violence activists. The only reason why they believe games do not belong in the hands of children is because they are not socially acceptable. "Socially acceptable" is just the combined opinion of what complete strangers believe is best for us.
