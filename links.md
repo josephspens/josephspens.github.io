@@ -15,6 +15,9 @@ This is a really great article about what a senior engineer is and how they add 
 ### [A journey from Junior Developer to Technical Lead](https://medium.com/comparethemarket/a-journey-from-junior-developer-to-technical-lead-b1af4d2419fb)
 You own your career, and each phase of your career has different challenges. Understanding your trajectory and what you need to succeed at each step is critical in personal and professional growth.
 
+### [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a)
+Unlike almost everyone I know, I appreciate meetings and find them valuable. Most people just rant against meeting and constantly delete them from their calendars. This post helps identify the true purpose for a wide range of meeting types, and most importantly when/where they should be applied. This helps you schedule, manage, and run meetings more effectivly, and give you the reasons for removing meetings that aren't working.
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
