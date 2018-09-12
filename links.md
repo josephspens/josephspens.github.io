@@ -124,6 +124,3 @@ Highlighting pitfalls in CSS, identifying side effects in CSS and how to minimiz
 
 ### [Classy CSS: a Programmatic Approach to Sass Stylesheets](http://una.im/classy-css)
 Most people don't realize or acknowledge that CSS requires programmatic approaches with tools like Sass. Variables, DRY code, functional CSS. Make sure you check out links in the article including [Atomic OOBEMITSCSS](http://www.sitepoint.com/atomic-oobemitscss/).
-
-
-# [License](https://drive.google.com/open?id=1tvpk6aIgRrgke1muoz7bjQ79uq1p4BTy)
