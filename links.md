@@ -88,8 +88,11 @@ It emphasizes the use of interfaces for behavior contracts, and it forces the ex
 3. Direction of coupling is toward the center
 4. All application core code can be compiled and run separate from infrastructure
 
-### 3. [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) by Bob Martin
-An evolution of the Onion Architecture that emphasizes higher trust and truth in the center of your architecture, fanning out into layers of higher rates of change, connected together leveraging dependency inversion. It redefines the Onion Architecture in terms of _Entities_, _Use Cases_, _Interface Adaptors_, and _Frameworks & Drivers_.
+### 3. [Domain Driven Design](https://smile.amazon.com/dp/0321125215/ref=cm_sw_em_r_mt_dp_U_FHI9EbV17PGKQ) by Eric Evans
+Understanding that software is an implimentation of a conceptual design, or _Domain Model_, of how a system works, and that Domain Model is described in a _Ubiquitous Language_ out of a collaboration of all members of the team. By modeling the domain of the system, requirements and changes can be described to engineers without a loss in translation, and important domain logic is no longer hidden in the code.
+
+### 4. [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) by Bob Martin
+An evolution of the Onion Architecture that emphasizes higher trust and truth in the center of your architecture, fanning out into layers of higher rates of change, connected together leveraging dependency inversion. It redefines the Onion Architecture in terms of _Entities_, _Use Cases_, _Interface Adaptors_, and _Frameworks & Drivers_. You can read more in his book [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://smile.amazon.com/dp/0134494164/ref=cm_sw_em_r_mt_dp_U_qCI9EbNY0YBXR).
 
 ## Testing
 
