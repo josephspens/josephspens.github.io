@@ -34,6 +34,16 @@ My good friend Gina Maini's comments on the current state of women in the hackin
 ### [Ship Small Diffs](https://blog.skyliner.io/ship-small-diffs-741308bec0d1#.1mrqc28up)
 Why continuous deployment is important, how continuous integration affects your deployment process, and why it's important to help your reviewers with small changes.
 
+### [Best practices for using Git](https://deepsource.io/blog/git-best-practices/)
+1. Make clean, single-purpose commits
+1. Write meaningful commit messages
+1. Commit early, commit often
+1. Don’t alter published history
+1. Don’t commit generated files
+
+### [How to manage your Git history: Tips for keeping your commits tidy](https://ubuntu.com/blog/tricks-for-keeping-a-tidy-git-commit-history)
+A few best practices for managing history in feature branches to keep your master branches semantic.
+
 ### [Unlearning Toxic Behaviors in a Code Review Culture](https://medium.com/@sandya.sankarram/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c)
 What can you do to become a better code reviewer? There are certain toxic behaviors common in our industry when it comes to code reviews, but there is a simple checklist you can follow to make your reviews more positive, productive, and collaborative.
 
