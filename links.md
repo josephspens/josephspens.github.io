@@ -26,6 +26,14 @@ You own your career, and each phase of your career has different challenges. Und
 ### [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
 The classic 2009 article used to defend an engineer's time against meetings and pointless interruptions.
 
+## Meetings
+
+### [What is Pig and Chicken in Scrum?](https://www.visual-paradigm.com/scrum/scrum-pig-and-chicken/)
+The business fable of The Chicken and the Pig explains breakfast pigs and chickens in the Scrum process. It’s a way to differentiate between roles in the Scrum/Agile world. Roles are key in Agile. They are constant and form the basis of every decision and define the very basic human relationships in Scrum. _Pigs are committed whereas chickens are involved._
+
+### [ESVP – Explorer, Shopper, Vacationer, Prisoner](https://www.funretrospectives.com/esvp-explorer-shopper-vacationer-prisoner/)
+This is a short activity to measure participants' engagement for the meeting at hand.
+
 ## Programming
 
 ### [No Longer An Inspiration](http://www.gina.codes/2015/04/13/no-longer-an-inspiration)
