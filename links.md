@@ -15,6 +15,9 @@ This is a really great article about what a senior engineer is and how they add 
 ### [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a)
 Unlike almost everyone I know, I appreciate meetings and find them valuable. Most people just rant against meeting and constantly delete them from their calendars. This post helps identify the true purpose for a wide range of meeting types, and most importantly when/where they should be applied. This helps you schedule, manage, and run meetings more effectivly, and give you the reasons for removing meetings that aren't working.
 
+### [Help Me, OKR Kenobi: OKRs Explained Through Star Wars](https://speakerdeck.com/cedotal/help-me-okr-kenobi-okrs-explained-through-star-wars)
+Objectives and Key Results are a common way for large software teams to align their priorities in order to be most effective as a whole. It's difficult to wordsmith objectives which yield measurable and specific key results, but it starts with understanding what a good objective and a good key result look like.
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
