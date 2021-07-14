@@ -18,6 +18,14 @@ Unlike almost everyone I know, I appreciate meetings and find them valuable. Mos
 ### [Help Me, OKR Kenobi: OKRs Explained Through Star Wars](https://speakerdeck.com/cedotal/help-me-okr-kenobi-okrs-explained-through-star-wars)
 Objectives and Key Results are a common way for large software teams to align their priorities in order to be most effective as a whole. It's difficult to wordsmith objectives which yield measurable and specific key results, but it starts with understanding what a good objective and a good key result look like.
 
+### [Growing as a Product Owner: Five Product Owner Maturity-Levels](https://www.scrum.org/resources/blog/growing-product-owner-five-product-owner-maturity-levels)
+In order to create clarity about the level of Product Ownership in your organization, we distinguish five types of Product Owners:
+1. The Scribe
+1. The Proxy
+1. The Business Representative
+1. The Sponsor
+1. The Entrepreneur
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
