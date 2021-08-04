@@ -26,6 +26,13 @@ In order to create clarity about the level of Product Ownership in your organiza
 1. The Sponsor
 1. The Entrepreneur
 
+### [Know your Domain — The Cynefin Framework](https://medium.com/10x-curiosity/know-your-domain-the-cynefin-framework-dc28648558f1)
+The [Cynefin Framework](https://en.wikipedia.org/wiki/Cynefin_framework) is a conceptual framework used to aid decision-making. It's a great way to model both decision making, but also system design:
+- **Simple** systems are known, cause-effect relationships are perceivable, predicable, and repeatable
+- **Complicated** systems are knowable, cause-effect relationships are separated in time and space
+- **Complex** systems are retrospectively coherent, cause-effect relationships are not repeatable
+- **Chaotic** systems are incoherent, cause-effect relationships are not perceivable
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
