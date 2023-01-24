@@ -1,5 +1,4 @@
 .site-footer {
-  @extend %sticky-footer;
   @include clearfix;
   background-color: $alternate-background-color;
   padding: 1em;
