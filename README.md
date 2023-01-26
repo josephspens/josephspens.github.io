@@ -10,7 +10,7 @@ permalink: /readme/
 
 <p>Hello world. The purpose of this document is to share an understanding of my personality, my ways of working, and my decision making strategies.</p>
 
-<p>I am self-driven, passionate, and both willing and capable to branch into new disciplines to provide the most value to my team. Those traits have yielded a [T-shaped](https://jchyip.medium.com/why-t-shaped-people-e8706198e437) engineer with a breadth of experiences creating alignment across roles in an R&D organization, while at the same time a depth of experiences as an individual contributor.</p>
+<p>I am self-driven, passionate, and both willing and capable to branch into new disciplines to provide the most value to my team. Those traits have yielded a <a href="https://jchyip.medium.com/why-t-shaped-people-e8706198e437" target="_blank">T-shaped</a> engineer with a breadth of experiences creating alignment across roles in an R&D organization, while at the same time a depth of experiences as an individual contributor.</p>
 
 </div>
 
