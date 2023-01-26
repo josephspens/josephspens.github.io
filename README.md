@@ -20,8 +20,8 @@ Through that passion I have become an experienced **product engineer** with an u
 
 The ultimate measurement of team success is through delivery, and as an **agile developer** I coach teams across disciplines in frameworks and methodologies that systematize and simplify the process to frequently deliver high quality work.
 
-
-### Software Architect
+<details>
+  <summary><h3>Software Architect</h3></summary>
 
 I am first and foremost a **software architect** passionate about finding ways to efficiently write higher quality software. 
 
@@ -31,7 +31,6 @@ I am first and foremost a **software architect** passionate about finding ways t
 
 Good architecture means you can do more with less. Your systems are resilient to change over time, which means fewer people are needed to evolve the system and deliver features, contributing to a [LEAN](https://en.wikipedia.org/wiki/Lean_software_development) team. Your systems are easily understood by stakeholders beyond just the engineering team, which is key to [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design).
 
-
 #### Design Patterns
 
 I’m a big proponent of [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html), among [others](https://josephspens.nyc/links/#learning-architectural-design-patterns), which I’ve found applicable in most software disciplines. A key pillar to these architectures is _layered software_, finding ways to organize and categorize software by its purpose to simplify the mental model.
@@ -39,9 +38,10 @@ I’m a big proponent of [Clean Architecture](https://8thlight.com/blog/uncle-bo
 Most challenges and software design tactics are not original, common [software design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) are critical in keeping the mental model simple. Applying more patterns to software might increase its source code footprint, but will also reduce overall complexity and facilitate understanding across stakeholder disciplines.
 
 A better understanding of your software through good architecture and DDD contributes to a better understanding of the impact of changes, which means simple, accurate, and confident project planning estimates.
+</details>
 
-
-### Product Engineer
+<details>
+  <summary><h3>Product Engineer</h3></summary>
 
 Through that passion for software architecture I have become an experienced **product engineer** with an understanding that the lines between product and engineering are often blurred, and alignment between product and technical strategies are a key component of success.
 
@@ -63,9 +63,10 @@ Those initial objectives paint the target, and the product **strategy** helps yo
 Roadmaps describe sequences of changes that make some measurable impact to key results. Those changes are to create new **user journeys** through the system, which add up to some measurable impact in support of customer **use cases**.
 
 I like using [gherkin](https://cucumber.io/docs/gherkin/reference/) to describe those user journeys. Given some state of the world, when a customer performs an action, they expect some subsequent result. An effective way to identify user journeys is through the DDD exercise of [event storming](https://en.wikipedia.org/wiki/Event_storming), which begins by asking customers what their goals are and how they go about accomplishing them, then drills into domain details.
+</details>
 
-
-### Agile Developer
+<details>
+  <summary><h3>Agile Developer</h3></summary>
 
 The ultimate measurement of team success is through delivery, and as an **agile developer** I coach teams across disciplines in frameworks and methodologies that systematize and simplify the process to frequently deliver high quality work.
 
@@ -80,7 +81,7 @@ I’ve found [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_
 #### Scrum
 
 A structured set of  go a long way to minimizing administrative work and focusing on your core discipline. It’s also an effective means to producing and managing an extensive backlog of tasks.
-
+</details>
 
 ## How I Communicate
 
