@@ -4,8 +4,6 @@ title: Joseph Spens - README
 permalink: /readme/
 ---
 
-# Joseph Spens - README
-
 <div style="font-size:1.2em;color:#999;">
 
 <p>Hello world. The purpose of this document is to share an understanding of my personality, my ways of working, and my decision making strategies.</p>
@@ -97,7 +95,7 @@ My approach to communicating is through **active listening**, where I listen to 
 
 ## Things That Energize Me
 
-* Delivery** momentum**: shipping features feels great, closing tickets feels great, ideally it happens daily
+* Delivery **momentum**: shipping features feels great, closing tickets feels great, ideally it happens daily
 * Building **consensus** on the team, for any topic, but especially on frameworks for measuring success and plan work
 * Understanding the **alignment** between our near term roadmap and our long term mission
 * Mid day **walks** around my neighborhood with my dog
