@@ -55,7 +55,7 @@ Providing some **vision** and **mission** for an organization, recursively unpac
 
 #### Strategy
 
-Those initial objectives paint the target, and the product** strategy** helps you choose key results and derivative objectives. I like the [Good Strategy, Bad Strategy](https://www.goodreads.com/en/book/show/11721966) concept of a strategy “kernel”, which includes a diagnosis of current challenges and opportunities, guiding principles for decision making, and a set of initial coherent actions that get you going in the right direction.
+Those initial objectives paint the target, and the product **strategy** helps you choose key results and derivative objectives. I like the [Good Strategy, Bad Strategy](https://www.goodreads.com/en/book/show/11721966) concept of a strategy “kernel”, which includes a diagnosis of current challenges and opportunities, guiding principles for decision making, and a set of initial coherent actions that get you going in the right direction.
 
 
 #### Roadmaps
