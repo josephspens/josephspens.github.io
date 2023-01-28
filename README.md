@@ -4,7 +4,7 @@ title: README
 permalink: /readme/
 ---
 
-<div style="font-size:1.2em;color:#999;">
+<div class="subtitle">
 
 <p>Hello world. The purpose of this document is to share an understanding of my personality, my ways of working, and my decision making strategies.</p>
 

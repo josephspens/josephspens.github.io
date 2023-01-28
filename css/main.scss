@@ -33,6 +33,7 @@ layout: null
 @import "molecules/post";
 @import "molecules/post-list";
 @import "molecules/site-footer";
+@import "molecules/subtitle";
 
 .page-content {
   @extend %sticky-footer-container;
