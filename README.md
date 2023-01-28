@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: README
+permalink: /readme/
 ---
 
 <div style="font-size:1.2em;color:#999;">
