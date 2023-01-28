@@ -64,9 +64,6 @@ Unlike almost everyone I know, I appreciate meetings and find them valuable. Mos
 
 ## Programming
 
-### [No Longer An Inspiration](http://www.gina.codes/2015/04/13/no-longer-an-inspiration)
-My good friend Gina Maini's comments on the current state of women in the hacking community [trended \#1 on Hacker News](https://news.ycombinator.com/item?id=9381524) and inspired me to write my first post [Why We Hack]({% post_url /2015-11-29-why-we-hack %}).
-
 ### [Ship Small Diffs](https://blog.skyliner.io/ship-small-diffs-741308bec0d1#.1mrqc28up)
 Why continuous deployment is important, how continuous integration affects your deployment process, and why it's important to help your reviewers with small changes.
 
