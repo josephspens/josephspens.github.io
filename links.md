@@ -6,14 +6,8 @@ permalink: /links/
 
 ## Leadership
 
-### [How to run 1:1 meetings that work for 2](https://blog.intercom.com/high-impact-one-to-one-meetings/)
-A comprehensive how-to in scheduling, planning, executing, and following up with productive 1:1s with your direct reports.
-
 ### [Senior Engineers Reduce Risk](https://hackernoon.com/senior-engineers-reduce-risk-5ab2adc13c97#.8qzvmcn25)
 This is a really great article about what a senior engineer is and how they add value to companies of different sizes. It also covers culture and interviewing.
-
-### [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a)
-Unlike almost everyone I know, I appreciate meetings and find them valuable. Most people just rant against meeting and constantly delete them from their calendars. This post helps identify the true purpose for a wide range of meeting types, and most importantly when/where they should be applied. This helps you schedule, manage, and run meetings more effectivly, and give you the reasons for removing meetings that aren't working.
 
 ### [Help Me, OKR Kenobi: OKRs Explained Through Star Wars](https://speakerdeck.com/cedotal/help-me-okr-kenobi-okrs-explained-through-star-wars)
 Objectives and Key Results are a common way for large software teams to align their priorities in order to be most effective as a whole. It's difficult to wordsmith objectives which yield measurable and specific key results, but it starts with understanding what a good objective and a good key result look like.
@@ -36,6 +30,13 @@ The [Cynefin Framework](https://en.wikipedia.org/wiki/Cynefin_framework) is a co
 ### [Engineering Maturity Model](https://mikefisher.substack.com/p/engineering-maturity-model)
 Mike Fisher's maturity levels (layers) are useful as a framework to consider your investment efforts (ratios?): "While I do think of this kind of like a maturity model, they are not stages that one achieves and moves on from. These are areas that one must keep returning to and keep investing in, always from the bottom up."
 
+### [Mental Models: The Best Way to Make Intelligent Decisions (~100 Models Explained)](https://fs.blog/mental-models/)
+This guide explores everything you need to know about mental models. By the time you’re done, you’ll think better, make fewer mistakes, and get better results.
+
+Mental models are how we understand the world. Not only do they shape what we think and how we understand but they shape the connections and opportunities that we see. Mental models are how we simplify complexity, why we consider some things more relevant than others, and how we reason.
+
+A mental model is simply a representation of how something works. We cannot keep all of the details of the world in our brains, so we use models to simplify the complex into understandable and organizable chunks.
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
@@ -54,6 +55,12 @@ The business fable of The Chicken and the Pig explains breakfast pigs and chicke
 
 ### [ESVP – Explorer, Shopper, Vacationer, Prisoner](https://www.funretrospectives.com/esvp-explorer-shopper-vacationer-prisoner/)
 This is a short activity to measure participants' engagement for the meeting at hand.
+
+### [How to run 1:1 meetings that work for 2](https://blog.intercom.com/high-impact-one-to-one-meetings/)
+A comprehensive how-to in scheduling, planning, executing, and following up with productive 1:1s with your direct reports.
+
+### [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a)
+Unlike almost everyone I know, I appreciate meetings and find them valuable. Most people just rant against meeting and constantly delete them from their calendars. This post helps identify the true purpose for a wide range of meeting types, and most importantly when/where they should be applied. This helps you schedule, manage, and run meetings more effectivly, and give you the reasons for removing meetings that aren't working.
 
 ## Programming
 
@@ -102,10 +109,10 @@ Take an intermediary dive into arctitecting your client applications with React 
 
 ### [Five Things Every Developer Should Know About Software Architecture](https://www.infoq.com/articles/architecture-five-things)
 1. Software architecture isn't about big design up front
-2. Every software team needs to consider software architecture
-3. The software architecture role is about coding, coaching and collaboration
-4. You don't need to use UML
-5. A good software architecture enables agility
+1. Every software team needs to consider software architecture
+1. The software architecture role is about coding, coaching and collaboration
+1. You don't need to use UML
+1. A good software architecture enables agility
 
 ### [Redux for Transactional Apps](https://youtu.be/V8oTJ8OZ5S0?t=18m54s)
 At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the application and business data is maintained in Redux, so that the rest of the application is a lightweight UI reacting to state changes.
