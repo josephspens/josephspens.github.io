@@ -33,6 +33,9 @@ The [Cynefin Framework](https://en.wikipedia.org/wiki/Cynefin_framework) is a co
 - **Complex** systems are retrospectively coherent, cause-effect relationships are not repeatable
 - **Chaotic** systems are incoherent, cause-effect relationships are not perceivable
 
+### [Engineering Maturity Model](https://mikefisher.substack.com/p/engineering-maturity-model)
+Mike Fisher's maturity levels (layers) are useful as a framework to consider your investment efforts (ratios?): "While I do think of this kind of like a maturity model, they are not stages that one achieves and moves on from. These are areas that one must keep returning to and keep investing in, always from the bottom up."
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
