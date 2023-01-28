@@ -55,7 +55,6 @@ Those initial objectives paint the target, and the product **strategy** helps yo
 Roadmaps describe sequences of changes that make some measurable impact to key results. Those changes are to create new **user journeys** through the system, which add up to some measurable impact in support of customer **use cases**.
 
 I like using [gherkin](https://cucumber.io/docs/gherkin/reference/) to describe those user journeys. Given some state of the world, when a customer performs an action, they expect some subsequent result. An effective way to identify user journeys is through the DDD exercise of [event storming](https://en.wikipedia.org/wiki/Event_storming), which begins by asking customers what their goals are and how they go about accomplishing them, then drills into domain details.
-</details>
 
 ### Agile Developer
 
@@ -70,7 +69,6 @@ I’ve found [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_
 #### Scrum
 
 A structured set of  go a long way to minimizing administrative work and focusing on your core discipline. It’s also an effective means to producing and managing an extensive backlog of tasks.
-</details>
 
 ## How I Communicate
 
