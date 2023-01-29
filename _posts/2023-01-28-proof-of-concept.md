@@ -3,9 +3,9 @@ layout: post
 title: Proofs of Concept, Prototypes, and Productionization for Software Development
 ---
 
-<div class="subtitle">
-Proofs of Concept, Prototypes, and Productionization are three phases of traditional software development (not targeting machine learning here) meant to layer your discovery methods. That discovery is meant to fail fast and provide context to future discovery.
-</div>
+<p class="subtitle">
+    Proofs of Concept, Prototypes, and Productionization are three phases of traditional software development (not targeting machine learning here) meant to layer your discovery methods. That discovery is meant to fail fast and provide context to future discovery.
+</p>
 
 ## Proof of Concept
 
@@ -27,11 +27,11 @@ The requirements detailed in the agreement are negotiated between you and your s
 
 ## Example
 
-You want to solve a problem with some datasets you own for a new prospective user. You initially aren't very confident that your datasets could solve the problem, so you initiate a **proof of concept** where the concept is the ability to extract information from your datasets relevant to the problem, and the proof is querying the dataset in BigQuery. The results of the query will tell you and your user whether or not your datasets can surface relevant domain knowledge.
+You want to solve a problem with some datasets you own for a new prospective user. You initially aren't very confident that your datasets could solve the problem, so you initiate a **proof of concept** where the concept is the ability to extract information from your datasets relevant to the problem, and the proof is querying the dataset in postgres. The results of the query will tell you and your user whether or not your datasets can surface relevant domain knowledge.
 
 If the proof of concept results come back, and both you and your user have used your datasets to validate domain rules, you next design a **prototype** to explore application rules to support the use case using your datasets. Different users may have different use cases related to the same problem, which may require different application rules and by therefore different prototypes.
 
-In this situation our user is not technical and cannot use BigQuery directly, so a bespoke graphical interface is proposed. You and the user brainstorm simple and efficient steps they would take to engage with this interface in order to satisfy their use case, and you create a low cost prototype of that solution to validate the application rules you've identified. That prototype might be a series of static web pages, or even visual design mockups.
+In this situation our user is not technical and cannot use postgres directly, so a bespoke graphical interface is proposed. You and the user brainstorm simple and efficient steps they would take to engage with this interface in order to satisfy their use case, and you create a low cost prototype of that solution to validate the application rules you've identified. That prototype might be a series of static web pages, or even visual design mockups.
 
 You receive feedback from your user that the prototype was a success, they are confident the user journey identified in the prototype yields results that satisfy their use cases. You and your user negotiate a Service Level Agreement that specifies the requirements that need to be met in order for their use case to be satisfied in a production environment. Your job is now to design and build software to **productionize** the application rules identified in the prototype and the domain rules identified in the proof of concept in a manner which can satisfy all of the requirements in the Service Level Agreement.
 
