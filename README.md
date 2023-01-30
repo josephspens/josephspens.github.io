@@ -42,7 +42,7 @@ Through that passion for software architecture I have become an experienced **pr
 
 #### Goal Setting
 
-My mental model for product direction best aligns with [OKRs](https://www.whatmatters.com/faqs/okr-meaning-definition-example). I’ve found  to be a great model for understanding this method.
+My mental model for product direction best aligns with [OKRs](https://www.whatmatters.com/faqs/okr-meaning-definition-example). I’ve found [OKRs explained with Star Wars](https://drive.google.com/file/d/1N9qQ-BUgY-W7UIW9w2la5Qw4Jm6nDGCx/view?usp=share_link) to be a great model for understanding this method.
 
 Providing some **vision** and **mission** for an organization, recursively unpacking the mission and each subsequent **objective**/goal into measurable **key results** is a great way to codify priorities. Broader organizational objectives highlight how your work contributes to higher level goals, and where to invest/divest resources.
 
@@ -68,7 +68,7 @@ I’ve found [domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_
 
 #### Scrum
 
-A structured set of  go a long way to minimizing administrative work and focusing on your core discipline. It’s also an effective means to producing and managing an extensive backlog of tasks.
+A structured set of [scrum rituals](https://docs.google.com/presentation/d/1URoti-vuMud5SJ6KvFI5vTJYffvnVlRYb3FrMB-DB8k/edit?usp=sharing) go a long way to minimizing administrative work and focusing on your core discipline. It’s also an effective means to producing and managing an extensive backlog of tasks.
 
 ## How I Communicate
 
