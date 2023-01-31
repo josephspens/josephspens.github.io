@@ -16,10 +16,11 @@
     }
   }
   &--item {
-    margin: 0 0.5em 0 1em;
     color: $divider-color;
 
     @include susy-breakpoint($tiny-screen) {
+      margin: 0 0.5em 0 1em;
+
       &:first-child {
         list-style-type: none;
         margin-left: 0;
