@@ -40,9 +40,6 @@ layout: default
   </div>
 
   <ul class="post-list">
-    <li class="post-list--item">
-      <a class="post-list--link" href="{{ '/readme' | prepend: site.baseurl }}">README</a>
-    </li>
     {% for post in site.posts %}
       <li class="post-list--item">
         <a class="post-list--link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
