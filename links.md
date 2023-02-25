@@ -37,6 +37,9 @@ Mental models are how we understand the world. Not only do they shape what we th
 
 A mental model is simply a representation of how something works. We cannot keep all of the details of the world in our brains, so we use models to simplify the complex into understandable and organizable chunks.
 
+### [A thorough team guide to RFCs](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
+By defining a process for decision-making, you can give your team the space to own the outcome of the choices they make. RFCs are one of the ways that you can do this, and this guide may help you manage the change.
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
