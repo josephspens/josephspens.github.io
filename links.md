@@ -99,6 +99,18 @@ So important for every engineer to master this "soft skill" of communication. Th
 ### [Flattening Arrow Code](https://blog.codinghorror.com/flattening-arrow-code/)
 The [Arrow Anti Pattern](http://wiki.c2.com/?ArrowAntiPattern) is a particular pet peeve of mine. Inverting nested conditionals not only reduces reading complexity, as it no longer requires the reader to mentally keep track of the chained conditionals that has lead to this point, but in my experience it also sometimes maps better to the indended business rules. Unnesting conditionals and exiting early often lead to cleaner code.
 
+### [Data Structures for Coding Interviews](https://www.interviewcake.com/article/java/data-structures-coding-interview)
+To really understand how data structures work, we're going to derive each of them from scratch. Starting with bits. Don't worry—we'll skip the convoluted academic jargon and proofs. We'll cover:
+- Random Access Memory
+- Binary Numbers
+- Fixed-Width Integers
+- Arrays
+- Strings
+- Pointers
+- Dynamic Arrays
+- Linked Lists
+- Hash Tables
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
