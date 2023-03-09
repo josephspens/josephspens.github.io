@@ -40,6 +40,8 @@ A mental model is simply a representation of how something works. We cannot keep
 ### [A thorough team guide to RFCs](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
 By defining a process for decision-making, you can give your team the space to own the outcome of the choices they make. RFCs are one of the ways that you can do this, and this guide may help you manage the change.
 
+
+
 ## Personal Development
 
 ### [How to Feel Progress](http://jkglei.com/progress/)
@@ -50,6 +52,8 @@ You own your career, and each phase of your career has different challenges. Und
 
 ### [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
 The classic 2009 article used to defend an engineer's time against meetings and pointless interruptions.
+
+
 
 ## Meetings
 
@@ -64,6 +68,8 @@ A comprehensive how-to in scheduling, planning, executing, and following up with
 
 ### [Reaching Peak Meeting Efficiency](https://medium.learningbyshipping.com/reaching-peak-meeting-efficiency-f8e47c93317a)
 Unlike almost everyone I know, I appreciate meetings and find them valuable. Most people just rant against meeting and constantly delete them from their calendars. This post helps identify the true purpose for a wide range of meeting types, and most importantly when/where they should be applied. This helps you schedule, manage, and run meetings more effectivly, and give you the reasons for removing meetings that aren't working.
+
+
 
 ## Programming
 
@@ -111,6 +117,17 @@ To really understand how data structures work, we're going to derive each of the
 - Linked Lists
 - Hash Tables
 
+### [Principles of MLOps](https://heartbeat.comet.ml/principles-of-mlops-c3171587662f)
+Machine learning has become an essential part of our lives because we interact with various applications of ML models, whether consciously or unconsciously. Machine Learning Operations (MLOps) are the aspects of ML that deal with the creation and advancement of these models.
+- Automation
+- Continuous
+- Testing
+- Monitoring
+- Versioning
+- Reproducibility
+
+
+
 ## Architecture
 
 ### [Presentational and Container Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
@@ -132,6 +149,8 @@ At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the app
 ### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
 At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
 
+
+
 ## Learning Architectural Design Patterns
 
 ### 1. [Ports and Adaptors](http://alistair.cockburn.us/Hexagonal+architecture) by Alistair Cockburn
@@ -152,6 +171,8 @@ Understanding that software is an implimentation of a conceptual design, or _Dom
 ### 4. [Clean Architecture](https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html) by Bob Martin
 An evolution of the Onion Architecture that emphasizes higher trust and truth in the center of your architecture, fanning out into layers of higher rates of change, connected together leveraging dependency inversion. It redefines the Onion Architecture in terms of _Entities_, _Use Cases_, _Interface Adaptors_, and _Frameworks & Drivers_. You can read more in his book [Clean Architecture: A Craftsman's Guide to Software Structure and Design](https://smile.amazon.com/dp/0134494164/ref=cm_sw_em_r_mt_dp_U_qCI9EbNY0YBXR).
 
+
+
 ## Testing
 
 ### [Five Factor Testing](https://www.devmynd.com/blog/five-factor-testing/)
@@ -165,15 +186,21 @@ Five reasons why testing is important. Good tests can:
 ### [Please don't mock me: and other test double advice](http://blog.testdouble.com/posts/2018-03-06-please-dont-mock-me)
 A break down of some code smells when mocking and other testing tools are misused and mislead issues. A big takeaway is that functions should do or delegate, but never both.
 
+
+
 ## Performance
 
 ### [Jank Free](http://jankfree.org/)
 This site is a collection of articles, presentations, and tutorials which outline UX and technical issues with perceived performance, and how to address them.
 
+
+
 ## JavaScript
 
 ### [Function Declarations vs. Function Expressions](https://javascriptweblog.wordpress.com/2010/07/06/function-declarations-vs-function-expressions/)
 A good write up about variable and function hoisting, functional expressions and declarations, and the benefits of named functions.
+
+
 
 ## CSS
 
