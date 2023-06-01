@@ -53,6 +53,9 @@ You own your career, and each phase of your career has different challenges. Und
 ### [Maker's Schedule, Manager's Schedule](http://www.paulgraham.com/makersschedule.html)
 The classic 2009 article used to defend an engineer's time against meetings and pointless interruptions.
 
+### [Engineering Levels: A Simple Framework for Startups](https://newsletter.engineering.land/p/engineering-levels-a-simple-framework)
+Career ladders can be confusing, this is a good breakdown of common responsibilities and trajectories for engineers in the first ~10 years of their career.
+
 
 
 ## Meetings
