@@ -144,6 +144,9 @@ A great React design pattern which separates presentational view-only React comp
 ### [React + Redux Architecture : Separation of Concerns](https://medium.com/prod-io/react-redux-architecture-part-1-separation-of-concerns-812da3b08b46)
 Take an intermediary dive into arctitecting your client applications with React and Redux by applying _separation of concerns_. Both tools are unidirectional and promote immutability, configuring them correctly will create resiliant applications.
 
+### [React Folder Structure](https://profy.dev/article/react-folder-structure)
+A modern take on organizing React applications following the [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html) approach of organizing software to reflect the domain and not the technology. An **Application** orchestrates across a number of **Routes**, each of which instansiate a **Page**. Each **Page** implements one or more **Features**, which are combinations of **Components**, **Hooks**, and **Contexts**.
+
 ### [Five Things Every Developer Should Know About Software Architecture](https://www.infoq.com/articles/architecture-five-things)
 1. Software architecture isn't about big design up front
 1. Every software team needs to consider software architecture
@@ -156,6 +159,9 @@ At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the app
 
 ### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
 At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
+
+## [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+Your architectures should tell readers about the system, not about the frameworks you used in your system. If you are building a health-care system, then when new programmers look at the source repository, their first impression should be: “Oh, this is a heath-care system”. Those new programmers should be able to learn all the use cases of the system, and still not know how the system is delivered.
 
 
 
