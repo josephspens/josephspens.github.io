@@ -160,7 +160,7 @@ At minute 36, Netflix engineer Jeff Shi talks about designing SPAs where the app
 ### [Don't Rewrite, React!](https://www.youtube.com/watch?v=BF58ZJ1ZQxY)
 At React-Europe 2015, Ryan Florence describes an easy bottom-up approach to refactoring large applications with React. Very handy when you're staring down a large refactor and want to approach it with as little risk as possible.
 
-## [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
+### [Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
 Your architectures should tell readers about the system, not about the frameworks you used in your system. If you are building a health-care system, then when new programmers look at the source repository, their first impression should be: “Oh, this is a heath-care system”. Those new programmers should be able to learn all the use cases of the system, and still not know how the system is delivered.
 
 
