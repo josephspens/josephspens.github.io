@@ -4,6 +4,8 @@ title: Reading Material
 permalink: /links/
 ---
 
+
+
 ## Leadership
 
 ### [Senior Engineers Reduce Risk](https://hackernoon.com/senior-engineers-reduce-risk-5ab2adc13c97#.8qzvmcn25)
@@ -40,6 +42,9 @@ A mental model is simply a representation of how something works. We cannot keep
 ### [A thorough team guide to RFCs](https://buriti.ca/a-thorough-team-guide-to-rfcs-8aa14f8e757c)
 By defining a process for decision-making, you can give your team the space to own the outcome of the choices they make. RFCs are one of the ways that you can do this, and this guide may help you manage the change.
 
+### [An introduction to event storming: The easy way to achieve domain-driven design](https://techbeacon.com/app-dev-testing/introduction-event-storming-easy-way-achieve-domain-driven-design)
+Event storming is a rapid, lightweight, and underappreciated group modeling technique that is intense, fun, and useful for accelerating development teams. It catalyzes and accelerates group learning, often achieving in a few hours or days what more traditional modeling techniques never do—a common understanding of the domain in which the software must operate.
+
 
 
 ## Personal Development
@@ -58,6 +63,7 @@ Career ladders can be confusing, this is a good breakdown of common responsibili
 
 ### [Some thoughts on my presentation style](https://surfingcomplexity.blog/2023/03/25/some-thoughts-on-my-presentation-style/)
 Very good suggestions to create slidedeck presetations which follow storytelling methods to engage with the audience and break down cognative barriers.
+
 
 
 ## Meetings
