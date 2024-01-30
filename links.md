@@ -174,7 +174,7 @@ Your architectures should tell readers about the system, not about the framework
 ## Learning Architectural Design Patterns
 
 ### 1. [Ports and Adaptors](http://alistair.cockburn.us/Hexagonal+architecture) by Alistair Cockburn
-Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases.
+Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and tested in isolation from its eventual run-time devices and databases. A recent ~35 minute presentation by Alistair himself can be found [here](https://www.youtube.com/watch?v=Gsgisj1Ns40).
 
 ### 2. [Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) by Jeffrey Palermo
 It emphasizes the use of interfaces for behavior contracts, and it forces the externalization of infrastructure.
